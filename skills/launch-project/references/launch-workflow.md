@@ -101,7 +101,32 @@ Strong extras:
 - Public roadmap or known limitations.
 - Customer quote or private beta quote.
 
-### 4. Map Borrowed Audiences
+### 4. Create The Launch Video
+
+The demo video is required proof, so treat it as a flow, not a checklist line. The agent runs it; the builder records only when the agent has no media tools.
+
+Build a **production package** first — capability-agnostic, so any markdown-reading agent can produce it:
+
+- Core moment: the single "aha" the video must show.
+- Script or voiceover, kept tight for a 30 to 90 second cut.
+- Shot list with the exact product moments to capture.
+- Per-channel length and aspect-ratio targets.
+- Caption text.
+
+Then run the flow:
+
+1. Plan: fill the production package (use `templates/video-brief.md`).
+2. Capture: if the agent has screen-capture or browser tools, record the listed shots from the real product; if not, hand the shot list to the builder to record.
+3. Assemble: edit the master 30 to 90 second cut with captions, then derive the GIF and the 3 to 5 before/action/result screenshots from the same footage.
+4. Cut down: produce one per-channel variant (length and aspect ratio) for each launch channel — no more, no fewer.
+
+Rules:
+
+- Show the real product. Do not fabricate results, hide real latency or failures, or speed up footage without disclosing the time-compression.
+- Bound cutdowns to the channels this launch uses; do not invent platform variants.
+- For an optional worked recipe (capture and edit tooling, per-channel specs), see `skills/launch-project/references/video-production.md`. It is one example, not a requirement.
+
+### 5. Map Borrowed Audiences
 
 Build a list before launch.
 
@@ -124,7 +149,7 @@ Score each target:
 
 Default priority: high relevance, clear permission, and medium or better proof fit.
 
-### 5. Choose Channels
+### 6. Choose Channels
 
 Default stack:
 
@@ -138,7 +163,7 @@ Default stack:
 
 Pick fewer channels if the builder cannot reply well.
 
-### 6. Draft Channel-Native Assets
+### 7. Draft Channel-Native Assets
 
 Use `skills/launch-project/references/copy-templates.md` and `templates/channel-copy.md`.
 
@@ -151,7 +176,7 @@ Each draft should include:
 - Clear link or action.
 - No vote request.
 
-### 7. Plan Launch Day
+### 8. Plan Launch Day
 
 Use launch day as a hosted conversation.
 
@@ -165,7 +190,7 @@ Create:
 - Reply bank.
 - Follow-up list.
 
-### 8. Compound After Launch
+### 9. Compound After Launch
 
 Within 48 hours:
 
@@ -188,6 +213,7 @@ Within two weeks:
 Produce the outputs that fit the user's request. When writing to files, use the shared template files so humans and agents work in the same place:
 
 - Launch brief and readiness gaps -> `templates/launch-brief.md`.
+- Launch video production package -> `templates/video-brief.md`.
 - Audience map and channel plan -> `templates/audience-map.md`.
 - Product Hunt, Show HN, Reddit/community, LinkedIn, X/Twitter, GitHub, email, and DM drafts -> `templates/channel-copy.md`.
 - Launch-day schedule and live log -> `templates/launch-log.md`.
