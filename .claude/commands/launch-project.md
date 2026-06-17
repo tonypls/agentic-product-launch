@@ -1,5 +1,5 @@
 ---
-description: Take a shippable indie SaaS, app, AI product, or devtool from ready to launched.
+description: Take a shippable AI product, agent, indie SaaS, app, or devtool from ready to launched.
 argument-hint: "[project description, URL, repo, or launch goal]"
 ---
 

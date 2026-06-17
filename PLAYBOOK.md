@@ -1,6 +1,6 @@
-# Launch Playbook For Indie SaaS And Developer Tools
+# Launch Playbook For Agentic Builders And AI Products
 
-This playbook helps a creator with little or no existing following take a shippable project to launch in front of relevant audiences.
+This playbook helps an agentic builder — or anyone shipping a product built with AI — take a shippable indie SaaS, app, AI product, agent, or developer tool to launch in front of relevant audiences, even with little or no existing following.
 
 The goal is not generic virality. The goal is concentrated attention from people who can try, critique, buy, share, integrate, contribute, or amplify the project.
 
@@ -15,7 +15,7 @@ The launch succeeds when four things are true:
 - The project is easy to understand.
 - The project is easy to try.
 - The proof is easy to inspect.
-- The creator is present when attention arrives.
+- The builder is present when attention arrives.
 
 ## Phase 1: Pass The Launch Gate
 
@@ -31,7 +31,7 @@ Minimum gate:
 - A demo, screenshot set, or short video shows the product in use.
 - Pricing, access limits, or free-plan limits are clear.
 - Known limitations are written plainly.
-- The creator can spend launch day replying.
+- The builder can spend launch day replying.
 
 Developer-tool gate:
 
@@ -40,6 +40,15 @@ Developer-tool gate:
 - The first success path works from a clean machine or clean account.
 - GitHub metadata, topics, license, social preview, and release notes are ready.
 - Issues or Discussions are enabled if community feedback is expected.
+
+AI-product gate:
+
+- The product completes a real task end to end, not just one cherry-picked prompt.
+- Output is consistent enough to show a stranger without hand-steering every run.
+- A demo or sample run works without the builder narrating around failures.
+- Failure modes are disclosed honestly: hallucination, refusals, latency, and cost.
+- The model or provider, data handling, and privacy posture are clear.
+- Rate limits, usage caps, and per-action cost are clear.
 
 If the gate fails, run a private feedback launch first.
 
@@ -81,6 +90,12 @@ Developer-tool proof:
 - Architecture or "how it works" section if technical users will care.
 - Reproducible benchmarks only when they are honest and relevant.
 - Changelog or release notes.
+
+AI-product proof:
+
+- Sample inputs and outputs on real, non-cherry-picked cases.
+- Eval results, accuracy notes, or a benchmark when honest and relevant.
+- A short note on how it handles edge cases and what happens when the model is wrong or unsure.
 
 ## Phase 4: Map Borrowed Audiences
 
@@ -214,7 +229,7 @@ Day +4 to +14:
 
 ## Phase 8: Host Launch Day
 
-The creator's launch-day job is to host the room.
+The builder's launch-day job is to host the room.
 
 Suggested rhythm:
 

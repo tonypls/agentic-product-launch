@@ -7,13 +7,13 @@ topic: launch-project-playbook
 
 ## Summary
 
-Create a reusable launch playbook and agent workflow for creator-led indie SaaS, apps, AI products, and developer tools. The system should help a creator with little or no existing following move from "shippable" to a coordinated launch in front of relevant audiences.
+Create a reusable launch playbook and agent workflow for agentic builders and anyone shipping products with AI — indie SaaS, apps, AI products, AI agents, and developer tools. The system should help a builder with little or no existing following move from "shippable" to a coordinated launch in front of relevant audiences.
 
 ---
 
 ## Problem Frame
 
-Unknown creators cannot rely on their own Twitter, LinkedIn, or newsletter reach. Their launch system needs to find borrowed audiences, adapt to each channel's norms, and turn short-lived attention into follow-up conversations, users, feedback, and future distribution.
+Builders without an audience cannot rely on their own Twitter, LinkedIn, or newsletter reach. Their launch system needs to find borrowed audiences, adapt to each channel's norms, and turn short-lived attention into follow-up conversations, users, feedback, and future distribution.
 
 The desired outcome is not a generic marketing checklist. It is a practical operating system that an agent or human can run before, during, and after launch.
 
@@ -21,9 +21,9 @@ The desired outcome is not a generic marketing checklist. It is a practical oper
 
 ## Key Decisions
 
-- **Optimize for indie SaaS and devtools first.** The playbook should prioritize software tools, micro-SaaS, AI products, apps, open-source projects, SDKs, CLIs, APIs, plugins, and developer-facing launches.
+- **Optimize for AI products, agents, and devtools first.** The playbook should prioritize AI products, AI agents, software tools, micro-SaaS, apps, open-source projects, SDKs, CLIs, APIs, plugins, and developer-facing launches.
 - **Make it portable across agents.** The workflow should work for Claude Code, Codex, and other markdown-reading agents. It should not assume a Codex-only skill format as the only interface.
-- **Use borrowed relevance as the core launch model.** Since the creator has little audience, the playbook should focus on communities, directories, newsletters, Hacker News, Product Hunt, GitHub, Reddit, direct outreach, and ecosystem-specific channels.
+- **Use borrowed relevance as the core launch model.** Since the builder has little audience, the playbook should focus on communities, directories, newsletters, Hacker News, Product Hunt, GitHub, Reddit, direct outreach, and ecosystem-specific channels.
 - **Separate strategy from execution.** The brainstorm defines what the playbook must accomplish. The plan should define how to create it. Implementation belongs to a later work step.
 - **Respect channel norms.** The playbook must discourage upvote requests, engagement pods, fake comments, undisclosed affiliation, self-promotion spam, and copy-pasted announcements.
 
@@ -31,7 +31,7 @@ The desired outcome is not a generic marketing checklist. It is a practical oper
 
 ## Actors
 
-- A1. **Creator.** The person launching the project, often with little public following and limited launch experience.
+- A1. **Builder.** The person launching the project — often an agentic builder shipping with AI — with little public following and limited launch experience.
 - A2. **Launch assistant.** A human or AI agent helping turn product context into launch assets, schedules, and channel-native copy.
 - A3. **Borrowed audience.** Communities, platforms, creators, maintainers, and direct prospects who already gather around the target user's problem.
 - A4. **Early users and commenters.** People who try the product, ask questions, report bugs, challenge positioning, or become prospects.
@@ -41,7 +41,7 @@ The desired outcome is not a generic marketing checklist. It is a practical oper
 ## Key Flows
 
 - F1. **Prepare the product for attention.**
-  - **Trigger:** The creator believes the project is shippable.
+  - **Trigger:** The builder believes the project is shippable.
   - **Steps:** Check launch readiness, fix the first-run path, clarify the one-sentence story, and assemble proof assets.
   - **Outcome:** The project can absorb traffic, feedback, and scrutiny.
 
@@ -71,7 +71,7 @@ The desired outcome is not a generic marketing checklist. It is a practical oper
 
 **Playbook structure**
 
-- R1. The playbook must start from a creator with little or no existing social audience.
+- R1. The playbook must start from a builder with little or no existing social audience.
 - R2. The playbook must define a launch readiness gate before recommending public promotion.
 - R3. The playbook must include a method for turning product context into a narrow, repeatable one-sentence story.
 - R4. The playbook must define the proof pack needed before launch, including demo assets, screenshots, founder note, FAQ, and devtool-specific proof where relevant.
@@ -100,10 +100,10 @@ The desired outcome is not a generic marketing checklist. It is a practical oper
 
 ## Acceptance Examples
 
-- AE1. **Covers R1, R5.** Given a creator with 200 Twitter followers and no email list, when they use the playbook, then the recommended path starts with relevant communities, direct prospects, dev ecosystems, Product Hunt, Show HN, and amplifiers rather than posting harder to their own audience.
-- AE2. **Covers R6, R7, R9.** Given a project that fits Product Hunt, Show HN, and Reddit, when launch copy is drafted, then each channel receives different copy and none of the copy asks for votes or hides the creator's affiliation.
+- AE1. **Covers R1, R5.** Given a builder with 200 followers and no email list, when they use the playbook, then the recommended path starts with relevant communities, direct prospects, dev ecosystems, Product Hunt, Show HN, and amplifiers rather than posting harder to their own audience.
+- AE2. **Covers R6, R7, R9.** Given a project that fits Product Hunt, Show HN, and Reddit, when launch copy is drafted, then each channel receives different copy and none of the copy asks for votes or hides the builder's affiliation.
 - AE3. **Covers R10, R11, R12.** Given a Claude Code user and a Codex user, when each invokes the launch workflow, then both agents follow the same portable markdown guidance even if their command wrappers differ.
-- AE4. **Covers R13, R15.** Given a launch that receives comments but few conversions, when the creator completes the post-launch loop, then the system captures objections, activation issues, follow-ups, and second-wave content rather than treating the launch as finished.
+- AE4. **Covers R13, R15.** Given a launch that receives comments but few conversions, when the builder completes the post-launch loop, then the system captures objections, activation issues, follow-ups, and second-wave content rather than treating the launch as finished.
 
 ---
 
@@ -112,7 +112,7 @@ The desired outcome is not a generic marketing checklist. It is a practical oper
 - A human can read the playbook and know what to do before launch, on launch day, and after launch.
 - An agent can use the same guidance to create a launch brief, channel plan, copy drafts, outreach list, launch schedule, and follow-up plan.
 - The system is specific enough for indie SaaS and devtools without excluding adjacent app and AI product launches.
-- The guidance is ethical, channel-aware, and practical for a creator with minimal audience.
+- The guidance is ethical, channel-aware, and practical for a builder with minimal audience.
 - Platform-specific guidance is either sourced from official/current docs or framed as a rule to verify before launch.
 
 ---
@@ -136,16 +136,16 @@ Deferred for later:
 Outside this product's identity:
 
 - Growth hacking based on vote manipulation, fake engagement, scrape-and-spam outreach, or undisclosed promotion.
-- A generic marketing textbook that is not grounded in creator-led SaaS/devtool launches.
+- A generic marketing textbook that is not grounded in builder-led AI product, SaaS, and devtool launches.
 - A Codex-only workflow that cannot transfer to Claude Code.
 
 ---
 
 ## Dependencies And Assumptions
 
-- The creator has a shippable product or can fix launch-blocking readiness gaps before public launch.
-- The creator can spend meaningful time replying on launch day.
-- The creator is willing to adapt copy to each community rather than broadcasting identical announcements.
+- The builder has a shippable product or can fix launch-blocking readiness gaps before public launch.
+- The builder can spend meaningful time replying on launch day.
+- The builder is willing to adapt copy to each community rather than broadcasting identical announcements.
 - Current platform rules should be checked before finalizing channel-specific instructions.
 
 ---

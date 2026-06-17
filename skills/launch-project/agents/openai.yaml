@@ -1,5 +1,5 @@
 interface:
   display_name: "Launch Project"
-  short_description: "Launch indie SaaS and devtool projects"
+  short_description: "Launch AI products, agents, indie SaaS, and devtools"
   default_prompt: "Use $launch-project to take my shippable project from ready to launched in front of the right audiences."
 
