@@ -1,0 +1,5 @@
+interface:
+  display_name: "Launch Project"
+  short_description: "Launch indie SaaS and devtool projects"
+  default_prompt: "Use $launch-project to take my shippable project from ready to launched in front of the right audiences."
+
