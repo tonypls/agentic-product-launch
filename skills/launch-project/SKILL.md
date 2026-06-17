@@ -1,15 +1,15 @@
 ---
 name: launch-project
-description: Launch planning and distribution workflow for creator-led indie SaaS, apps, AI products, developer tools, open-source projects, SDKs, CLIs, APIs, and plugins. Use when a user wants to take a shippable project to launch, prepare Product Hunt or Show HN submissions, find launch channels with little existing audience, draft channel-native launch copy, build an outreach plan, create a launch-day schedule, or turn post-launch feedback into follow-up distribution.
+description: Launch planning and distribution workflow for agentic builders and anyone shipping products with AI — indie SaaS, apps, AI products, AI agents, developer tools, MCP servers, open-source projects, SDKs, CLIs, APIs, and plugins. Use when a user wants to take a shippable project to launch, prepare Product Hunt or Show HN submissions, find launch channels with little existing audience, draft channel-native launch copy, build an outreach plan, create a launch-day schedule, or turn post-launch feedback into follow-up distribution.
 ---
 
 # Launch Project
 
 ## Overview
 
-Use this skill to help a creator move from "the project is shippable" to "the project has launched in front of relevant audiences and has a follow-up loop." Optimize for borrowed relevance, not generic virality.
+Use this skill to help a builder move from "the project is shippable" to "the project has launched in front of relevant audiences and has a follow-up loop." Optimize for borrowed relevance, not generic virality.
 
-The primary audience is indie SaaS, apps, AI products, and developer tools made by creators with small or nonexistent followings.
+The primary audience is agentic builders and anyone shipping products with AI — indie SaaS, apps, AI products, AI agents, and developer tools — made by builders with small or nonexistent followings.
 
 ## Source Of Truth
 

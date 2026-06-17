@@ -6,7 +6,7 @@
 - URL or repo:
 - Category:
 - Launch date:
-- Creator availability on launch day:
+- Builder availability on launch day:
 - Primary call to action:
 
 ## One-Sentence Story
@@ -50,6 +50,17 @@ Current draft:
 - GitHub topics:
 - Social preview:
 - Issues or Discussions:
+
+## AI Product Readiness
+
+- Completes a real task end to end:
+- Output consistency across runs:
+- Demo works without hand-steering:
+- Disclosed failure modes (hallucination, refusals, latency, cost):
+- Model or provider:
+- Data handling and privacy:
+- Rate limits and per-action cost:
+- Sample inputs/outputs or eval results:
 
 ## Proof
 

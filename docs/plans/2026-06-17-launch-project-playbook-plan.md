@@ -6,7 +6,7 @@ Origin: `docs/brainstorms/2026-06-17-launch-project-playbook-requirements.md`
 
 ## Summary
 
-Create a portable launch playbook system for creator-led indie SaaS, apps, AI products, and developer tools. The work should produce a human-readable operating manual, reusable templates, and agent-facing instructions that Claude Code, Codex, or another markdown-reading agent can follow.
+Create a portable launch playbook system for agentic builders and anyone shipping products with AI — indie SaaS, apps, AI products, AI agents, and developer tools. The work should produce a human-readable operating manual, reusable templates, and agent-facing instructions that Claude Code, Codex, or another markdown-reading agent can follow.
 
 This is a plan only. Implementation, installation, and live launch execution are out of scope until a later work step.
 
@@ -14,7 +14,7 @@ This is a plan only. Implementation, installation, and live launch execution are
 
 ## Problem Frame
 
-The brainstorm defines a launch system for creators with little or no existing following. The plan must therefore avoid generic "post on social" advice and instead organize the work around borrowed relevance: finding places where the right users already gather, preparing proof that those audiences can inspect, writing channel-native launch assets, and turning launch-day attention into follow-up momentum.
+The brainstorm defines a launch system for builders with little or no existing following. The plan must therefore avoid generic "post on social" advice and instead organize the work around borrowed relevance: finding places where the right users already gather, preparing proof that those audiences can inspect, writing channel-native launch assets, and turning launch-day attention into follow-up momentum.
 
 The plan also needs to preserve agent portability. Claude Code and Codex may get platform-specific adapters, but the source workflow should remain plain markdown so it can move between tools.
 
@@ -68,7 +68,7 @@ Actions:
   - Channel-native copy.
   - Launch-day operating rhythm.
   - Post-launch compounding loop.
-- Define the default launch model as "borrowed relevance" for creators with small audiences.
+- Define the default launch model as "borrowed relevance" for builders with small audiences.
 - Keep the workflow in plain markdown with no tool-private assumptions.
 - Include an opening diagnostic that asks for the narrow target user, product URL or repo, launch goal, deadline, proof assets, and warm channels.
 
@@ -80,12 +80,12 @@ Checkpoint:
 
 ## Phase 2: Draft The Human Playbook
 
-Goal: produce the manual a creator can follow without an agent.
+Goal: produce the manual a builder can follow without an agent.
 
 Actions:
 
-- Write the playbook for a solo creator or small team, not a marketing department.
-- Start with the launch thesis: an unknown creator launches through borrowed relevance.
+- Write the playbook for a solo builder or small team, not a marketing department.
+- Start with the launch thesis: a builder without an audience launches through borrowed relevance.
 - Include the readiness gate before any public promotion.
 - Include devtool-specific readiness checks:
   - README.
@@ -106,13 +106,13 @@ Actions:
 
 Checkpoint:
 
-- A creator can read the playbook and understand what to do before launch, during launch day, and after launch.
+- A builder can read the playbook and understand what to do before launch, during launch day, and after launch.
 
 ---
 
 ## Phase 3: Build The Template Set
 
-Goal: make the playbook executable without forcing the creator to invent forms from scratch.
+Goal: make the playbook executable without forcing the builder to invent forms from scratch.
 
 Templates to create:
 
@@ -141,7 +141,7 @@ Templates to create:
 
 Checkpoint:
 
-- A creator can fill out the templates and produce a launch brief, channel plan, launch-day log, copy set, reply bank, and recap.
+- A builder can fill out the templates and produce a launch brief, channel plan, launch-day log, copy set, reply bank, and recap.
 
 ---
 
@@ -209,7 +209,7 @@ Goal: prove the planned artifacts satisfy the source requirements.
 
 Validation checks:
 
-- The playbook starts from a creator with little or no existing social audience.
+- The playbook starts from a builder with little or no existing social audience.
 - The launch readiness gate appears before public promotion.
 - The one-sentence story method is included.
 - The proof pack includes demo assets, screenshots, founder note, FAQ, and devtool-specific proof.
@@ -232,10 +232,10 @@ Checkpoint:
 
 | Risk | Mitigation |
 | --- | --- |
-| The playbook becomes generic marketing advice. | Anchor every section to small-audience creators, indie SaaS, apps, AI products, and devtools. |
+| The playbook becomes generic marketing advice. | Anchor every section to small-audience builders, AI products, agents, indie SaaS, apps, and devtools. |
 | The workflow becomes Codex-specific. | Keep the portable markdown workflow authoritative and make adapters thin. |
 | Channel guidance goes stale. | Include source links and require rule verification before real launches. |
-| The templates become too heavy for solo creators. | Keep each template fillable in one sitting and make optional fields clearly optional. |
+| The templates become too heavy for solo builders. | Keep each template fillable in one sitting and make optional fields clearly optional. |
 | Launch advice encourages spam by accident. | Treat permission, disclosure, and channel norms as hard constraints. |
 | Devtool guidance overwhelms non-devtool SaaS. | Keep devtool checks in clearly labeled subsections. |
 
@@ -268,8 +268,8 @@ Checkpoint:
 ## Done Criteria
 
 - The repository contains a human playbook, portable agent workflow, platform adapters, and templates that match the planned output structure.
-- A creator can fill in the launch brief and get a concrete launch schedule, copy set, audience map, and follow-up loop.
+- A builder can fill in the launch brief and get a concrete launch schedule, copy set, audience map, and follow-up loop.
 - Claude Code and Codex can both invoke the same portable workflow.
 - The artifact set preserves the requirements in `docs/brainstorms/2026-06-17-launch-project-playbook-requirements.md`.
-- The playbook remains ethical, channel-aware, and practical for a creator with minimal audience.
+- The playbook remains ethical, channel-aware, and practical for a builder with minimal audience.
 

@@ -1,6 +1,6 @@
 # Launch Project Workflow
 
-Use this workflow to help a creator launch an indie SaaS, app, AI product, developer tool, open-source project, SDK, CLI, API, or plugin when they have little or no existing audience.
+Use this workflow to help a builder — an agentic builder or anyone shipping a product built with AI — launch an indie SaaS, app, AI product, AI agent, developer tool, MCP server, open-source project, SDK, CLI, API, or plugin when they have little or no existing audience.
 
 The source model is borrowed relevance: find where the right users already gather, bring proof that fits that place, and turn attention into conversations and follow-up.
 
@@ -45,7 +45,7 @@ Before writing promotion, confirm:
 - Demo or screenshots show the product working.
 - Pricing, access limits, or free-plan limits are clear.
 - Known limitations are written plainly.
-- The creator can spend launch day replying.
+- The builder can spend launch day replying.
 
 For devtools, also confirm:
 
@@ -53,6 +53,13 @@ For devtools, also confirm:
 - A clean first-run path works from a fresh environment.
 - Package, binary, hosted demo, sample repo, or playground is available.
 - GitHub topics, social preview, release notes, issues, and discussions are ready where relevant.
+
+For AI products, also confirm:
+
+- The product completes a real task end to end, not just one cherry-picked prompt.
+- Output is consistent enough to demo without hand-steering every run.
+- Failure modes are disclosed honestly: hallucination, refusals, latency, and cost.
+- Model or provider, data handling, privacy, rate limits, and per-action cost are clear.
 
 If readiness fails, recommend a private feedback launch or fixing the smallest blocker.
 
@@ -89,6 +96,7 @@ Strong extras:
 - Technical deep dive.
 - Before/after comparison.
 - Reproducible benchmark.
+- Sample inputs/outputs and eval results for AI products.
 - Migration guide from old workflow.
 - Public roadmap or known limitations.
 - Customer quote or private beta quote.
@@ -128,7 +136,7 @@ Default stack:
 - GitHub and ecosystem channels for developer tools.
 - Newsletters, podcasts, YouTube, and blogs for amplifier outreach.
 
-Pick fewer channels if the creator cannot reply well.
+Pick fewer channels if the builder cannot reply well.
 
 ### 6. Draft Channel-Native Assets
 
