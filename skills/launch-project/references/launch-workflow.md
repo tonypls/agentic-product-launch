@@ -15,7 +15,9 @@ The source model is borrowed relevance: find where the right users already gathe
 
 ## Start With The Smallest Useful Question
 
-If context is missing, ask one question at a time. Start with:
+If a project URL, repo, demo, or landing page is provided, inspect it before drafting any launch assets. Ground the one-sentence story, readiness gaps, and proof pack in what the product actually does.
+
+If context is missing, ask one question at a time, and only when the missing answer would change the launch plan. Start with:
 
 ```text
 Who is the narrowest group of people who should care first, and what can they do with the product today?
@@ -175,16 +177,14 @@ Within two weeks:
 
 ## Expected Outputs
 
-Produce the outputs that fit the user's request:
+Produce the outputs that fit the user's request. When writing to files, use the shared template files so humans and agents work in the same place:
 
-- Launch brief.
-- Readiness gaps.
-- Audience map.
-- Channel plan.
-- Product Hunt, Show HN, Reddit/community, LinkedIn, X/Twitter, GitHub, email, and DM drafts.
-- Launch-day schedule.
-- Reply bank.
-- Post-launch recap and second-wave plan.
+- Launch brief and readiness gaps -> `templates/launch-brief.md`.
+- Audience map and channel plan -> `templates/audience-map.md`.
+- Product Hunt, Show HN, Reddit/community, LinkedIn, X/Twitter, GitHub, email, and DM drafts -> `templates/channel-copy.md`.
+- Launch-day schedule and live log -> `templates/launch-log.md`.
+- Reply bank -> `templates/reply-bank.md`.
+- Post-launch recap and second-wave plan -> `templates/post-launch-recap.md`.
 
 ## Current-Rule Check
 
