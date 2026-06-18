@@ -10,9 +10,10 @@ Agentic builders tend to ship fast and often, but without distribution. This pla
 
 1. Read [PLAYBOOK.md](PLAYBOOK.md) for the human operating manual.
 2. Fill out [templates/launch-brief.md](templates/launch-brief.md).
-3. Build your target list in [templates/audience-map.md](templates/audience-map.md).
-4. Draft channel assets using [templates/channel-copy.md](templates/channel-copy.md).
-5. Track launch day in [templates/launch-log.md](templates/launch-log.md).
+3. Plan your launch video in [templates/video-brief.md](templates/video-brief.md).
+4. Build your target list in [templates/audience-map.md](templates/audience-map.md).
+5. Draft channel assets using [templates/channel-copy.md](templates/channel-copy.md).
+6. Track launch day in [templates/launch-log.md](templates/launch-log.md).
 
 ## Agent Use
 
@@ -21,6 +22,7 @@ The portable source of truth is [skills/launch-project/references/launch-workflo
 - Claude Code command: [.claude/commands/launch-project.md](.claude/commands/launch-project.md)
 - Codex skill wrapper: [skills/launch-project/SKILL.md](skills/launch-project/SKILL.md)
 - Copy templates for agents: [skills/launch-project/references/copy-templates.md](skills/launch-project/references/copy-templates.md)
+- Video production recipe (optional): [skills/launch-project/references/video-production.md](skills/launch-project/references/video-production.md)
 
 ## Source Artifacts
 
@@ -28,4 +30,6 @@ The requirements and plan that shaped this toolkit live in:
 
 - [docs/brainstorms/2026-06-17-launch-project-playbook-requirements.md](docs/brainstorms/2026-06-17-launch-project-playbook-requirements.md)
 - [docs/plans/2026-06-17-launch-project-playbook-plan.md](docs/plans/2026-06-17-launch-project-playbook-plan.md)
+- [docs/brainstorms/2026-06-17-product-launch-video-creation-flow-requirements.md](docs/brainstorms/2026-06-17-product-launch-video-creation-flow-requirements.md)
+- [docs/plans/2026-06-17-001-feat-launch-video-creation-flow-plan.md](docs/plans/2026-06-17-001-feat-launch-video-creation-flow-plan.md)
 

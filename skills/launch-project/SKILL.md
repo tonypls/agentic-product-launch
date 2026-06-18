@@ -17,6 +17,8 @@ Read `references/launch-workflow.md` before doing launch work. It is the portabl
 
 Read `references/copy-templates.md` when drafting channel copy, outreach, replies, or recap text.
 
+Read `references/video-production.md` for an optional recipe when producing the launch video.
+
 ## Operating Rules
 
 - Prefer specific users, specific communities, and specific proof over broad "everyone should see this" distribution.
@@ -34,6 +36,7 @@ Produce only the outputs that fit the user's request:
 
 - Launch brief.
 - Launch readiness gaps.
+- Launch video brief, plus the master cut, GIF, screenshots, and per-channel cutdowns.
 - Audience map.
 - Channel plan with priority, permission notes, and launch role.
 - Product Hunt, Show HN, Reddit/community, LinkedIn, X/Twitter, GitHub, email, and DM drafts.

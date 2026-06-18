@@ -16,6 +16,7 @@ Follow the workflow to produce useful launch artifacts. If the user provides a p
 Prefer creating or updating:
 
 - `templates/launch-brief.md`
+- `templates/video-brief.md`
 - `templates/audience-map.md`
 - `templates/launch-log.md`
 - `templates/channel-copy.md`
