@@ -97,6 +97,27 @@ AI-product proof:
 - Eval results, accuracy notes, or a benchmark when honest and relevant.
 - A short note on how it handles edge cases and what happens when the model is wrong or unsure.
 
+### Create The Launch Video
+
+The demo video is required proof, so treat it as a small production, not a single "record it" task. An agent can run most of it; you record by hand only when your agent has no capture tools.
+
+Plan the video as a production package before touching a recorder (capture it in `templates/video-brief.md`):
+
+- The single core moment the video must show.
+- A tight script or voiceover for a 30 to 90 second cut.
+- A shot list of the exact product moments to capture.
+- Per-channel length and aspect-ratio targets.
+- Caption text, since most viewers watch with sound off.
+
+Then run the flow:
+
+1. Plan the package above.
+2. Capture the listed shots from the real product — your agent records them if it can, otherwise you record from the shot list.
+3. Assemble the master 30 to 90 second cut with captions, then pull the GIF and the 3 to 5 before/action/result screenshots from the same footage.
+4. Cut down one variant per launch channel at the right length and aspect ratio.
+
+Show the real product. Do not fake results, hide real latency or failures, or speed up footage without saying so. For an optional capture-and-edit recipe with per-channel specs, see `skills/launch-project/references/video-production.md`.
+
 ## Phase 4: Map Borrowed Audiences
 
 Build a list of 50 to 150 targets before launch day.
@@ -186,13 +207,14 @@ Day -14 to -10:
 
 Day -9 to -7:
 
-- Record the demo.
+- Plan and capture the launch video: write the script and shot list, then record the real product (see Phase 3).
 - Prepare screenshots, README, landing page, and FAQ.
 - Draft channel copy.
 - Ask 5 to 10 relevant people for private reactions.
 
 Day -6 to -4:
 
+- Assemble the launch video: master cut, GIF, before/action/result screenshots, and per-channel cutdowns.
 - Tighten the product and copy from feedback.
 - Warm communities by answering questions and being useful.
 - Prepare the launch log.

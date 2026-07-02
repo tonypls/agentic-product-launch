@@ -33,7 +33,11 @@ Current draft:
 - Time to first value:
 - Signup/install/download/payment/contact flow checked:
 - Analytics checked:
-- Demo asset:
+- Launch video (full production package in `templates/video-brief.md`):
+  - Core moment:
+  - Script status:
+  - Shot list status:
+  - Cutdowns status:
 - Screenshots:
 - Pricing or offer:
 - Support contact:
