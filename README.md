@@ -23,7 +23,7 @@ The agent audits launch readiness, maps borrowed audiences, drafts channel-nativ
 
 ## Worked Example
 
-This repo launched itself. The unedited artifacts — launch brief, video brief, audience map, channel copy, launch log, reply bank, recap — are committed in [docs/launches/2026-07-14-self-launch/](docs/launches/2026-07-14-self-launch/), produced by running the skill on this repository.
+This repo launched itself. The unedited artifacts — launch brief, video brief, audience map, channel copy, launch log, reply bank, recap — are committed in [docs/launches/2026-07-07-self-launch/](docs/launches/2026-07-07-self-launch/), produced by running the skill on this repository.
 
 ## Start Here
 

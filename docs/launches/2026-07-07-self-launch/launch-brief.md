@@ -7,7 +7,7 @@
 - Name: Agentic Product Launch (repo: `tonypls/agentic-product-launch`)
 - URL or repo: https://github.com/tonypls/agentic-product-launch
 - Category: Open-source launch playbook + agent skill (Claude Code command, Codex-compatible skill, human playbook, fill-in templates)
-- Launch date: Tuesday 2026-07-14 (assumption — no deadline given; gives 11 days of runway from 2026-07-03)
+- Launch date: Tuesday 2026-07-07 (confirmed 2026-07-03 — 4-day runway; compressed countdown in `launch-log.md`)
 - Builder availability on launch day: assumed full day for replies (confirm; if not, drop to Show HN + GitHub only)
 - Primary call to action: Star the repo, then run `/launch-project` on your own shippable project
 
@@ -57,13 +57,13 @@ Variants:
 - Quickstart: ✓ added ("Run It With Your Agent")
 - Examples: ✓ this directory — the playbook's own launch is the worked example
 - License: ✓ MIT added on this branch (was missing — hard blocker for an "open-source" launch; HN checks this within minutes)
-- Release notes: ⚠️ Create `v0.1.0` release after merge (command below)
+- Release notes: ✓ `v0.1.0` published 2026-07-03
 - Package/binary/demo/playground: Repo is the artifact; demo = video + this worked example
-- GitHub topics: ⚠️ None set — command below
-- Social preview: ⚠️ Not set — upload 1280×640 image in repo Settings (can derive from video thumbnail)
-- Issues or Discussions: Issues ✓ / Discussions ⚠️ off
+- GitHub topics: ✓ set 2026-07-03
+- Social preview: ⚠️ Not set — upload 1280×640 image in repo Settings after video capture (derive from thumbnail, Sat 2026-07-04)
+- Issues or Discussions: Issues ✓ / Discussions ✓ enabled 2026-07-03
 
-### Repo-settings commands (run on the live repo when ready)
+### Repo-settings commands (applied 2026-07-03; kept for reference)
 
 ```bash
 gh repo edit tonypls/agentic-product-launch \
@@ -93,7 +93,7 @@ gh release create v0.1.0 --title "Agentic Product Launch v0.1.0" \
 
 - Strongest demo moment: `/launch-project` on a bare repo → readiness gaps found (missing license, empty description) → filled launch kit, including this file
 - Most credible technical detail: Single portable source of truth (`references/launch-workflow.md`) with thin Claude Code/Codex adapters — no duplicated workflow to drift
-- Best user quote or private feedback: ⚠️ None yet — collect 3–5 private reactions during Day −9 to −7 warm-up (see timeline)
+- Best user quote or private feedback: ⚠️ None yet — collect 3–5 private reactions in the Fri–Sat preview window (see launch-log countdown)
 - Most surprising thing learned while building: The readiness gate does the most work — the playbook flagged its own missing license and empty repo description before drafting a word of copy
 - FAQ or objection notes: `reply-bank.md` in this directory
 
@@ -117,12 +117,12 @@ gh release create v0.1.0 --title "Agentic Product Launch v0.1.0" \
 | LinkedIn | Tony's profile | Medium — founder-lesson angle | Allowed | Medium | Drafted | Social |
 | Direct outreach | 10–20 named agentic builders (Tony's network — fill in audience-map) | Strong | DMs to real contacts only; no scraped lists | Strong | Template ready | DM/email |
 | Newsletter/podcast/blog | Latent Space, IH newsletter, Claude Code YouTubers | Medium-strong | Pitch = email; their call | Strong (meta-launch story) | Drafted | Amplifier |
-| Product Hunt | producthunt.com | Medium-good — free OSS dev resource | Verified 2026-07-03: no vote asks; 12:01 AM PT start; self-hunt fine | Medium-strong | Tagline + first comment drafted | **Wave 2 — Tue 2026-07-21** (solo builder: don't split reply attention on day 1) |
+| Product Hunt | producthunt.com | Medium-good — free OSS dev resource | Verified 2026-07-03: no vote asks; 12:01 AM PT start; self-hunt fine | Medium-strong | Tagline + first comment drafted | **Wave 2 — Tue 2026-07-14** (solo builder: don't split reply attention on day 1) |
 
 ## Open Questions
 
-- Confirm launch date 2026-07-14 and full-day availability (else trim channels)
-- Confirm MIT license choice (added on this branch; swap file if Apache-2.0 preferred)
+- Confirm full-day reply availability on Tue 2026-07-07 (else trim to Show HN + GitHub only)
+- Confirm MIT license choice (added; swap file if Apache-2.0 preferred)
 - X/LinkedIn handles to embed in copy (placeholders `[@handle]` in channel-copy.md)
 - Name 10–20 direct prospects from real network into audience-map.md rows
-- Record the video per video-brief.md (only asset the agent could not produce from this environment)
+- Record the video per video-brief.md by Sat 2026-07-04 (only asset the agent could not produce from this environment)

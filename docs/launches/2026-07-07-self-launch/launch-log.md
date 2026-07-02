@@ -6,13 +6,13 @@
 
 | When | Action | Status |
 | --- | --- | --- |
-| By Fri 2026-07-10 | Merge launch branch; run repo-settings commands (description, topics, Discussions); publish v0.1.0 release | Pending |
-| By Fri 2026-07-10 | Record video per `video-brief.md`; export master, GIF, 3 stills; add GIF to README; upload social preview | Pending |
-| Fri–Sat | Send 5–10 private preview DMs (named contacts) for blunt feedback — not launch asks | Pending |
-| Sun–Mon | Fresh-clone test: skill runs clean on a stranger's-eye repo; fix anything confusing | Pending |
-| Mon 2026-07-13 | Re-read HN/Show HN guidelines + each subreddit's rules in-app; adjust copy; verify all links | Pending |
+| Fri 2026-07-03 (today) | Merge launch branch; set repo description, topics, Discussions; publish v0.1.0 release | Done — applied 2026-07-03 |
+| Fri 2026-07-03 → Sat 2026-07-04 | Send 5–10 private preview DMs (named contacts) for blunt feedback — not launch asks | Pending |
+| Sat 2026-07-04 | Record video per `video-brief.md`; export master, GIF, 3 stills; add GIF to README; upload social preview | Pending |
+| Sun 2026-07-05 | Fresh-clone test: skill runs clean on a stranger's-eye repo; fix anything confusing | Pending |
+| Mon 2026-07-06 | Re-read HN/Show HN guidelines + each subreddit's rules in-app; fill handles + named prospects; verify all links | Pending |
 
-## Launch Day Schedule — Tue 2026-07-14 (times PT)
+## Launch Day Schedule — Tue 2026-07-07 (times PT)
 
 | Time | Wave | Action |
 | --- | --- | --- |
@@ -30,12 +30,12 @@
 | 17:00 | 8 | X Post 5 end-of-day recap; capture metrics row; thank helpers |
 | Evening | — | Draft 48h recap notes into `post-launch-recap.md` |
 
-Held for wave 2 (Tue 2026-07-21): Product Hunt launch at 12:01 AM PT, IH milestone post, amplifier pitches with real launch numbers.
+Held for wave 2 (Tue 2026-07-14): Product Hunt launch at 12:01 AM PT, IH milestone post, amplifier pitches with real launch numbers.
 
 ## Launch Links
 
 - Product: https://github.com/tonypls/agentic-product-launch
-- Product Hunt: (wave 2 — 2026-07-21)
+- Product Hunt: (wave 2 — 2026-07-14)
 - Hacker News:
 - Reddit/community:
 - LinkedIn:
@@ -84,4 +84,4 @@ Types: bug, objection, confusion, praise, feature request, partnership, press, c
 - Biggest surprise:
 - Best quote:
 - Most promising lead:
-- Next wave: Product Hunt 2026-07-21 + dev.to write-up ("I made my coding agent launch its own repo") + amplifier pitches with numbers
+- Next wave: Product Hunt 2026-07-14 + dev.to write-up ("I made my coding agent launch its own repo") + amplifier pitches with numbers

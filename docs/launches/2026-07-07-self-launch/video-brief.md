@@ -35,7 +35,7 @@ Voiceover / on-screen text for a ~60-second master cut (≈120 words, reads at n
 | 3 | Readiness gate firing | Agent output listing real gaps (missing license, empty description) | It checks you're ready first |
 | 4 | Audience map filling | `audience-map.md` populating with scored targets | Finds where your users already are |
 | 5 | Channel copy appearing | `channel-copy.md` — Show HN draft visible | Drafts native copy per channel |
-| 6 | The "after" | File tree of `docs/launches/2026-07-14-self-launch/` with all 7 artifacts | A full launch kit, in your repo |
+| 6 | The "after" | File tree of `docs/launches/2026-07-07-self-launch/` with all 7 artifacts | A full launch kit, in your repo |
 | 7 | CTA | Repo URL on screen | It launched itself. Your turn. |
 
 Capture notes: record one real, uncut skill run first (honesty baseline), then re-record individual shots at higher zoom for legibility. Terminal font ≥18pt; 1920×1080 master.

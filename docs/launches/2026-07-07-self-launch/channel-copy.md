@@ -2,7 +2,7 @@
 
 > Worked example produced by the skill. Fill `[@handle]` placeholders before posting. Every draft: maker disclosed, no vote requests, one specific feedback ask. Re-read each community's rules in-app before posting.
 
-## Show HN — PRIMARY, Tue 2026-07-14 morning US
+## Show HN — PRIMARY, Tue 2026-07-07 morning US
 
 ### Title (74 chars)
 
@@ -19,7 +19,7 @@ The problem: agents made shipping cheap, so people like me ship constantly — a
 
 How it works: the workflow lives in one portable markdown file (launch-workflow.md). Platform adapters are thin wrappers that point at it, so Claude Code and Codex run the identical process. You run /launch-project on your repo and the agent walks a readiness gate (can a stranger understand it in 10 seconds? does the first-run path work? license? analytics?), writes the one-sentence story, maps communities where your users already are with permission scoring, drafts channel-native copy, and sets up launch-day ops files. Everything lands as markdown in your repo.
 
-The dogfood test: I had it launch itself. It flagged its own repo for a missing license and an empty GitHub description before drafting any copy, then produced the audience map, this post, and the launch-day plan. The unedited artifacts are in docs/launches/2026-07-14-self-launch/ if you want to judge the output quality directly.
+The dogfood test: I had it launch itself. It flagged its own repo for a missing license and an empty GitHub description before drafting any copy, then produced the audience map, this post, and the launch-day plan. The unedited artifacts are in docs/launches/2026-07-07-self-launch/ if you want to judge the output quality directly.
 
 Opinionated part: it refuses to recommend upvote requests, undisclosed promotion, engagement pods, or scraped DM blasts. The agent drafts; a human posts and discloses. I think agent-assisted launches only stay viable if they're rule-respecting, and I'd rather encode that than pretend otherwise.
 
@@ -28,7 +28,7 @@ Repo: https://github.com/tonypls/agentic-product-launch (MIT, no signup, works w
 I'd love feedback on two things: where the readiness gate is wrong or missing checks you'd insist on, and whether the borrowed-relevance model (launch through communities that already gather around the problem) matches your experience of launching with no audience. Happy to answer anything about the design.
 ```
 
-## Reddit — r/ClaudeAI (community wave, 2026-07-14 late morning)
+## Reddit — r/ClaudeAI (community wave, 2026-07-07 late morning)
 
 ```text
 Title: I made a Claude Code skill that runs a full product launch — and had it launch its own repo
@@ -48,7 +48,7 @@ Even if you don't use it, the launch-workflow.md file is a readable checklist of
 Feedback I'm looking for: if you've launched a side project from a zero-follower account, what actually moved the needle that this workflow is missing? And if you run the skill, where does its output feel generic instead of specific to your project? I'll be in the comments all day.
 ```
 
-## Reddit — r/SideProject variant (2026-07-14 afternoon)
+## Reddit — r/SideProject variant (2026-07-07 afternoon)
 
 ```text
 Title: My side project is a launch playbook for people with no audience — here's it launching itself
@@ -66,7 +66,7 @@ https://github.com/tonypls/agentic-product-launch — free, MIT.
 What I'd genuinely like from this sub: tell me the last place you launched something as an unknown and what happened. I'm collecting failure patterns for the playbook's anti-patterns section and will credit contributors.
 ```
 
-## X/Twitter — launch sequence (Tue 2026-07-14, spaced ~90 min)
+## X/Twitter — launch sequence (Tue 2026-07-07, spaced ~90 min)
 
 ```text
 Post 1 (08:00 PT, with GIF):
@@ -100,7 +100,7 @@ Launch day, run by the playbook that was launching: [top metric], [best question
 The playbook says publish a recap within 48h. Practicing what it preaches.
 ```
 
-## LinkedIn (Tue 2026-07-14, ~10:00 PT)
+## LinkedIn (Tue 2026-07-07, ~10:00 PT)
 
 ```text
 I launched something unusual today: a launch playbook that launched itself.
@@ -137,7 +137,7 @@ First public release. A launch playbook your coding agent can run.
 - **Claude Code command** (`.claude/commands/launch-project.md`) and **Codex-compatible skill** (`skills/launch-project/SKILL.md`) — thin adapters over the same workflow.
 - **Human playbook** (`PLAYBOOK.md`) — the full operating manual, no agent required.
 - **Fill-in templates** (`templates/`) — launch brief, video brief, audience map, channel copy, launch log, reply bank, post-launch recap.
-- **Worked example** (`docs/launches/2026-07-14-self-launch/`) — this repo's own launch, produced by running the skill on itself.
+- **Worked example** (`docs/launches/2026-07-07-self-launch/`) — this repo's own launch, produced by running the skill on itself.
 
 ## Honest limits
 
@@ -148,7 +148,7 @@ First public release. A launch playbook your coding agent can run.
 MIT. Feedback via Issues; repeated questions become playbook updates.
 ```
 
-## Product Hunt — WAVE 2, Tue 2026-07-21, 12:01 AM PT
+## Product Hunt — WAVE 2, Tue 2026-07-14, 12:01 AM PT
 
 ### Tagline (46 chars)
 
@@ -209,7 +209,7 @@ I open-sourced a launch playbook that runs as a coding-agent skill (Claude Code 
 It's not just an announcement: the piece your audience would learn from is "what happens when an agent runs a rules-respecting launch end to end" — including where the output was generic and a human had to take over.
 
 Repo + artifacts: https://github.com/tonypls/agentic-product-launch
-Recap with numbers: [link after 2026-07-16]
+Recap with numbers: [link after 2026-07-09]
 
 Happy to send a founder note, the before/after metrics, or do a guided run on any repo you pick — live, unedited.
 ```
