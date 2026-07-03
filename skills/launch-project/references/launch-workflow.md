@@ -116,15 +116,24 @@ Build a **production package** first — capability-agnostic, so any markdown-re
 Then run the flow:
 
 1. Plan: fill the production package (use `templates/video-brief.md`).
-2. Capture: if the agent has screen-capture or browser tools, record the listed shots from the real product; if not, hand the shot list to the builder to record.
+2. Capture: decide who records. When the agent has (or can be granted) screen-capture, browser, or terminal tools, offer agent-recorded capture and run it if the builder opts in; otherwise hand the shot list to the builder to record.
 3. Assemble: edit the master 30 to 90 second cut with captions, then derive the GIF and the 3 to 5 before/action/result screenshots from the same footage.
 4. Cut down: produce one per-channel variant (length and aspect ratio) for each launch channel — no more, no fewer.
+
+Agent-recorded capture (when the builder opts in):
+
+1. Preflight before recording. Confirm: the product is reachable (live URL, local run, or installable build); a demo account and seeded data reach the core moment; no private data or notifications can appear on screen; a capture tool fits the product surface; an assembly tool such as `ffmpeg` is available; the builder has granted the permissions the tools need.
+2. Write the results into the Capture Plan section of `templates/video-brief.md` and report every unmet check to the builder as a named, removable blocker. Record only when the remaining checks pass or the builder explicitly waives them.
+3. Record the shot list from the real product, one take per shot, and verify each take — the moment is on screen, legible, and honestly representative — before assembling.
+4. Return anything the agent cannot capture to the builder as a named blocker or a shot to record by hand.
 
 Rules:
 
 - Show the real product. Do not fabricate results, hide real latency or failures, or speed up footage without disclosing the time-compression.
+- Automation pace can mislead: when scripted capture drives the product faster than a person could, slow it to human pace or disclose it in a caption.
 - Bound cutdowns to the channels this launch uses; do not invent platform variants.
 - For an optional worked recipe (capture and edit tooling, per-channel specs), see `skills/launch-project/references/video-production.md`. It is one example, not a requirement.
+- For the agent-recorded path (preflight checklist, tool choice by product surface, capture defaults, assembly commands), see `skills/launch-project/references/agent-recording.md`. It is one recipe, not a requirement.
 
 ### 5. Map Borrowed Audiences
 
@@ -213,7 +222,7 @@ Within two weeks:
 Produce the outputs that fit the user's request. When writing to files, use the shared template files so humans and agents work in the same place:
 
 - Launch brief and readiness gaps -> `templates/launch-brief.md`.
-- Launch video production package -> `templates/video-brief.md`.
+- Launch video production package and capture preflight -> `templates/video-brief.md`.
 - Audience map and channel plan -> `templates/audience-map.md`.
 - Product Hunt, Show HN, Reddit/community, LinkedIn, X/Twitter, GitHub, email, and DM drafts -> `templates/channel-copy.md`.
 - Launch-day schedule and live log -> `templates/launch-log.md`.
