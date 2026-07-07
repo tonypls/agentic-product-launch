@@ -112,11 +112,21 @@ Plan the video as a production package before touching a recorder (capture it in
 Then run the flow:
 
 1. Plan the package above.
-2. Capture the listed shots from the real product — your agent records them if it can, otherwise you record from the shot list.
+2. Capture the listed shots from the real product — ask your agent to record them (below), or record from the shot list yourself.
 3. Assemble the master 30 to 90 second cut with captions, then pull the GIF and the 3 to 5 before/action/result screenshots from the same footage.
 4. Cut down one variant per launch channel at the right length and aspect ratio.
 
-Show the real product. Do not fake results, hide real latency or failures, or speed up footage without saying so. For an optional capture-and-edit recipe with per-channel specs, see `skills/launch-project/references/video-production.md`.
+Want your agent to record the video itself? Agents with browser, terminal, or screen-capture tools can. The agent runs a preflight first and reports what it needs as blockers; you can clear most of them up front:
+
+- Have the product running and reachable: a live URL, a local dev server, or an installable build.
+- Provide a demo account and seed realistic data that reaches the core moment — no empty states, no real customer data.
+- Install the media tools once: `ffmpeg` for assembly, plus a capture tool for your surface (Playwright for web, VHS for CLI demos, the OS recorder for desktop).
+- Grant permissions: approve the agent's capture commands, and on macOS give your terminal Screen Recording permission for desktop capture.
+- Optional: a TTS key or a recorded voiceover if you want narration; captions-only is the default.
+
+The agent writes what it checked and what is blocked into `templates/video-brief.md`, records the shot list, and assembles the cuts. Anything it cannot capture comes back to you as a named blocker or a shot to record by hand. The full runbook is `skills/launch-project/references/agent-recording.md`.
+
+Show the real product. Do not fake results, hide real latency or failures, or speed up footage without saying so — and if scripted capture drives the product faster than a person could, slow it down or disclose it. For an optional capture-and-edit recipe with per-channel specs, see `skills/launch-project/references/video-production.md`.
 
 ## Phase 4: Map Borrowed Audiences
 

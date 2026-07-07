@@ -7,8 +7,8 @@
 - Name: Agentic Product Launch (repo: `tonypls/agentic-product-launch`)
 - URL or repo: https://github.com/tonypls/agentic-product-launch
 - Category: Open-source launch playbook + agent skill (Claude Code command, Codex-compatible skill, human playbook, fill-in templates)
-- Launch date: Tuesday 2026-07-07 (confirmed 2026-07-03 — 4-day runway; compressed countdown in `launch-log.md`)
-- Builder availability on launch day: assumed full day for replies (confirm; if not, drop to Show HN + GitHub only)
+- Launch date: US launch day Tue 2026-07-07 (US/global communities keep US-morning targeting). In NZST (Auckland — builder's timezone, UTC+12) the launch block runs Tue 7 Jul 11:30 PM → Wed 8 Jul ~2:00 AM, with a catch-up block Wed 8 Jul morning. Full NZST schedule in `launch-log.md`.
+- Builder availability (NZST): late-evening launch block Tue ~11:30 PM–2:00 AM (= US East-coast morning), then Wed morning catch-up ~8 AM–1 PM (= US afternoon). Confirm you can do the midnight block; if not, drop to Show HN + GitHub only.
 - Primary call to action: Star the repo, then run `/launch-project` on your own shippable project
 
 ## One-Sentence Story
@@ -114,14 +114,14 @@ gh release create v0.1.0 --title "Agentic Product Launch v0.1.0" \
 | GitHub/dev ecosystem | Release, topics, awesome-lists | Strong — repo is the product | Release/topics: allowed. Awesome-list PRs: follow each list's contribution rules | Strong | Drafted | Primary infrastructure |
 | Reddit/community | r/ClaudeAI, r/SideProject, r/indiehackers, r/AI_Agents | Strong — exact users | ⚠️ Reddit rule pages unfetchable from agent env; **check each sub's rules in-app day-of**; disclose maker status always | Strong | Drafted | Community wave |
 | X/Twitter | Tony's account | Medium (small following — that's the thesis) | Allowed | Medium (GIF carries it) | Drafted | Social proof loop |
-| LinkedIn | Tony's profile | Medium — founder-lesson angle | Allowed | Medium | Drafted | Social |
+| LinkedIn | Tony's profile | Medium — founder-lesson angle | Allowed | Medium | Drafted | Social — NZ/Copenhagen-timed (Wed 8:30 AM NZST), not US |
 | Direct outreach | 10–20 named agentic builders (Tony's network — fill in audience-map) | Strong | DMs to real contacts only; no scraped lists | Strong | Template ready | DM/email |
 | Newsletter/podcast/blog | Latent Space, IH newsletter, Claude Code YouTubers | Medium-strong | Pitch = email; their call | Strong (meta-launch story) | Drafted | Amplifier |
-| Product Hunt | producthunt.com | Medium-good — free OSS dev resource | Verified 2026-07-03: no vote asks; 12:01 AM PT start; self-hunt fine | Medium-strong | Tagline + first comment drafted | **Wave 2 — Tue 2026-07-14** (solo builder: don't split reply attention on day 1) |
+| Product Hunt | producthunt.com | Medium-good — free OSS dev resource | Verified 2026-07-03: no vote asks; 12:01 AM PT start (= 7:01 PM NZST — NZ-friendly); self-hunt fine | Medium-strong | Tagline + first comment drafted | **Wave 2 — Tue 2026-07-14, 7:01 PM NZST** (solo builder: don't split reply attention on day 1) |
 
 ## Open Questions
 
-- Confirm full-day reply availability on Tue 2026-07-07 (else trim to Show HN + GitHub only)
+- Confirm you can run the NZST late-evening launch block (Tue ~11:30 PM–2:00 AM) plus the Wed-morning catch-up (else trim to Show HN + GitHub only)
 - Confirm MIT license choice (added; swap file if Apache-2.0 preferred)
 - X/LinkedIn handles to embed in copy (placeholders `[@handle]` in channel-copy.md)
 - Name 10–20 direct prospects from real network into audience-map.md rows

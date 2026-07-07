@@ -16,6 +16,8 @@ This is one **optional worked example** of how to produce the launch video. It i
 
 Other stacks work. Do not treat this list as required; the workflow stays portable precisely because no toolchain is the contract.
 
+When the builder opts in to the agent recording the video itself, `agent-recording.md` in this folder is the step-by-step runbook (preflight, tool choice by product surface, capture defaults, assembly commands). This file stays the spec for lengths, ratios, and edit rules.
+
 ## Capture And Edit Checklist
 
 - Hook in the first 2 seconds — open on the core moment, not a logo or loading screen.

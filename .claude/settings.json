@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ffmpeg *)",
+      "Bash(ffprobe *)",
+      "Bash(playwright *)",
+      "Bash(npx playwright *)",
+      "Bash(pnpm dlx playwright *)",
+      "Bash(vhs *)"
+    ]
+  }
+}

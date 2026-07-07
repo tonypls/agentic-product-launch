@@ -19,7 +19,7 @@ cd agentic-product-launch
 - **Codex or any markdown-reading agent:** point the agent at [skills/launch-project/SKILL.md](skills/launch-project/SKILL.md) and describe your project.
 - **No agent:** follow [PLAYBOOK.md](PLAYBOOK.md) by hand and fill in the [templates](templates/).
 
-The agent audits launch readiness, maps borrowed audiences, drafts channel-native copy, and writes launch-day ops files into your repo. It drafts; you post and disclose.
+The agent audits launch readiness, maps borrowed audiences, drafts channel-native copy, writes launch-day ops files into your repo — and, if you opt in and it has capture tools, records the launch video itself. It drafts; you post and disclose.
 
 ## Worked Example
 
@@ -42,6 +42,7 @@ The portable source of truth is [skills/launch-project/references/launch-workflo
 - Codex skill wrapper: [skills/launch-project/SKILL.md](skills/launch-project/SKILL.md)
 - Copy templates for agents: [skills/launch-project/references/copy-templates.md](skills/launch-project/references/copy-templates.md)
 - Video production recipe (optional): [skills/launch-project/references/video-production.md](skills/launch-project/references/video-production.md)
+- Agent-recorded capture runbook (opt-in): [skills/launch-project/references/agent-recording.md](skills/launch-project/references/agent-recording.md)
 
 ## Source Artifacts
 
@@ -56,7 +57,7 @@ The requirements and plan that shaped this toolkit live in:
 
 - Guidance, not guarantees — launches still depend on the product and the builder showing up to reply.
 - Platform rules drift; the workflow requires re-verifying official guidance at launch time.
-- Video capture needs the builder or an agent with media tools; the skill always produces the script, shot list, and cutdown specs.
+- Agent-recorded video is opt-in and needs media tools plus a reachable product; when the preflight fails, the skill still produces the script, shot list, and cutdown specs for the builder to record.
 - The agent drafts; a human posts. Automated posting, vote requests, and undisclosed promotion are out of scope by design.
 - English-only for now.
 

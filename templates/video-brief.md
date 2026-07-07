@@ -1,6 +1,6 @@
 # Video Brief
 
-The fill-in production package for the launch video. Any agent can produce this; rendering it into finished assets is the capture and edit step. See `skills/launch-project/references/launch-workflow.md` ("Create The Launch Video") for the flow and `skills/launch-project/references/video-production.md` for an optional recipe and per-channel defaults.
+The fill-in production package for the launch video. Any agent can produce this; rendering it into finished assets is the capture and edit step. See `skills/launch-project/references/launch-workflow.md` ("Create The Launch Video") for the flow, `skills/launch-project/references/video-production.md` for an optional recipe and per-channel defaults, and `skills/launch-project/references/agent-recording.md` for the opt-in agent-recorded capture runbook.
 
 ## Core Moment
 
@@ -35,6 +35,25 @@ Voiceover or on-screen script, kept tight enough for 30 to 90 seconds:
 
 - Master cut length (30 to 90s):
 - Captions burned in (assume sound off): yes / no
+
+## Capture Plan
+
+- Capture mode: agent-recorded / builder-recorded / mixed
+- Capture tool(s):
+
+### Capture Preflight (agent-recorded only)
+
+Filled by the agent before recording. Every unmet check is a blocker for the builder to remove or explicitly waive.
+
+| Check | Status | Blocker / who removes it |
+| --- | --- | --- |
+| Product reachable (live URL, local run, or build) |  |  |
+| Demo account and seeded data reach the core moment |  |  |
+| No private data or notifications on screen |  |  |
+| Capture tool for this surface |  |  |
+| Assembly tool (`ffmpeg`) available |  |  |
+| Permissions granted (tool approval, screen recording) |  |  |
+| Voiceover source (optional; captions-only default) |  |  |
 
 ## Per-Channel Cutdowns
 

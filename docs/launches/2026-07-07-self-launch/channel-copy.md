@@ -2,7 +2,7 @@
 
 > Worked example produced by the skill. Fill `[@handle]` placeholders before posting. Every draft: maker disclosed, no vote requests, one specific feedback ask. Re-read each community's rules in-app before posting.
 
-## Show HN — PRIMARY, Tue 2026-07-07 morning US
+## Show HN — PRIMARY (post Wed 12:00 AM NZST = Tue 8:00 AM ET, US-morning target)
 
 ### Title (74 chars)
 
@@ -28,7 +28,7 @@ Repo: https://github.com/tonypls/agentic-product-launch (MIT, no signup, works w
 I'd love feedback on two things: where the readiness gate is wrong or missing checks you'd insist on, and whether the borrowed-relevance model (launch through communities that already gather around the problem) matches your experience of launching with no audience. Happy to answer anything about the design.
 ```
 
-## Reddit — r/ClaudeAI (community wave, 2026-07-07 late morning)
+## Reddit — r/ClaudeAI (community wave — Wed ~1:30 AM NZST = Tue 9:30 AM ET)
 
 ```text
 Title: I made a Claude Code skill that runs a full product launch — and had it launch its own repo
@@ -48,7 +48,7 @@ Even if you don't use it, the launch-workflow.md file is a readable checklist of
 Feedback I'm looking for: if you've launched a side project from a zero-follower account, what actually moved the needle that this workflow is missing? And if you run the skill, where does its output feel generic instead of specific to your project? I'll be in the comments all day.
 ```
 
-## Reddit — r/SideProject variant (2026-07-07 afternoon)
+## Reddit — r/SideProject variant (Wed ~9:30 AM NZST = Tue 5:30 PM ET, US afternoon)
 
 ```text
 Title: My side project is a launch playbook for people with no audience — here's it launching itself
@@ -66,10 +66,10 @@ https://github.com/tonypls/agentic-product-launch — free, MIT.
 What I'd genuinely like from this sub: tell me the last place you launched something as an unknown and what happened. I'm collecting failure patterns for the playbook's anti-patterns section and will credit contributors.
 ```
 
-## X/Twitter — launch sequence (Tue 2026-07-07, spaced ~90 min)
+## X/Twitter — launch sequence (NZST-primary; US target in parens)
 
 ```text
-Post 1 (08:00 PT, with GIF):
+Post 1 (Wed 12:00 AM NZST = Tue 8:00 AM ET, with GIF):
 You shipped it. Nobody saw it.
 
 I built an open-source launch playbook your coding agent can run — /launch-project takes a repo from "done" to launched: readiness gate, audience map, channel copy, launch-day plan.
@@ -77,30 +77,30 @@ I built an open-source launch playbook your coding agent can run — /launch-pro
 It launched itself. Artifacts in the repo:
 github.com/tonypls/agentic-product-launch
 
-Post 2 (~09:30 PT, screenshot of readiness-gap output):
+Post 2 (~Wed 12:45 AM NZST = Tue 8:45 AM ET, screenshot of readiness-gap output):
 The part that surprised me: the readiness gate.
 
 Before writing any copy, it audits the repo like a stranger would. It caught its own repo missing a LICENSE and a GitHub description.
 
 Most launches fail before the first post. That's the point.
 
-Post 3 (~11:00 PT, screenshot of audience-map.md):
+Post 3 (~Wed 8:00 AM NZST = Tue 4:00 PM ET, screenshot of audience-map.md):
 No audience? Borrow one.
 
 The playbook's whole model: find communities that already gather around your problem, score them by relevance AND permission, show up with proof by their rules.
 
 No vote-begging. No DM blasts. It refuses to draft those.
 
-Post 4 (~13:00 PT, link to Show HN thread):
+Post 4 (~Wed 9:30 AM NZST = Tue 5:30 PM ET, link to Show HN thread):
 It's on Show HN today — come tell me where the readiness checklist is wrong: [HN link]
 
-Post 5 (end of day, recap):
+Post 5 (Wed 1:00 PM NZST = Tue 9:00 PM ET, end-of-day recap):
 Launch day, run by the playbook that was launching: [top metric], [best question asked], [what I'm fixing tomorrow].
 
 The playbook says publish a recap within 48h. Practicing what it preaches.
 ```
 
-## LinkedIn (Tue 2026-07-07, ~10:00 PT)
+## LinkedIn (NZ-audience-timed — Wed 2026-07-08, 8:30 AM NZST; Auckland workday + Copenhagen evening)
 
 ```text
 I launched something unusual today: a launch playbook that launched itself.
@@ -148,7 +148,7 @@ First public release. A launch playbook your coding agent can run.
 MIT. Feedback via Issues; repeated questions become playbook updates.
 ```
 
-## Product Hunt — WAVE 2, Tue 2026-07-14, 12:01 AM PT
+## Product Hunt — WAVE 2, Tue 2026-07-14 (12:01 AM PT = 7:01 PM NZST — NZ-friendly evening slot)
 
 ### Tagline (46 chars)
 

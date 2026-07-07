@@ -14,7 +14,7 @@
 | r/AI_Agents | reddit.com/r/AI_Agents | Agent builders | 4 | Unclear — check day-of | Cold | Strong | Post | Adapt Reddit draft | — |
 | r/indiehackers | reddit.com/r/indiehackers | Indie SaaS builders | 4 | Unclear — check day-of | Cold | Medium-strong | Post | Adapt Reddit draft | — |
 | Indie Hackers (site) | indiehackers.com | Indie builders | 4 | Allowed (product/launch posts are native there) | Cold | Strong | Post + milestone update | Adapt Reddit draft | Second-wave recap post |
-| Product Hunt | producthunt.com | Makers, early adopters | 4 | Allowed (verified: no vote asks; self-hunt OK; 12:01 AM PT) | Cold | Medium-strong | Wave-2 launch Tue 2026-07-14 | Tagline + first comment drafted | Recap comment with HN learnings |
+| Product Hunt | producthunt.com | Makers, early adopters | 4 | Allowed (verified: no vote asks; self-hunt OK; 12:01 AM PT = 7:01 PM NZST) | Cold | Medium-strong | Wave-2 launch Tue 2026-07-14, 7:01 PM NZST | Tagline + first comment drafted | Recap comment with HN learnings |
 | Latent Space (newsletter/pod) | latent.space | AI engineers, agentic builders | 4 | Pitch by email — their call | Cold | Strong (meta-launch angle) | Email pitch | Drafted | One polite follow-up after 5 days |
 | Claude Code-focused YouTubers (pick 2–3 current ones) | youtube.com | Agentic-workflow audience | 4 | Pitch — their call | Cold | Strong (demo-able on camera) | Email/DM pitch | Template ready | Offer a guided run on their repo |
 | Indie Hackers newsletter/pod | indiehackers.com | Indie builders | 3 | Pitch — their call | Cold | Medium | Email pitch | Adapt amplifier draft | — |
@@ -36,7 +36,7 @@
 
 - Exact-user communities: r/ClaudeAI, r/AI_Agents, Claude/Codex Discords — people who can run the skill today. Verify each rule set in-app before posting; always disclose maker status.
 - Technical discovery: Show HN (primary), Lobsters (only via warm member), dev.to (second wave).
-- Maker discovery: Product Hunt (wave 2, Tue 2026-07-14), Indie Hackers, r/SideProject.
+- Maker discovery: Product Hunt (wave 2, Tue 2026-07-14, 7:01 PM NZST), Indie Hackers, r/SideProject.
 - Expert amplifiers: Latent Space, Claude Code YouTubers, IH newsletter. Pitch the story ("a launch playbook that launched itself"), not the product.
 - Adjacent products: awesome-claude-code and skill/plugin collections — the playbook is a natural list entry; contribute via each list's PR rules.
 - Direct prospects: Tony's real network of builders mid-ship — the map deliberately leaves these rows to fill with named people; do not scrape or cold-blast strangers.
