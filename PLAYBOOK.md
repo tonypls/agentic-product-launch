@@ -4,6 +4,18 @@ This playbook helps an agentic builder — or anyone shipping a product built wi
 
 The goal is not generic virality. The goal is concentrated attention from people who can try, critique, buy, share, integrate, contribute, or amplify the project.
 
+## How To Use This Playbook
+
+This is a playbook you and your agent run **together**. The agent's job is to coach the best practices here, find the right platforms and the best times to post for your project, and interview you so the copy comes out in your own voice. Your job is to bring the product, the real stories, and the final words.
+
+What that means in practice:
+
+- The agent does not hand you finished, paste-ready posts. Fill-in-the-blank launch copy reads as interchangeable AI slop. Instead it asks you questions, drafts from *your* answers, and refines with you until it sounds like you.
+- Best-practice guidance — the readiness gate, the borrowed-relevance model, each platform's norms — is the scaffolding, not the content.
+- Scheduling is a first-class step: which platforms fit this project, and the optimal time to post to each, in your audience's timezone.
+
+No agent? The same phases work by hand — the interview questions are just prompts you answer yourself.
+
 ## Launch Thesis
 
 If you do not already have an audience, your launch has to borrow one.
@@ -52,13 +64,19 @@ AI-product gate:
 
 If the gate fails, run a private feedback launch first.
 
-## Phase 2: Write The One-Sentence Story
+## Phase 2: Find The One-Sentence Story — In Your Words
 
-Use this formula:
+This is a shape to fill with your own words, not a template to accept as written:
 
 ```text
 [Product] helps [specific user] get [specific outcome] without [painful old way].
 ```
+
+Find it by talking, not by filling blanks. Answer these (or have your agent ask you), then draft two or three versions from your answers and rework one:
+
+- What did you type to a friend when you first told them about this?
+- What was the exact moment you decided to build it?
+- Who is it embarrassingly *not* for?
 
 Pressure-test the sentence:
 
@@ -68,7 +86,7 @@ Pressure-test the sentence:
 - Does the old way feel familiar?
 - Does it match what the product can do today?
 
-Keep narrowing until the story is easy to repeat.
+Keep narrowing until the story is easy to repeat — and still sounds like you. Capture the raw material in the Voice & Story section of `templates/launch-brief.md`.
 
 ## Phase 3: Build The Proof Pack
 
@@ -151,7 +169,9 @@ Score each target:
 
 Prioritize high relevance and clear permission over raw audience size.
 
-## Phase 5: Choose The Launch Stack
+## Phase 5: Choose Platforms For This Project
+
+Not every platform fits every project. Match the surface to what the product is and who it is for — pick the two or three that fit best and skip the rest. See the platform-fit guide in [skills/launch-project/references/scheduling.md](skills/launch-project/references/scheduling.md).
 
 Default stack for indie SaaS and devtools:
 
@@ -162,9 +182,13 @@ Default stack for indie SaaS and devtools:
 - Social proof loop: X/Twitter, LinkedIn, personal blog, changelog, and GitHub release.
 - Amplifier outreach: 10 to 30 newsletter writers, community owners, podcasters, and creators.
 
-Do not post identical copy everywhere. Each channel has a different social contract.
+Do not post identical copy everywhere. Each channel has a different social contract. Fewer, well-fit platforms you can actually host beat a full sweep you cannot.
 
-## Phase 6: Prepare Channel-Native Copy
+## Phase 6: Co-Write Channel Copy
+
+Write *with* your agent; don't have it write *for* you. For each platform, answer the interview questions in [skills/launch-project/references/co-writing-guide.md](skills/launch-project/references/co-writing-guide.md), then co-draft from your answers and refine until it sounds like you. Keep the anti-slop rules: real specifics, one honest limitation, one real feedback ask, no hype words you wouldn't say out loud, no vote requests.
+
+Write within each platform's norms:
 
 Product Hunt:
 
@@ -205,7 +229,17 @@ GitHub and dev ecosystems:
 - Add README, quickstart, examples, license, topics, social preview, release notes, and contribution path.
 - Post to ecosystem-specific places only when the project is genuinely useful there.
 
-## Phase 7: Run The Timeline
+## Phase 7: Schedule The Launch
+
+Decide where and when each post goes, and write it into [templates/launch-schedule.md](templates/launch-schedule.md). Full heuristics are in [skills/launch-project/references/scheduling.md](skills/launch-project/references/scheduling.md). Optimal times are starting points — the real answer is when *your* audience is active, which their platform analytics will tell you better than any chart.
+
+- Optimize for the audience's timezone, not yours. Record both times for every post so conflicts are visible.
+- Respect hard mechanics first — for example, Product Hunt's day resets at 12:01 AM PT.
+- Post live where you must reply (Show HN, Reddit, Product Hunt); pre-schedule the broadcast posts (X sequence, LinkedIn) in each platform's native scheduler so you're free to host the live threads.
+- Stagger live threads — never host two at once — and release secondary posts in waves across the day.
+- If the best audience window falls in your night, choose honestly: post live at an awkward local hour, or pre-schedule and reply asynchronously.
+
+## Phase 8: Run The Timeline
 
 Day -14 to -10:
 
@@ -219,7 +253,7 @@ Day -9 to -7:
 
 - Plan and capture the launch video: write the script and shot list, then record the real product (see Phase 3).
 - Prepare screenshots, README, landing page, and FAQ.
-- Draft channel copy.
+- Co-write channel copy from the Voice & Story notes (Phase 6).
 - Ask 5 to 10 relevant people for private reactions.
 
 Day -6 to -4:
@@ -228,7 +262,7 @@ Day -6 to -4:
 - Tighten the product and copy from feedback.
 - Warm communities by answering questions and being useful.
 - Prepare the launch log.
-- Schedule launch surfaces where possible.
+- Build the launch schedule — optimal times per platform (Phase 7) — and queue the pre-scheduled posts.
 
 Day -3 to -1:
 
@@ -259,7 +293,7 @@ Day +4 to +14:
 - Submit to directories and newsletters that require review.
 - Ask early users for quotes, interviews, or referrals only after they receive value.
 
-## Phase 8: Host Launch Day
+## Phase 9: Host Launch Day
 
 The builder's launch-day job is to host the room.
 
@@ -280,7 +314,7 @@ Good replies:
 - Invite better ideas.
 - Remember that silent readers matter more than winning a debate.
 
-## Phase 9: Measure What Matters
+## Phase 10: Measure What Matters
 
 Track:
 
@@ -292,7 +326,7 @@ Track:
 
 The best launch result is not always the largest number. Sometimes the win is discovering the exact sentence, demo, or audience that makes strangers care.
 
-## Phase 10: Compound After Launch
+## Phase 11: Compound After Launch
 
 Within 48 hours:
 
