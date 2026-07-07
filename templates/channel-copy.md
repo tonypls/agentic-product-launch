@@ -2,6 +2,8 @@
 
 Use these templates as drafts. Rewrite for the actual product and channel norms before posting.
 
+**How to use this file.** Each title and each post sits in its own copy block — use the block's copy button and paste. Text outside the blocks is guidance, not for posting. Split-out fields (title vs body, subject vs body) map to the separate fields each platform gives you.
+
 ## Product Hunt
 
 ### Tagline
@@ -68,6 +70,14 @@ I'd love feedback on [specific technical/product question], and I'm happy to ans
 
 ## Reddit Or Community
 
+### Title
+
+```text
+[Specific, non-clickbait title that says plainly what it is]
+```
+
+### Body
+
 ```text
 Hi all, I'm [name], the person who built this. I checked the rules and I think this is relevant because [why it fits the community].
 
@@ -104,22 +114,29 @@ I'm looking for feedback from [specific role/persona], especially on [specific q
 
 ## X/Twitter
 
+### Post 1
+
 ```text
-Post 1:
 I launched [product]: [one-sentence story].
 
 Built for [specific user] who are tired of [old way].
 
 [demo/link]
+```
 
-Post 2:
+### Post 2
+
+```text
 The old way: [pain].
 
 The new flow: [result].
 
 [screenshot/GIF]
+```
 
-Post 3:
+### Post 3
+
+```text
 The part I'm most interested in feedback on: [specific question].
 
 If you are [specific user], I would love for you to try it and tell me where it breaks your expectations.
@@ -139,9 +156,15 @@ Link: [link]
 
 ## Newsletter Or Podcast Pitch
 
-```text
-Subject: Built [product] for [specific audience/problem]
+### Subject
 
+```text
+Built [product] for [specific audience/problem]
+```
+
+### Body
+
+```text
 Hi [name],
 
 I read/listened to your piece on [specific topic]. I thought this might be relevant to your audience because [connection].
@@ -154,4 +177,3 @@ Demo/link: [link]
 
 If useful, I can send a short founder note, screenshots, or answer questions.
 ```
-
