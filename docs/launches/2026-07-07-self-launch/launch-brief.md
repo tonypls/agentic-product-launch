@@ -7,8 +7,8 @@
 - Name: Agentic Product Launch (repo: `tonypls/agentic-product-launch`)
 - URL or repo: https://github.com/tonypls/agentic-product-launch
 - Category: Open-source launch playbook + agent skill (Claude Code command, Codex-compatible skill, human playbook, fill-in templates)
-- Launch date: US launch day Tue 2026-07-07 (US/global communities keep US-morning targeting). In NZST (Auckland — builder's timezone, UTC+12) the launch block runs Tue 7 Jul 11:30 PM → Wed 8 Jul ~2:00 AM, with a catch-up block Wed 8 Jul morning. Full NZST schedule in `launch-log.md`.
-- Builder availability (NZST): late-evening launch block Tue ~11:30 PM–2:00 AM (= US East-coast morning), then Wed morning catch-up ~8 AM–1 PM (= US afternoon). Confirm you can do the midnight block; if not, drop to Show HN + GitHub only.
+- Launch date: US launch day Tue 2026-07-07 (US/global communities keep US-focused targeting). Builder is in Auckland (NZST, UTC+12) and sleeps 10 PM–7 AM, so the launch runs in a single awake block on Wed 8 Jul morning NZST (= US Tuesday afternoon/evening). Full NZST schedule in `launch-log.md`.
+- Builder availability (NZST): single awake block Wed 8 Jul ~7:15 AM–1:00 PM NZST (= US Tue 3:15 PM → 9:00 PM ET). Post Show HN + Reddit live; pre-schedule the X sequence and LinkedIn. If you can't hold the morning block, drop to Show HN + GitHub only.
 - Primary call to action: Star the repo, then run `/launch-project` on your own shippable project
 
 ## One-Sentence Story
@@ -121,7 +121,7 @@ gh release create v0.1.0 --title "Agentic Product Launch v0.1.0" \
 
 ## Open Questions
 
-- Confirm you can run the NZST late-evening launch block (Tue ~11:30 PM–2:00 AM) plus the Wed-morning catch-up (else trim to Show HN + GitHub only)
+- Confirm you can hold the Wed-morning awake block (~7:15 AM–1:00 PM NZST) live for HN + Reddit replies (else trim to Show HN + GitHub only)
 - Confirm MIT license choice (added; swap file if Apache-2.0 preferred)
 - X/LinkedIn handles to embed in copy (placeholders `[@handle]` in channel-copy.md)
 - Name 10–20 direct prospects from real network into audience-map.md rows
