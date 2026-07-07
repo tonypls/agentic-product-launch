@@ -12,38 +12,26 @@
 | Sun 2026-07-05 | Fresh-clone test: skill runs clean on a stranger's-eye repo; fix anything confusing | Pending |
 | Mon 2026-07-06 | Re-read HN/Show HN guidelines + each subreddit's rules in-app; fill handles + named prospects; verify all links | Pending |
 
-## Launch Day Schedule — US launch day Tue 2026-07-07 (NZST-primary; builder in Auckland)
+## Launch Day Schedule — US launch day Tue 2026-07-07 (one awake NZ block)
 
-Launching to US/global communities from NZ means the US morning is your night. The plan splits into a **late-evening launch block** (hits the US East-coast morning — the prime Show HN window) and a **next-morning NZ catch-up block** (hits the US afternoon). Times are **NZST** (your clock, UTC+12, no DST in July); US target time in parentheses. Show HN is anchored to 8:00 AM ET — a top-tier HN window that lands at a survivable midnight NZ rather than 3 AM PT-morning.
+You're in Auckland (NZST, UTC+12) and asleep 10 PM–7 AM — which is exactly the US morning, so the US-peak Show HN window is unreachable while you're awake. So the launch runs as **one block on waking**, Wed 8 Jul ~7:15 AM–1:00 PM NZST, which lands on the **US Tuesday afternoon/evening** — a bit past HN peak, but you're present the whole time, which matters more. Times are **NZST**; US target in parentheses. **Post Show HN and Reddit live** (be in the threads); **pre-schedule the X sequence and LinkedIn** in each platform's native scheduler so they fire while you're replying.
 
-### Block 1 — launch (Tue 2026-07-07 late evening → Wed 2026-07-08 small hours NZST)
-
-| NZST | US target | Wave | Action |
+| NZST (Wed 8 Jul) | US target (Tue 7 Jul) | Wave | Action |
 | --- | --- | --- | --- |
-| Tue 11:30 PM | Tue 7:30 AM ET | 0 | Verify: repo loads, release visible, README GIF plays, links in all drafts resolve |
-| Wed 12:00 AM | Tue 8:00 AM ET | 1 | **Show HN** post + X Post 1 (GIF) |
-| Wed 12:00–2:00 AM | Tue 8–10 AM ET | — | Sit in the HN thread; answer everything; log objections in Feedback |
-| Wed 12:45 AM | Tue 8:45 AM ET | 2 | X Post 2 (readiness-gap screenshot) |
-| Wed 1:30 AM | Tue 9:30 AM ET | 3 | r/ClaudeAI post (after final in-app rule check); reply, then let it ride |
-| Wed ~2:00 AM | Tue 10:00 AM ET | — | Final thread sweep, then sleep |
+| 7:15 AM | 3:15 PM ET / 12:15 PM PT | 0 | Verify: repo loads, release visible, README GIF plays, links in all drafts resolve |
+| 7:30 AM | 3:30 PM ET / 12:30 PM PT | 1 | **Show HN** post (live) — sit in the thread; X Post 1 fires (GIF) |
+| 8:00 AM | 4:00 PM ET / 1:00 PM PT | 2 | **r/ClaudeAI** post (live, after in-app rule check) |
+| 8:30 AM | 4:30 PM ET · 10:30 PM Copenhagen | 3 | **LinkedIn** fires (NZ/Copenhagen-timed); X Post 2 fires (readiness-gap screenshot) |
+| 7:30 AM–1:00 PM | rolling | — | Live in the HN + Reddit threads; answer everything; log objections in Feedback |
+| 10:00 AM | 6:00 PM ET / 3:00 PM PT | 4 | X Post 3 fires (audience-map screenshot); midday sweep — patch confusing copy/docs, ship small fixes |
+| 10:30 AM | 6:30 PM ET / 3:30 PM PT | 5 | **r/SideProject** post (live) |
+| 11:30 AM | 7:30 PM ET / 4:30 PM PT | 6 | X Post 4 fires (link to HN thread); awesome-list PRs + direct DMs to named contacts (personalized, no blast) |
+| 1:00 PM | 9:00 PM ET / 6:00 PM PT | 7 | X Post 5 fires (recap); capture metrics row; thank helpers |
+| Afternoon | US winding down | — | Taper off as the US goes quiet; draft 48h recap notes into `post-launch-recap.md` |
 
-### Between blocks — Wed ~2:30–8:00 AM NZST
+**Why not the US morning?** Your sleep window (10 PM–7 AM NZST) = US Tue 6 AM–3 PM ET, which swallows the entire 8 AM–noon ET Show HN prime window. The only ways to hit it are a one-time alarm for a midnight-NZ post, or a co-launcher in a US/EU timezone to hold the thread while you sleep. Absent that, launching into the US afternoon while you're awake and present is the better trade.
 
-US East-coast midday runs while you sleep. Don't force it; glance at your phone if you happen to wake, otherwise the threads keep until morning.
-
-### Block 2 — catch-up (Wed 2026-07-08 morning NZST = US Tuesday afternoon)
-
-| NZST | US target | Wave | Action |
-| --- | --- | --- | --- |
-| Wed 8:00 AM | Tue 4:00 PM ET / 1:00 PM PT | 4 | Reply sweep across HN + r/ClaudeAI; patch confusing copy/docs; ship small fixes; X Post 3 (audience-map screenshot) |
-| Wed 8:30 AM | Tue 10:30 PM CEST (Copenhagen) | 5 | **LinkedIn post** — NZ/Copenhagen-timed, the one non-US slot (see note below) |
-| Wed 9:30 AM | Tue 5:30 PM ET / 2:30 PM PT | 6 | X Post 4 (link to HN thread) + r/SideProject post |
-| Wed 10:30 AM | Tue 6:30 PM ET / 3:30 PM PT | 7 | awesome-list PRs + direct DMs to named contacts (personalized, no blast) |
-| Every 30–60 min | — | — | Check all threads; reply specifically and humbly |
-| Wed 1:00 PM | Tue 9:00 PM ET / 6:00 PM PT | 8 | X Post 5 end-of-day recap; capture metrics row; thank helpers |
-| Wed evening | — | — | Draft 48h recap notes into `post-launch-recap.md` |
-
-**LinkedIn timing (the NZ-audience exception):** your professional network is Auckland + Copenhagen, so LinkedIn is timed for them, not the US. Wed 8:30 AM NZST owns the Auckland workday start and lands ~10:30 PM in Copenhagen (evening scroll). If you'd rather prioritise Copenhagen's morning, post at **Wed ~7:00 PM NZST (= 9:00 AM CEST)** instead — pick one, don't double-post.
+**LinkedIn (the one non-US slot):** timed for your Auckland + Copenhagen network. 8:30 AM NZST owns the Auckland workday start and lands ~10:30 PM in Copenhagen. To prioritise Copenhagen's morning instead, schedule for ~7:00 PM NZST (= 9:00 AM CEST) — pick one, don't double-post.
 
 Held for wave 2 (Tue 2026-07-14): Product Hunt launch at 12:01 AM PT = **7:01 PM NZST Tue 2026-07-14** — a rare NZ-friendly slot, so you can run PH live all evening. Plus IH milestone post and amplifier pitches with real launch numbers.
 
