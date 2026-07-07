@@ -92,7 +92,9 @@ What I'd genuinely like from this sub: tell me the last place you launched somet
 
 Queue all five in X's native scheduler (NZST times; US target in parens). Reply to responses when you surface from the HN/Reddit threads.
 
-**Post 1** — ~7:30 AM NZST (= Tue 3:30 PM ET) · attach the GIF:
+**Post 1** — ~7:30 AM NZST (= Tue 3:30 PM ET) · attach `video/demo.gif`:
+
+![Launch demo GIF — one command turns a repo into a filled launch kit](video/demo.gif)
 
 ```text
 You shipped it. Nobody saw it.
@@ -103,7 +105,9 @@ It launched itself. Artifacts in the repo:
 github.com/tonypls/agentic-product-launch
 ```
 
-**Post 2** — ~8:30 AM NZST (= Tue 4:30 PM ET) · attach the readiness-gap screenshot:
+**Post 2** — ~8:30 AM NZST (= Tue 4:30 PM ET) · attach `video/still-action.png`:
+
+![Readiness gate catching the missing license and empty GitHub description](video/still-action.png)
 
 ```text
 The part that surprised me: the readiness gate.
@@ -113,7 +117,9 @@ Before writing any copy, it audits the repo like a stranger would. It caught its
 Most launches fail before the first post. That's the point.
 ```
 
-**Post 3** — ~10:00 AM NZST (= Tue 6:00 PM ET) · attach the audience-map screenshot:
+**Post 3** — ~10:00 AM NZST (= Tue 6:00 PM ET) · attach `video/still-audience-map.png`:
+
+![Audience map — communities scored by relevance and permission](video/still-audience-map.png)
 
 ```text
 No audience? Borrow one.
