@@ -11,6 +11,8 @@
 
 ## One-Sentence Story
 
+A shape to fill in *your* words, not a template to hand off. Draft two or three, then pick and rework one.
+
 ```text
 [Product] helps [specific user] get [specific outcome] without [painful old way].
 ```
@@ -18,6 +20,17 @@
 Current draft:
 
 -
+
+## Voice & Story
+
+Raw material for co-writing launch copy. Answer as yourself — real phrasing, real specifics. Everything drafted later pulls from here (see `skills/launch-project/references/co-writing-guide.md`).
+
+- How you told a friend about this (paste the actual message):
+- The exact moment you decided to build it:
+- What you're quietly proud of:
+- The honest weakness / who it's *not* for:
+- A word or phrase you'd never use about your own work:
+- The one question you actually want feedback on:
 
 ## User
 

@@ -4,18 +4,30 @@ Use this workflow to help a builder — an agentic builder or anyone shipping a 
 
 The source model is borrowed relevance: find where the right users already gather, bring proof that fits that place, and turn attention into conversations and follow-up.
 
+## How To Run This: Co-Creation, Not Generation
+
+You and the builder run this **together**. Your job is not to hand over finished launch posts — it is to:
+
+1. **Coach the best practices** — the readiness gate, the borrowed-relevance model, each platform's norms.
+2. **Find the right platforms and the right times** — which surfaces fit *this* project, and the optimal posting window for each, in the builder's audience's timezone.
+3. **Draw the copy out of the builder** — interview them for real stories, specifics, and voice, then co-draft from *their words* and refine with them.
+
+The builder brings the product, the stories, and the final wording. You bring structure, platform knowledge, the schedule, and honest pressure-testing. **Never fill placeholder templates and hand back paste-ready posts** — that produces generic, interchangeable copy that reads as AI slop and hurts the launch. Draft from what the builder actually said.
+
 ## Operating Rules
 
+- Co-create. Interview first, draft from the builder's own words, and hand back a draft with the questions still open, not a finished post to rubber-stamp.
+- Refuse to produce templated copy. If you do not have the builder's real story, specific proof, and voice, ask for them instead of inventing generic filler.
 - Prefer specific users, specific communities, and specific proof over broad distribution.
 - Treat each platform as a community with norms.
 - Never recommend upvote requests, fake engagement, engagement pods, undisclosed affiliation, sockpuppets, scraped cold spam, or community-rule workarounds.
-- Verify current platform rules before making launch-specific claims.
-- Keep output practical: brief, concrete, and ready to use.
+- Verify current platform rules — and current optimal-timing norms — before making launch-specific claims. Posting-time heuristics are starting points; the builder's own audience and analytics are the real source of truth.
+- Keep output practical: brief, concrete, and ready for the builder to make their own.
 - For devtools, make installation, quickstart, examples, license, release notes, and GitHub presentation part of launch readiness.
 
 ## Start With The Smallest Useful Question
 
-If a project URL, repo, demo, or landing page is provided, inspect it before drafting any launch assets. Ground the one-sentence story, readiness gaps, and proof pack in what the product actually does.
+If a project URL, repo, demo, or landing page is provided, inspect it before drafting any launch assets. Ground the story, readiness gaps, and proof pack in what the product actually does.
 
 If context is missing, ask one question at a time, and only when the missing answer would change the launch plan. Start with:
 
@@ -26,7 +38,7 @@ Who is the narrowest group of people who should care first, and what can they do
 Useful follow-ups:
 
 - What is the URL, repo, demo, or current landing page?
-- What is the launch deadline?
+- What is the launch deadline, and what timezone are you and your users in?
 - Is the goal users, trials, sales, feedback, GitHub stars, contributors, newsletter subscribers, calls, or partnerships?
 - What proof exists already: screenshots, video, user quotes, metrics, benchmarks, technical write-up?
 - Which channels are already warm, even slightly?
@@ -63,15 +75,22 @@ For AI products, also confirm:
 
 If readiness fails, recommend a private feedback launch or fixing the smallest blocker.
 
-### 2. Write The One-Sentence Story
+### 2. Find The Story — With The Builder
 
-Use:
+The one-sentence story is a useful shape, not a fill-in-the-blank to complete for the builder:
 
 ```text
 [Product] helps [specific user] get [specific outcome] without [painful old way].
 ```
 
-Adapt it by channel:
+Do not write it *at* the builder. Interview them until the sentence is in their own words:
+
+- What did you type to a friend when you first told them about this?
+- What was the exact moment you decided to build it?
+- Who is it embarrassingly *not* for?
+- What would you never claim about it?
+
+Draft two or three options from what they said, then let them pick and rework one. Adapt tone by channel later — the underlying story stays theirs:
 
 - Product Hunt: clear, benefit-led, low jargon.
 - Hacker News: factual, technical, personal, humble.
@@ -79,6 +98,8 @@ Adapt it by channel:
 - LinkedIn: professional lesson, use case, or business pain.
 - X/Twitter: short, visual, repeatable, and reply-friendly.
 - GitHub/dev ecosystem: installable, inspectable, technically credible.
+
+Capture the raw material — real phrases, the origin moment, the honest weakness — in the Voice & Story section of `templates/launch-brief.md`. Everything you co-write later pulls from there.
 
 ### 3. Build The Proof Pack
 
@@ -108,7 +129,7 @@ The demo video is required proof, so treat it as a flow, not a checklist line. T
 Build a **production package** first — capability-agnostic, so any markdown-reading agent can produce it:
 
 - Core moment: the single "aha" the video must show.
-- Script or voiceover, kept tight for a 30 to 90 second cut.
+- Script or voiceover, kept tight for a 30 to 90 second cut. Draw the words from the builder's own framing of the product, not generic ad copy.
 - Shot list with the exact product moments to capture.
 - Per-channel length and aspect-ratio targets.
 - Caption text.
@@ -158,7 +179,9 @@ Score each target:
 
 Default priority: high relevance, clear permission, and medium or better proof fit.
 
-### 6. Choose Channels
+### 6. Choose Platforms For This Project
+
+Not every platform fits every project. Match the surface to what the product is and who it is for, rather than posting everywhere. See `skills/launch-project/references/scheduling.md` for the platform-fit guide.
 
 Default stack:
 
@@ -170,36 +193,57 @@ Default stack:
 - GitHub and ecosystem channels for developer tools.
 - Newsletters, podcasts, YouTube, and blogs for amplifier outreach.
 
-Pick fewer channels if the builder cannot reply well.
+Recommend the two or three platforms that fit *this* project best and explain why each fits — do not hand over a generic seven-channel checklist. Pick fewer channels if the builder cannot reply well.
 
-### 7. Draft Channel-Native Assets
+### 7. Co-Write Channel Assets
 
-Use `skills/launch-project/references/copy-templates.md` and `templates/channel-copy.md`.
+Use `skills/launch-project/references/co-writing-guide.md` and `templates/channel-copy.md`.
 
-Each draft should include:
+Co-writing is a loop, not a generation step:
 
-- Product-specific story.
+1. **Interview.** For each chosen platform, ask the builder the elicitation questions in the co-writing guide — the origin story, the specific proof, the honest limitation, the exact feedback they want. Pull from the Voice & Story notes in the launch brief.
+2. **Draft from their words.** Turn their raw answers into a first draft that keeps their phrasing, their specifics, and their voice. Match the platform's norms and length. Do not smooth it into generic marketing prose.
+3. **Refine together.** Hand back the draft with your open questions attached ("Is this how you'd say it?", "What's the real number here?"). Revise until it sounds like the builder, not like a template.
+
+Every asset should have:
+
+- The builder's own story and specifics, not invented filler.
 - Channel-native tone.
-- Specific proof.
-- Specific feedback ask.
-- Clear link or action.
+- Specific, inspectable proof.
+- One specific feedback ask.
+- A clear link or action.
 - No vote request.
 
-### 8. Plan Launch Day
+If you cannot make a draft specific because you are missing the builder's input, stop and ask — do not fill the gap with placeholder copy.
 
-Use launch day as a hosted conversation.
+### 8. Schedule The Launch
+
+Turn the chosen platforms and finished copy into a concrete, timed plan. This is where "when and where" becomes an artifact. See `skills/launch-project/references/scheduling.md` for optimal-timing heuristics, then write the plan into `templates/launch-schedule.md`.
+
+For each post:
+
+- **Platform and audience timezone.** Optimize for when the *audience* is awake and active, not when the builder happens to be. Name both the target timezone and the builder's local time for each slot.
+- **Optimal window.** Use the platform heuristics as a starting point, then adjust to the target community's real activity and, where available, the builder's own analytics.
+- **Live vs pre-scheduled.** Post live on the surfaces where the builder must be present to reply (Show HN, Reddit, Product Hunt). Pre-schedule the rest (X sequence, LinkedIn) in each platform's native scheduler so the builder is free to host the live threads.
+- **Waves and spacing.** Sequence posts so the builder is never trying to host two live threads at once, and space secondary posts across the day rather than dumping them at the open.
+
+Flag any conflict where the optimal time for the audience falls in the builder's night, and offer the two honest options: post live at an awkward local hour, or pre-schedule and reply asynchronously.
+
+### 9. Run Launch Day
+
+Use launch day as a hosted conversation, driven by the schedule from step 8.
 
 Create:
 
 - Launch links.
-- Posting schedule.
+- Posting schedule (from `templates/launch-schedule.md`).
 - Reply rota if there is more than one maker.
 - Metrics dashboard or manual metric log.
 - Bug and objection log.
-- Reply bank.
+- Reply bank — starting points the builder answers in their own voice, never canned replies.
 - Follow-up list.
 
-### 9. Compound After Launch
+### 10. Compound After Launch
 
 Within 48 hours:
 
@@ -219,19 +263,20 @@ Within two weeks:
 
 ## Expected Outputs
 
-Produce the outputs that fit the user's request. When writing to files, use the shared template files so humans and agents work in the same place:
+Produce the outputs that fit the user's request. Everything is co-created with the builder and grounded in their real material — never generic filler. When writing to files, use the shared template files so humans and agents work in the same place:
 
-- Launch brief and readiness gaps -> `templates/launch-brief.md`.
+- Launch brief, readiness gaps, and Voice & Story capture -> `templates/launch-brief.md`.
 - Launch video production package and capture preflight -> `templates/video-brief.md`.
-- Audience map and channel plan -> `templates/audience-map.md`.
-- Product Hunt, Show HN, Reddit/community, LinkedIn, X/Twitter, GitHub, email, and DM drafts -> `templates/channel-copy.md`.
-- Launch-day schedule and live log -> `templates/launch-log.md`.
+- Audience map and platform-fit notes -> `templates/audience-map.md`.
+- Co-written channel copy (Product Hunt, Show HN, Reddit/community, LinkedIn, X/Twitter, GitHub, email, DM) -> `templates/channel-copy.md`.
+- Optimal-time posting schedule -> `templates/launch-schedule.md`.
+- Launch-day live log -> `templates/launch-log.md`.
 - Reply bank -> `templates/reply-bank.md`.
 - Post-launch recap and second-wave plan -> `templates/post-launch-recap.md`.
 
 ## Current-Rule Check
 
-Before a real launch, recheck official sources:
+Before a real launch, recheck official sources — and re-verify optimal-timing norms against the builder's own audience, since posting-time advice drifts and varies by community:
 
 - Product Hunt Launch Guide: https://www.producthunt.com/launch
 - Product Hunt launch preparation: https://www.producthunt.com/launch/preparing-for-launch
@@ -241,4 +286,3 @@ Before a real launch, recheck official sources:
 - Reddit rules: https://redditinc.com/policies/reddit-rules
 - GitHub releases: https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository
 - GitHub social preview docs: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview
-
