@@ -51,6 +51,7 @@ Raw material for co-writing launch copy. Answer as yourself — real phrasing, r
   - Script status:
   - Shot list status:
   - Cutdowns status:
+  - Launch images status (thumbnail + gallery):
 - Screenshots:
 - Pricing or offer:
 - Support contact:

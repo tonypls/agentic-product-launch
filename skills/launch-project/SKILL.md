@@ -44,7 +44,7 @@ Read `references/agent-recording.md` when the builder opts in to the agent recor
 Produce only the outputs that fit the user's request. Everything is co-created from the builder's real material, never generic filler:
 
 - Launch brief, readiness gaps, and Voice & Story capture.
-- Launch video brief with capture preflight, plus the master cut, GIF, screenshots, and per-channel cutdowns.
+- Launch video brief with capture preflight, plus the master cut, GIF, screenshots, per-channel cutdowns, and launch images (Product Hunt thumbnail and gallery).
 - Audience map and platform-fit recommendation.
 - Co-written Product Hunt, Show HN, Reddit/community, LinkedIn, X/Twitter, GitHub, email, and DM copy — in the builder's voice.
 - Optimal-time posting schedule (which platform, when, live vs pre-scheduled).

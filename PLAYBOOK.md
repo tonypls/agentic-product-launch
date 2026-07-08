@@ -133,6 +133,7 @@ Then run the flow:
 2. Capture the listed shots from the real product — ask your agent to record them (below), or record from the shot list yourself.
 3. Assemble the master 30 to 90 second cut with captions, then pull the GIF and the 3 to 5 before/action/result screenshots from the same footage.
 4. Cut down one variant per launch channel at the right length and aspect ratio.
+5. Package the launch images each channel needs. For Product Hunt: a 240×240 thumbnail (JPG, PNG, or GIF, under 2MB — a short animated GIF stands out in the feed) and a gallery of at least 3 images; the first gallery image becomes the social preview when your link is shared, so lead with the core moment.
 
 Want your agent to record the video itself? Agents with browser, terminal, or screen-capture tools can. The agent runs a preflight first and reports what it needs as blockers; you can clear most of them up front:
 
@@ -192,7 +193,7 @@ Write within each platform's norms:
 
 Product Hunt:
 
-- Prepare listing assets, tagline, gallery, demo, maker comment, offer, and reply plan.
+- Prepare listing assets: tagline, 240×240 thumbnail (JPG, PNG, or GIF, under 2MB), a gallery of at least 3 images — the first becomes the social preview when your link is shared — plus demo video, maker comment, offer, and reply plan.
 - Ask people to visit, try, comment, or share feedback.
 - Do not ask for upvotes.
 
@@ -258,7 +259,7 @@ Day -9 to -7:
 
 Day -6 to -4:
 
-- Assemble the launch video: master cut, GIF, before/action/result screenshots, and per-channel cutdowns.
+- Assemble the launch video: master cut, GIF, before/action/result screenshots, per-channel cutdowns, and launch images (thumbnail, gallery, social preview).
 - Tighten the product and copy from feedback.
 - Warm communities by answering questions and being useful.
 - Prepare the launch log.
