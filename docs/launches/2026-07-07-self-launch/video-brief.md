@@ -78,15 +78,25 @@ One row per channel this launch uses (bounded to the stack in `launch-brief.md` 
 | Product Hunt (wave 2)   | 61s gallery video                                               | 16:9         | ✅ reuse master                            |
 | Newsletter/blog pitches | Master cut link + 1 still                                       | 16:9         | ✅ master + `video/still-action.png`       |
 
+## Launch Images
+
+Generated 2026-07-09 with the master-cut toolchain (ffmpeg reframes + Playwright overlays). Specs from the live Product Hunt uploader: thumbnail "240x240 | JPG, PNG, GIF. Max size: 2MB"; gallery "the first image will be used as the social preview… we recommend at least 3 or more images."
+
+| Asset                    | Spec                                       | Source                                                                                                                                                                          | Status                                                                                            |
+| ------------------------ | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| Product Hunt thumbnail   | 240×240; JPG/PNG/GIF; max 2MB              | Designed mark of the skill command (not footage): 🚀 + `/launch-project`; static, plus a typed-out 2.5s GIF loop                                                                  | ✅ `video/ph-thumbnail.png` (21 KB) · `video/ph-thumbnail.gif` (85 KB) — builder picks one at upload |
+| Product Hunt gallery     | 3+ images; 1270×760; first = social preview | 01: the 50s file-list frame + "Your agent can run your launch" title overlay; 02–05: unretouched master frames (live run 15s, readiness gaps 22s, audience map 32s, channel copy 39s) with burned captions as annotations | ✅ `video/ph-gallery-01.png` … `video/ph-gallery-05.png`, upload in order                          |
+| GitHub social preview    | 1280×640                                   | Shot 6 file list + title                                                                                                                                                          | ✅ `video/social-preview.png` (upload in repo Settings)                                            |
+
 ## Asset Status
 
-All assets agent-recorded and assembled 2026-07-03 (VHS + Playwright capture, ffmpeg assembly, OpenAI TTS narration). Files in `video/` next to this brief.
+All assets agent-recorded and assembled 2026-07-03 (VHS + Playwright capture, ffmpeg assembly, OpenAI TTS narration); launch images generated 2026-07-09. Files in `video/` next to this brief.
 
 - Master video: ✅ `video/agentic-product-launch-demo.mp4` — 61s, 1080p, burned captions + TTS narration (8 MB)
 - GIF: ✅ `video/demo.gif` — 18s silent montage of shots 2→6, captions burned (3.3 MB)
 - Before/action/result screenshots: ✅ `video/still-before.png` (repo at 0 stars) / `video/still-action.png` (readiness gaps in launch brief) / `video/still-result.png` (launch kit file list)
 - Per-channel cutdowns: ✅ see table above — X cut rendered, other channels reuse the master by design
-- Social preview / thumbnail: ✅ `video/social-preview.png` — 1280×640, shot 6 + title (upload in repo Settings, planned Sat 2026-07-04)
+- Launch images: ✅ PH thumbnail `video/ph-thumbnail.png`/`.gif` + gallery `video/ph-gallery-01..05.png` (see Launch Images table); GitHub social preview `video/social-preview.png` — 1280×640 (upload in repo Settings)
 - Hosting note: consider attaching the MP4s to the `v0.1.0` GitHub release (or a `v0.1.1` assets release) and embedding only `demo.gif` + stills in the README, to keep the repo light (~11 MB of video otherwise)
 
 ## Honesty Check
@@ -95,8 +105,8 @@ All assets agent-recorded and assembled 2026-07-03 (VHS + Playwright capture, ff
 - Any time-compression disclosed: ✅ shot 2 jump-cuts from the typed command to the same run ~35s in; disclosed on screen with a "(same run, ~35 seconds later)" caption at the cut
 - Real latency or failures not hidden: ✅ the boot-to-work gap is the only latency and it is disclosed; one capture note — the segment showing the builder's email in the session header was excluded from the cut (privacy, per the preflight's no-private-data rule)
 - Narration: AI-generated voice (OpenAI TTS) reading the launch team's script verbatim; captions carry the same text for sound-off viewing
+- Composed assets disclosed: gallery-01 and the GitHub social preview are real frames with a title overlay; the PH thumbnail is a designed mark of the skill command, not product footage; gallery 02–05 are unretouched master frames
 
 ## Optional
 
 - Music or soundtrack: none; narration + captions carry it
-- Thumbnail: ✅ done — `video/social-preview.png`, shot 6 file list with title "Your agent can run your launch" (1280×640)

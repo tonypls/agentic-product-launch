@@ -44,9 +44,10 @@ Variants:
 - Launch video (full production package in `video-brief.md`):
   - Core moment: One command turns a repo into a filled launch kit
   - Script status: Written ✓
-  - Shot list status: Written ✓ — capture pending (builder records; agent in this environment cannot screen-record a live agent session)
-  - Cutdowns status: Specified per channel, pending master cut
-- Screenshots: Pending — derive 3 (before/action/result) from the master recording
+  - Shot list status: ✓ agent-recorded 2026-07-03 (VHS + Playwright; see `video-brief.md` Capture Plan)
+  - Cutdowns status: ✓ assembled 2026-07-03 — master + X cut rendered; other channels reuse the master by design
+  - Launch images status (thumbnail + gallery): ✓ generated 2026-07-09 — PH thumbnail (`ph-thumbnail.png`/`.gif`) + gallery 01–05 in `video/`
+- Screenshots: ✓ before/action/result stills in `video/`, pulled from the master
 - Pricing or offer: Free, open source. No paid tier. ✓ (say this plainly in every post)
 - Support contact: GitHub Issues ✓ (enable Discussions before launch — command below)
 - Known limitations: Written into README Limitations section on this branch ✓ — English-only, markdown-agent required for automation, guidance not guarantees, platform rules drift and must be re-verified at launch time, video capture needs builder/media tools
