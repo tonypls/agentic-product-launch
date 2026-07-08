@@ -199,6 +199,11 @@ MIT. Feedback via Issues; repeated questions become playbook updates.
 
 Tue 2026-07-14, 12:01 AM PT = **7:01 PM NZST** (a rare NZ-friendly slot — run it live all evening).
 
+**Listing assets** — generated 2026-07-09, in `video/` next to this file:
+
+- Thumbnail (240×240, under 2MB): `video/ph-thumbnail.gif` (the `/launch-project` command typing out, 2.5s loop) or `video/ph-thumbnail.png` (static) — pick one at upload; the GIF stands out in the feed.
+- Gallery (upload in this order — the first image becomes the social preview when the link is shared): `ph-gallery-01.png` (title card over the real launch-kit file list) → `02` (live agent run) → `03` (readiness gaps caught) → `04` (audience map) → `05` (channel copy). Add the 61s master (`agentic-product-launch-demo.mp4`) as the gallery video.
+
 **Tagline** — paste into the tagline field (46 chars):
 
 ```text
