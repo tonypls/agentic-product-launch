@@ -132,6 +132,7 @@ Build a **production package** first — capability-agnostic, so any markdown-re
 - Script or voiceover, kept tight for a 30 to 90 second cut. Draw the words from the builder's own framing of the product, not generic ad copy.
 - Shot list with the exact product moments to capture.
 - Per-channel length and aspect-ratio targets.
+- Launch-image targets for each chosen channel — for Product Hunt, a 240×240 thumbnail (JPG, PNG, or GIF, max 2MB) and a gallery of at least 3 images whose first image doubles as the social preview when the link is shared.
 - Caption text.
 
 Then run the flow:
@@ -140,6 +141,7 @@ Then run the flow:
 2. Capture: decide who records. When the agent has (or can be granted) screen-capture, browser, or terminal tools, offer agent-recorded capture and run it if the builder opts in; otherwise hand the shot list to the builder to record.
 3. Assemble: edit the master 30 to 90 second cut with captions, then derive the GIF and the 3 to 5 before/action/result screenshots from the same footage.
 4. Cut down: produce one per-channel variant (length and aspect ratio) for each launch channel — no more, no fewer.
+5. Package launch images: derive each channel's image assets from the same stills and the product's own mark — for Product Hunt, the 240×240 thumbnail (static, or a short GIF loop kept under 2MB) and at least 3 gallery images ordered so the first carries the core moment, since it becomes the social preview when the link is shared. Verify formats and sizes against each platform's live uploader before submitting.
 
 Agent-recorded capture (when the builder opts in):
 
@@ -152,7 +154,7 @@ Rules:
 
 - Show the real product. Do not fabricate results, hide real latency or failures, or speed up footage without disclosing the time-compression.
 - Automation pace can mislead: when scripted capture drives the product faster than a person could, slow it to human pace or disclose it in a caption.
-- Bound cutdowns to the channels this launch uses; do not invent platform variants.
+- Bound cutdowns and launch images to the channels this launch uses; do not invent platform variants.
 - For an optional worked recipe (capture and edit tooling, per-channel specs), see `skills/launch-project/references/video-production.md`. It is one example, not a requirement.
 - For the agent-recorded path (preflight checklist, tool choice by product surface, capture defaults, assembly commands), see `skills/launch-project/references/agent-recording.md`. It is one recipe, not a requirement.
 
@@ -266,7 +268,7 @@ Within two weeks:
 Produce the outputs that fit the user's request. Everything is co-created with the builder and grounded in their real material — never generic filler. When writing to files, use the shared template files so humans and agents work in the same place:
 
 - Launch brief, readiness gaps, and Voice & Story capture -> `templates/launch-brief.md`.
-- Launch video production package and capture preflight -> `templates/video-brief.md`.
+- Launch video production package, capture preflight, and launch-image status -> `templates/video-brief.md`.
 - Audience map and platform-fit notes -> `templates/audience-map.md`.
 - Co-written channel copy (Product Hunt, Show HN, Reddit/community, LinkedIn, X/Twitter, GitHub, email, DM) -> `templates/channel-copy.md`.
 - Optimal-time posting schedule -> `templates/launch-schedule.md`.

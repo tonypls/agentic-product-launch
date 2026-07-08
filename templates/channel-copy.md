@@ -12,6 +12,8 @@ See `skills/launch-project/references/co-writing-guide.md` for the full intervie
 
 **When:** _(from launch-schedule.md — live/scheduled + time)_
 
+**Assets:** 240×240 thumbnail (JPG/PNG/GIF, under 2MB) · gallery of 3+ images — the first doubles as the social preview when the link is shared. Track them in `templates/video-brief.md` → Launch Images.
+
 **Answer first:** Who is this honestly *not* for? · What 2–3 things does it genuinely do today, as outcomes? · The one question you want makers to answer?
 
 ### Tagline

@@ -41,6 +41,18 @@ Produce one variant per channel this launch uses. Lengths and aspect ratios are 
 | GitHub | GIF + master cut link | 16:9 | Silent GIF in the README; full cut linked. |
 | Newsletter / podcast / blog | master cut | 16:9 | Embed or link; include a still or GIF for email. |
 
+## Launch Images
+
+Derive launch images from the same footage and stills as the cutdowns so the proof stays consistent, and produce them only for the channels this launch uses. Specs are defaults to verify against each platform's live uploader before submitting.
+
+| Asset | Default spec | Source |
+| --- | --- | --- |
+| Product Hunt thumbnail | 240×240; JPG, PNG, or GIF; max 2MB | The product's own mark, or a 2–4 second loop cropped tight to one legible element — a full screen shrunk to 240×240 reads as noise. An animated GIF stands out in the feed but must stay under the size cap. |
+| Product Hunt gallery | At least 3 images; 1270×760 is the common recommendation | Before/action/result stills reframed from the master. The first image doubles as the social preview when the link is shared, so lead with the core moment and keep any text legible at feed size. |
+| GitHub social preview | 1280×640 | A still or title card from the same footage; upload in the repo's Settings. |
+
+Annotate a gallery frame with one short caption when the raw frame does not carry the point on its own — a line, not a paragraph.
+
 ## Honesty Rules (Same As The Workflow)
 
 - Capture the real product. Never fabricate a result the product did not produce.

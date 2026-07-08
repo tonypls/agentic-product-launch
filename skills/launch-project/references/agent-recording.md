@@ -92,6 +92,16 @@ ffmpeg -i master.mp4 -vf "fps=12,scale=960:-1:flags=lanczos,split[a][b];[a]palet
 # Before/action/result stills, pulled from the same footage
 ffmpeg -ss 4 -i master.mp4 -frames:v 1 still-action.png
 
+# Product Hunt gallery frame (1270x760 default); make gallery-01 the core moment — it becomes the social preview
+ffmpeg -ss 4 -i master.mp4 -frames:v 1 -vf "scale=1270:760:force_original_aspect_ratio=increase,crop=1270:760" gallery-01.png
+
+# Product Hunt thumbnail (240x240, max 2MB): static from the product mark...
+ffmpeg -i logo.png -vf "scale=240:240:force_original_aspect_ratio=decrease,pad=240:240:-1:-1:color=white" ph-thumbnail.png
+
+# ...or a short animated GIF loop; aim the crop at one legible element (a full screen
+# shrunk to 240 reads as noise — pass x:y offsets to crop, or crop a smaller region), then check it stays under 2MB
+ffmpeg -ss 4 -t 3 -i master.mp4 -vf "crop='min(iw,ih)':'min(iw,ih)',scale=240:240:flags=lanczos,fps=10,split[a][b];[a]palettegen[p];[b][p]paletteuse" ph-thumbnail.gif
+
 # Square cutdown example; lengths and ratios per channel are in video-production.md
 ffmpeg -i master.mp4 -vf "crop='min(iw,ih)':'min(iw,ih)'" -t 45 cut-square.mp4
 
@@ -104,7 +114,8 @@ ffmpeg -i master.mp4 -i voiceover.m4a -map 0:v -map 1:a -c:v copy -shortest mast
 - `ffprobe` the master cut: length lands inside the 30 to 90 second target.
 - Extract start, middle, and end frames and look at them: captions legible, core moment visible, nothing private on screen.
 - View the GIF at README width, not full screen.
-- Fill in Asset Status and Honesty Check in `templates/video-brief.md`, and list anything not captured as an open blocker for the builder.
+- Check the launch images: the thumbnail is 240×240 and under 2MB (`ls -lh`), at least 3 gallery images exist at the target size, and the first gallery image reads as a social card — core moment visible, text legible at feed width.
+- Fill in Asset Status, Launch Images, and Honesty Check in `templates/video-brief.md`, and list anything not captured as an open blocker for the builder.
 
 ## Honesty Rules For Agent-Recorded Footage
 
