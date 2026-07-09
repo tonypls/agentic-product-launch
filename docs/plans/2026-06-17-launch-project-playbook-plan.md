@@ -6,7 +6,7 @@ Origin: `docs/brainstorms/2026-06-17-launch-project-playbook-requirements.md`
 
 ## Summary
 
-Create a portable launch playbook system for agentic builders and anyone shipping products with AI — indie SaaS, apps, AI products, AI agents, and developer tools. The work should produce a human-readable operating manual, reusable templates, and agent-facing instructions that Claude Code, Codex, or another markdown-reading agent can follow.
+Create a portable launch playbook system for agentic builders and anyone shipping products with AI - indie SaaS, apps, AI products, AI agents, and developer tools. The work should produce a human-readable operating manual, reusable templates, and agent-facing instructions that Claude Code, Codex, or another markdown-reading agent can follow.
 
 This is a plan only. Implementation, installation, and live launch execution are out of scope until a later work step.
 

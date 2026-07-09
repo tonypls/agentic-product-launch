@@ -5,12 +5,12 @@ This is one **optional worked example** of how to produce the launch video. It i
 ## When To Use This
 
 - Use it when the agent has screen-capture, browser-automation, or video-editing tools and wants a concrete path from package to assets.
-- Skip it when the agent has no media tools — produce the package and hand the builder the shot list to record (the fallback in the workflow).
+- Skip it when the agent has no media tools - produce the package and hand the builder the shot list to record (the fallback in the workflow).
 - Treat every tool and number below as a starting default to confirm against current platform rules before a real launch.
 
 ## One Reference Toolchain (Example Only)
 
-- **Capture:** a screen recorder or browser driver — for example OBS, a Playwright/Chrome DevTools script, or a computer-use agent driving the real product.
+- **Capture:** a screen recorder or browser driver - for example OBS, a Playwright/Chrome DevTools script, or a computer-use agent driving the real product.
 - **Assemble:** `ffmpeg` for trims, concatenation, burned-in captions, aspect re-framing, and GIF export.
 - **Stills:** export before/action/result frames from the same recording rather than taking separate screenshots, so the proof visuals stay consistent.
 
@@ -20,7 +20,7 @@ When the builder opts in to the agent recording the video itself, `agent-recordi
 
 ## Capture And Edit Checklist
 
-- Hook in the first 2 seconds — open on the core moment, not a logo or loading screen.
+- Hook in the first 2 seconds - open on the core moment, not a logo or loading screen.
 - Show the real product doing the real task end to end.
 - Keep the master cut inside 30 to 90 seconds.
 - Burn in captions; assume the viewer watches with sound off.
@@ -47,11 +47,11 @@ Derive launch images from the same footage and stills as the cutdowns so the pro
 
 | Asset | Default spec | Source |
 | --- | --- | --- |
-| Product Hunt thumbnail | 240×240; JPG, PNG, or GIF; max 2MB | The product's own mark, or a 2–4 second loop cropped tight to one legible element — a full screen shrunk to 240×240 reads as noise. An animated GIF stands out in the feed but must stay under the size cap. |
+| Product Hunt thumbnail | 240×240; JPG, PNG, or GIF; max 2MB | The product's own mark, or a 2–4 second loop cropped tight to one legible element - a full screen shrunk to 240×240 reads as noise. An animated GIF stands out in the feed but must stay under the size cap. |
 | Product Hunt gallery | At least 3 images; 1270×760 is the common recommendation | Before/action/result stills reframed from the master. The first image doubles as the social preview when the link is shared, so lead with the core moment and keep any text legible at feed size. |
 | GitHub social preview | 1280×640 | A still or title card from the same footage; upload in the repo's Settings. |
 
-Annotate a gallery frame with one short caption when the raw frame does not carry the point on its own — a line, not a paragraph.
+Annotate a gallery frame with one short caption when the raw frame does not carry the point on its own - a line, not a paragraph.
 
 ## Honesty Rules (Same As The Workflow)
 

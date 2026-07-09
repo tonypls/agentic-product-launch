@@ -7,13 +7,13 @@ topic: product-launch-video-creation-flow
 
 ## Summary
 
-Add a "create the launch video" flow to the playbook where the launch agent does the hands-on production work — scripting the demo, capturing real product footage, and editing it into a master cut plus a GIF, before/action/result screenshots, and per-channel cutdowns. The portable contract is a production package any markdown-reading agent can produce; actual recording and editing ride on whatever media tools the agent has, with an optional named reference toolchain and a builder-records fallback. The flow extends the source-of-truth workflow and the human manual, fed by a new production-brief template.
+Add a "create the launch video" flow to the playbook where the launch agent does the hands-on production work - scripting the demo, capturing real product footage, and editing it into a master cut plus a GIF, before/action/result screenshots, and per-channel cutdowns. The portable contract is a production package any markdown-reading agent can produce; actual recording and editing ride on whatever media tools the agent has, with an optional named reference toolchain and a builder-records fallback. The flow extends the source-of-truth workflow and the human manual, fed by a new production-brief template.
 
 ---
 
 ## Problem Frame
 
-The playbook already treats a demo video as required launch proof — `PLAYBOOK.md` Phase 3 lists a "30 to 90 second demo video or GIF" and "3 to 5 screenshots showing before, action, and result," and the timeline collapses the work into one step, "Record the demo," on Day -9 to -7. Nothing helps the builder actually make it: there is no scripting method, no shot list, no capture guidance, and no editing or cutdown process.
+The playbook already treats a demo video as required launch proof - `PLAYBOOK.md` Phase 3 lists a "30 to 90 second demo video or GIF" and "3 to 5 screenshots showing before, action, and result," and the timeline collapses the work into one step, "Record the demo," on Day -9 to -7. Nothing helps the builder actually make it: there is no scripting method, no shot list, no capture guidance, and no editing or cutdown process.
 
 Solo agentic builders are the people least likely to have video skills and the most time-pressed during launch prep. Today they skip the video, ship a weak one, or burn prep time improvising. The one proof asset the playbook treats as mandatory is the one it gives no method to produce.
 
@@ -23,7 +23,7 @@ Solo agentic builders are the people least likely to have video skills and the m
 
 - **The agent produces, not just guides.** The flow has the agent do the hands-on capture and editing, not hand the builder a script to record alone. Chosen over a script-only guide because the builder is the bottleneck this removes.
 - **One capture pass feeds the whole proof-visual family.** The demo video, the GIF, the before/action/result screenshots, and the per-channel cutdowns all derive from a single scripted capture, so the marginal cost of the extra assets stays low. Chosen over single-video scope.
-- **The portable contract is a production package, not a toolchain.** The source-of-truth deliverable is a capability-agnostic production package — core moment, script, shot list, capture moments, per-channel length and aspect-ratio targets, caption text — that any markdown agent can produce. Rendering rides on whatever media tools the agent has; an optional reference toolchain is documented as one worked example, and a builder-records fallback covers tool-less agents. This keeps the flow runnable everywhere without breaking the repo's single-source-of-truth rule (see `docs/solutions/architecture-patterns/portable-workflow-single-source-of-truth.md`).
+- **The portable contract is a production package, not a toolchain.** The source-of-truth deliverable is a capability-agnostic production package - core moment, script, shot list, capture moments, per-channel length and aspect-ratio targets, caption text - that any markdown agent can produce. Rendering rides on whatever media tools the agent has; an optional reference toolchain is documented as one worked example, and a builder-records fallback covers tool-less agents. This keeps the flow runnable everywhere without breaking the repo's single-source-of-truth rule (see `docs/solutions/architecture-patterns/portable-workflow-single-source-of-truth.md`).
 - **Cutdowns are bounded to the playbook's existing channels.** Per-channel variants map to the channels the playbook already defines (Product Hunt, Show HN, Reddit/community, LinkedIn, X/Twitter, GitHub, newsletter/podcast), not an open-ended per-platform farm.
 - **The honesty rule carries into editing.** Capture shows the real product working; editing must not fabricate results or hide real latency and failures, and any time-compression is disclosed. Inherited from the existing AI-product gate and anti-patterns.
 
@@ -31,9 +31,9 @@ Solo agentic builders are the people least likely to have video skills and the m
 
 ## Actors
 
-- A1. Builder — the agentic builder or solo maker launching the product; may have no video skills and little prep time.
-- A2. Launch agent — the AI agent running the flow: scripts, captures, edits, and assembles assets using whatever media tools its harness provides.
-- A3. Launch-day viewer — the borrowed audience who watches the video on each channel and judges the product in seconds.
+- A1. Builder - the agentic builder or solo maker launching the product; may have no video skills and little prep time.
+- A2. Launch agent - the AI agent running the flow: scripts, captures, edits, and assembles assets using whatever media tools its harness provides.
+- A3. Launch-day viewer - the borrowed audience who watches the video on each channel and judges the product in seconds.
 
 ---
 
@@ -90,7 +90,7 @@ Solo agentic builders are the people least likely to have video skills and the m
 
 ## Acceptance Examples
 
-- AE1. **Covers R2, R6.** Given an agent with no screen-capture or video tools, when it runs the flow, then it still produces the complete production package and hands the builder a record-it-yourself shot list — rather than failing or skipping the video.
+- AE1. **Covers R2, R6.** Given an agent with no screen-capture or video tools, when it runs the flow, then it still produces the complete production package and hands the builder a record-it-yourself shot list - rather than failing or skipping the video.
 - AE2. **Covers R2, R3.** Given an agent with media tools, when it runs the flow, then it captures real product footage and outputs the master cut, the GIF, and the before/action/result screenshots from that one capture pass.
 - AE3. **Covers R4.** Given an approved master cut, when cutdowns are produced, then there is one variant per applicable playbook channel at the right length and aspect ratio, and none for channels outside the playbook's defined set.
 - AE4. **Covers R8.** Given the product has a slow operation, when the video is edited, then the cut either shows the real timing or discloses the time-compression, and never fabricates a result the product did not produce.
@@ -103,7 +103,7 @@ Solo agentic builders are the people least likely to have video skills and the m
 - A builder with no video skills can run the flow and finish launch prep with a publishable demo video plus GIF, screenshots, and channel cutdowns.
 - The same source-of-truth text runs on a tool-less markdown agent (producing the package and a manual shot list) and on a media-capable agent (producing rendered assets).
 - The produced video honestly represents the working product.
-- The flow adds no duplicated workflow prose across platform wrappers — the source of truth stays single.
+- The flow adds no duplicated workflow prose across platform wrappers - the source of truth stays single.
 
 ---
 
@@ -122,9 +122,9 @@ Deferred for later:
 
 Outside this product's identity:
 
-- AI-generated or synthetic video (text-to-video, avatar voiceover) — conflicts with showing the real product working.
-- Distributing or posting the video — that stays with the existing channel-copy and launch-day flows; this flow only produces assets.
-- Shipping an actual video editor, renderer, or hosted service as repo software — the playbook is portable markdown guidance, not an app.
+- AI-generated or synthetic video (text-to-video, avatar voiceover) - conflicts with showing the real product working.
+- Distributing or posting the video - that stays with the existing channel-copy and launch-day flows; this flow only produces assets.
+- Shipping an actual video editor, renderer, or hosted service as repo software - the playbook is portable markdown guidance, not an app.
 
 ---
 

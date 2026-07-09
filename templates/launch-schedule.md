@@ -2,7 +2,7 @@
 
 The single timed plan for launch day: which platforms, when each post goes out, and whether it's live or pre-scheduled. Build it with the heuristics in `skills/launch-project/references/scheduling.md`.
 
-Optimal times are **starting points** — adjust to the target community's real activity and, where you have it, your own platform analytics. Optimize for when the **audience** is active, not when you happen to be free.
+Optimal times are **starting points** - adjust to the target community's real activity and, where you have it, your own platform analytics. Optimize for when the **audience** is active, not when you happen to be free.
 
 ## Timezones
 
@@ -43,7 +43,7 @@ Order every post by the builder's local clock. Mark each **Live** (builder prese
 
 Rules of thumb:
 
-- Never host two **Live** threads at the same moment — stagger them.
+- Never host two **Live** threads at the same moment - stagger them.
 - Lead with the primary discovery channel, then release secondary posts in waves.
 - Hold one short, honest "launch day so far" post for late in the day, once there are real numbers.
 
