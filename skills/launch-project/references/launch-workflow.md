@@ -1,18 +1,18 @@
 # Launch Project Workflow
 
-Use this workflow to help a builder — an agentic builder or anyone shipping a product built with AI — launch an indie SaaS, app, AI product, AI agent, developer tool, MCP server, open-source project, SDK, CLI, API, or plugin when they have little or no existing audience.
+Use this workflow to help a builder - an agentic builder or anyone shipping a product built with AI - launch an indie SaaS, app, AI product, AI agent, developer tool, MCP server, open-source project, SDK, CLI, API, or plugin when they have little or no existing audience.
 
 The source model is borrowed relevance: find where the right users already gather, bring proof that fits that place, and turn attention into conversations and follow-up.
 
 ## How To Run This: Co-Creation, Not Generation
 
-You and the builder run this **together**. Your job is not to hand over finished launch posts — it is to:
+You and the builder run this **together**. Your job is not to hand over finished launch posts - it is to:
 
-1. **Coach the best practices** — the readiness gate, the borrowed-relevance model, each platform's norms.
-2. **Find the right platforms and the right times** — which surfaces fit *this* project, and the optimal posting window for each, in the builder's audience's timezone.
-3. **Draw the copy out of the builder** — interview them for real stories, specifics, and voice, then co-draft from *their words* and refine with them.
+1. **Coach the best practices** - the readiness gate, the borrowed-relevance model, each platform's norms.
+2. **Find the right platforms and the right times** - which surfaces fit *this* project, and the optimal posting window for each, in the builder's audience's timezone.
+3. **Draw the copy out of the builder** - interview them for real stories, specifics, and voice, then co-draft from *their words* and refine with them.
 
-The builder brings the product, the stories, and the final wording. You bring structure, platform knowledge, the schedule, and honest pressure-testing. **Never fill placeholder templates and hand back paste-ready posts** — that produces generic, interchangeable copy that reads as AI slop and hurts the launch. Draft from what the builder actually said.
+The builder brings the product, the stories, and the final wording. You bring structure, platform knowledge, the schedule, and honest pressure-testing. **Never fill placeholder templates and hand back paste-ready posts** - that produces generic, interchangeable copy that reads as AI slop and hurts the launch. Draft from what the builder actually said.
 
 ## Operating Rules
 
@@ -21,7 +21,7 @@ The builder brings the product, the stories, and the final wording. You bring st
 - Prefer specific users, specific communities, and specific proof over broad distribution.
 - Treat each platform as a community with norms.
 - Never recommend upvote requests, fake engagement, engagement pods, undisclosed affiliation, sockpuppets, scraped cold spam, or community-rule workarounds.
-- Verify current platform rules — and current optimal-timing norms — before making launch-specific claims. Posting-time heuristics are starting points; the builder's own audience and analytics are the real source of truth.
+- Verify current platform rules - and current optimal-timing norms - before making launch-specific claims. Posting-time heuristics are starting points; the builder's own audience and analytics are the real source of truth.
 - Keep output practical: brief, concrete, and ready for the builder to make their own.
 - For devtools, make installation, quickstart, examples, license, release notes, and GitHub presentation part of launch readiness.
 
@@ -75,7 +75,7 @@ For AI products, also confirm:
 
 If readiness fails, recommend a private feedback launch or fixing the smallest blocker.
 
-### 2. Find The Story — With The Builder
+### 2. Find The Story - With The Builder
 
 The one-sentence story is a useful shape, not a fill-in-the-blank to complete for the builder:
 
@@ -90,7 +90,7 @@ Do not write it *at* the builder. Interview them until the sentence is in their 
 - Who is it embarrassingly *not* for?
 - What would you never claim about it?
 
-Draft two or three options from what they said, then let them pick and rework one. Adapt tone by channel later — the underlying story stays theirs:
+Draft two or three options from what they said, then let them pick and rework one. Adapt tone by channel later - the underlying story stays theirs:
 
 - Product Hunt: clear, benefit-led, low jargon.
 - Hacker News: factual, technical, personal, humble.
@@ -99,7 +99,7 @@ Draft two or three options from what they said, then let them pick and rework on
 - X/Twitter: short, visual, repeatable, and reply-friendly.
 - GitHub/dev ecosystem: installable, inspectable, technically credible.
 
-Capture the raw material — real phrases, the origin moment, the honest weakness — in the Voice & Story section of `templates/launch-brief.md`. Everything you co-write later pulls from there.
+Capture the raw material - real phrases, the origin moment, the honest weakness - in the Voice & Story section of `templates/launch-brief.md`. Everything you co-write later pulls from there.
 
 ### 3. Build The Proof Pack
 
@@ -126,13 +126,13 @@ Strong extras:
 
 The demo video is required proof, so treat it as a flow, not a checklist line. The agent runs it; the builder records only when the agent has no media tools.
 
-Build a **production package** first — capability-agnostic, so any markdown-reading agent can produce it:
+Build a **production package** first - capability-agnostic, so any markdown-reading agent can produce it:
 
 - Core moment: the single "aha" the video must show.
 - Script or voiceover, kept tight for a 30 to 90 second cut. Draw the words from the builder's own framing of the product, not generic ad copy.
 - Shot list with the exact product moments to capture.
 - Per-channel length and aspect-ratio targets.
-- Launch-image targets for each chosen channel — for Product Hunt, a 240×240 thumbnail (JPG, PNG, or GIF, max 2MB) and a gallery of at least 3 images whose first image doubles as the social preview when the link is shared.
+- Launch-image targets for each chosen channel - for Product Hunt, a 240×240 thumbnail (JPG, PNG, or GIF, max 2MB) and a gallery of at least 3 images whose first image doubles as the social preview when the link is shared.
 - Caption text.
 
 Then run the flow:
@@ -140,14 +140,14 @@ Then run the flow:
 1. Plan: fill the production package (use `templates/video-brief.md`).
 2. Capture: decide who records. When the agent has (or can be granted) screen-capture, browser, or terminal tools, offer agent-recorded capture and run it if the builder opts in; otherwise hand the shot list to the builder to record.
 3. Assemble: edit the master 30 to 90 second cut with captions, then derive the GIF and the 3 to 5 before/action/result screenshots from the same footage.
-4. Cut down: produce one per-channel variant (length and aspect ratio) for each launch channel — no more, no fewer.
-5. Package launch images: derive each channel's image assets from the same stills and the product's own mark — for Product Hunt, the 240×240 thumbnail (static, or a short GIF loop kept under 2MB) and at least 3 gallery images ordered so the first carries the core moment, since it becomes the social preview when the link is shared. Verify formats and sizes against each platform's live uploader before submitting.
+4. Cut down: produce one per-channel variant (length and aspect ratio) for each launch channel - no more, no fewer.
+5. Package launch images: derive each channel's image assets from the same stills and the product's own mark - for Product Hunt, the 240×240 thumbnail (static, or a short GIF loop kept under 2MB) and at least 3 gallery images ordered so the first carries the core moment, since it becomes the social preview when the link is shared. Verify formats and sizes against each platform's live uploader before submitting.
 
 Agent-recorded capture (when the builder opts in):
 
 1. Preflight before recording. Confirm: the product is reachable (live URL, local run, or installable build); a demo account and seeded data reach the core moment; no private data or notifications can appear on screen; a capture tool fits the product surface; an assembly tool such as `ffmpeg` is available; the builder has granted the permissions the tools need.
 2. Write the results into the Capture Plan section of `templates/video-brief.md` and report every unmet check to the builder as a named, removable blocker. Record only when the remaining checks pass or the builder explicitly waives them.
-3. Record the shot list from the real product, one take per shot, and verify each take — the moment is on screen, legible, and honestly representative — before assembling.
+3. Record the shot list from the real product, one take per shot, and verify each take - the moment is on screen, legible, and honestly representative - before assembling.
 4. Return anything the agent cannot capture to the builder as a named blocker or a shot to record by hand.
 
 Rules:
@@ -195,7 +195,7 @@ Default stack:
 - GitHub and ecosystem channels for developer tools.
 - Newsletters, podcasts, YouTube, and blogs for amplifier outreach.
 
-Recommend the two or three platforms that fit *this* project best and explain why each fits — do not hand over a generic seven-channel checklist. Pick fewer channels if the builder cannot reply well.
+Recommend the two or three platforms that fit *this* project best and explain why each fits - do not hand over a generic seven-channel checklist. Pick fewer channels if the builder cannot reply well.
 
 ### 7. Co-Write Channel Assets
 
@@ -203,7 +203,7 @@ Use `skills/launch-project/references/co-writing-guide.md` and `templates/channe
 
 Co-writing is a loop, not a generation step:
 
-1. **Interview.** For each chosen platform, ask the builder the elicitation questions in the co-writing guide — the origin story, the specific proof, the honest limitation, the exact feedback they want. Pull from the Voice & Story notes in the launch brief.
+1. **Interview.** For each chosen platform, ask the builder the elicitation questions in the co-writing guide - the origin story, the specific proof, the honest limitation, the exact feedback they want. Pull from the Voice & Story notes in the launch brief.
 2. **Draft from their words.** Turn their raw answers into a first draft that keeps their phrasing, their specifics, and their voice. Match the platform's norms and length. Do not smooth it into generic marketing prose.
 3. **Refine together.** Hand back the draft with your open questions attached ("Is this how you'd say it?", "What's the real number here?"). Revise until it sounds like the builder, not like a template.
 
@@ -216,7 +216,7 @@ Every asset should have:
 - A clear link or action.
 - No vote request.
 
-If you cannot make a draft specific because you are missing the builder's input, stop and ask — do not fill the gap with placeholder copy.
+If you cannot make a draft specific because you are missing the builder's input, stop and ask - do not fill the gap with placeholder copy.
 
 ### 8. Schedule The Launch
 
@@ -242,7 +242,7 @@ Create:
 - Reply rota if there is more than one maker.
 - Metrics dashboard or manual metric log.
 - Bug and objection log.
-- Reply bank — starting points the builder answers in their own voice, never canned replies.
+- Reply bank - starting points the builder answers in their own voice, never canned replies.
 - Follow-up list.
 
 ### 10. Compound After Launch
@@ -265,7 +265,7 @@ Within two weeks:
 
 ## Expected Outputs
 
-Produce the outputs that fit the user's request. Everything is co-created with the builder and grounded in their real material — never generic filler. When writing to files, use the shared template files so humans and agents work in the same place:
+Produce the outputs that fit the user's request. Everything is co-created with the builder and grounded in their real material - never generic filler. When writing to files, use the shared template files so humans and agents work in the same place:
 
 - Launch brief, readiness gaps, and Voice & Story capture -> `templates/launch-brief.md`.
 - Launch video production package, capture preflight, and launch-image status -> `templates/video-brief.md`.
@@ -278,7 +278,7 @@ Produce the outputs that fit the user's request. Everything is co-created with t
 
 ## Current-Rule Check
 
-Before a real launch, recheck official sources — and re-verify optimal-timing norms against the builder's own audience, since posting-time advice drifts and varies by community:
+Before a real launch, recheck official sources - and re-verify optimal-timing norms against the builder's own audience, since posting-time advice drifts and varies by community:
 
 - Product Hunt Launch Guide: https://www.producthunt.com/launch
 - Product Hunt launch preparation: https://www.producthunt.com/launch/preparing-for-launch

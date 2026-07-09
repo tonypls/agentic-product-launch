@@ -11,7 +11,7 @@ The output is a concrete, timed schedule captured in `templates/launch-schedule.
 
 Posting-time advice drifts and varies by community. Treat everything below as a **starting point to verify**, not a rule:
 
-- The real optimal time is when *the builder's specific audience* is awake and active — not a generic chart.
+- The real optimal time is when *the builder's specific audience* is awake and active - not a generic chart.
 - A platform's own analytics ("when your followers are online"), and a community's visible activity pattern, beat any published best-time list.
 - Optimize for the **audience's timezone**, not the builder's. A builder in Auckland launching to a US audience posts on US clock time.
 - Re-verify current platform norms at launch time (see the Current-Rule Check in `launch-workflow.md`).
@@ -38,14 +38,14 @@ Fewer, well-fit platforms the builder can actually host beat a full sweep they c
 
 Anchor each to the audience's timezone. Where a platform has a hard mechanic (Product Hunt's daily reset), respect the mechanic first.
 
-- **Product Hunt** — Launches run on a 24-hour cycle that resets at **12:01 AM PT**. Posting at or just after 12:01 AM PT gives the full day on the board. Weekdays (Tue–Thu) bring the most traffic but the most competition; weekends are quieter both ways. Decide that tradeoff with the builder. The builder must be awake and replying through the day, so a launch in their deep night is a real cost to weigh.
-- **Show HN** — Aim for when HN's US-heavy audience is active: roughly weekday **US mornings, ~7–10 AM PT / 10 AM–1 PM ET**. Higher traffic also means more competing posts, so being present to reply for the first few hours matters more than hitting an exact minute. Never post and leave.
-- **Reddit / communities** — Timing is per-subreddit, not global. Aim for the target community's peak activity (often US morning and evening for US-centric subs), but verify the specific sub. Re-read the sub's rules in-app right before posting.
-- **LinkedIn** — Professional audience: weekday **Tue–Thu, mid-morning in the audience's business timezone (~8–10 AM local)** is a common default. Pre-scheduling is fine; LinkedIn does not need live hosting the way HN does.
-- **X/Twitter** — Favor weekday **US daytime windows** for a US audience, and spread a sequence across the day rather than dumping it at once. Reply windows matter more than the exact minute — schedule around when the builder can actually engage.
-- **GitHub release** — Timing is about **sequencing**, not a magic hour: publish the release before the Show HN / Product Hunt post so every link resolves to something real.
-- **Newsletters / podcasts / email pitches** — Async. Send **Tue–Thu mornings in the recipient's timezone** as a default; the reply, not the send-minute, is what matters.
-- **Direct DMs** — Async and personal. Send during the recipient's waking hours; personalization beats timing every time.
+- **Product Hunt** - Launches run on a 24-hour cycle that resets at **12:01 AM PT**. Posting at or just after 12:01 AM PT gives the full day on the board. Weekdays (Tue–Thu) bring the most traffic but the most competition; weekends are quieter both ways. Decide that tradeoff with the builder. The builder must be awake and replying through the day, so a launch in their deep night is a real cost to weigh.
+- **Show HN** - Aim for when HN's US-heavy audience is active: roughly weekday **US mornings, ~7–10 AM PT / 10 AM–1 PM ET**. Higher traffic also means more competing posts, so being present to reply for the first few hours matters more than hitting an exact minute. Never post and leave.
+- **Reddit / communities** - Timing is per-subreddit, not global. Aim for the target community's peak activity (often US morning and evening for US-centric subs), but verify the specific sub. Re-read the sub's rules in-app right before posting.
+- **LinkedIn** - Professional audience: weekday **Tue–Thu, mid-morning in the audience's business timezone (~8–10 AM local)** is a common default. Pre-scheduling is fine; LinkedIn does not need live hosting the way HN does.
+- **X/Twitter** - Favor weekday **US daytime windows** for a US audience, and spread a sequence across the day rather than dumping it at once. Reply windows matter more than the exact minute - schedule around when the builder can actually engage.
+- **GitHub release** - Timing is about **sequencing**, not a magic hour: publish the release before the Show HN / Product Hunt post so every link resolves to something real.
+- **Newsletters / podcasts / email pitches** - Async. Send **Tue–Thu mornings in the recipient's timezone** as a default; the reply, not the send-minute, is what matters.
+- **Direct DMs** - Async and personal. Send during the recipient's waking hours; personalization beats timing every time.
 
 ## Timezone Strategy
 
@@ -54,13 +54,13 @@ Anchor each to the audience's timezone. Where a platform has a hard mechanic (Pr
 - When the optimal audience window lands in the builder's night, surface the tradeoff honestly and offer two options:
   1. **Post live at the awkward local hour** on surfaces that need live replies (Show HN, Reddit, Product Hunt).
   2. **Pre-schedule and reply asynchronously**, checking in across the builder's waking hours.
-- Watch for rare wins: sometimes one platform's optimal slot (e.g. LinkedIn for the builder's own network, or a Product Hunt reset) lands neatly in the builder's daytime — take those live.
+- Watch for rare wins: sometimes one platform's optimal slot (e.g. LinkedIn for the builder's own network, or a Product Hunt reset) lands neatly in the builder's daytime - take those live.
 
 ## Live Vs Pre-Scheduled
 
 - **Post live** where the builder must host the conversation and reply fast: Show HN, Reddit/community threads, Product Hunt.
 - **Pre-schedule** the broadcast posts that do not need immediate back-and-forth: the X sequence, the LinkedIn post. Use each platform's **native scheduler** where possible.
-- The point of pre-scheduling is to free the builder to host the live threads, not to automate away their presence. The agent drafts and the builder schedules and posts — no auto-posting on the builder's behalf.
+- The point of pre-scheduling is to free the builder to host the live threads, not to automate away their presence. The agent drafts and the builder schedules and posts - no auto-posting on the builder's behalf.
 
 ## Waves And Spacing
 

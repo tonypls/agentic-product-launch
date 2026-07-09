@@ -1,27 +1,27 @@
-# Channel Copy — Agentic Product Launch (self-launch)
+# Channel Copy - Agentic Product Launch (self-launch)
 
 > Worked example produced by the skill. Fill `[@handle]` and `[HN link]` placeholders before posting. Every draft: maker disclosed, no vote requests, one specific feedback ask.
 >
-> **How to use this file.** Each title and each post sits in its own copy block — hit the copy button in the block's top-right and paste. Everything outside the blocks (headings, reminders) is for you, not for posting. Times are **NZST** (Auckland) with the US target in parentheses; full schedule in `launch-log.md`. The launch runs in one awake block from ~7:30 AM NZST Wed 2026-07-08 (= US Tuesday afternoon): **post Show HN, r/ClaudeAI, and r/SideProject live** so you're there to reply; **pre-schedule the five X posts and the LinkedIn post** in each platform's native scheduler.
+> **How to use this file.** Each title and each post sits in its own copy block - hit the copy button in the block's top-right and paste. Everything outside the blocks (headings, reminders) is for you, not for posting. Times are **NZST** (Auckland) with the US target in parentheses; full schedule in `launch-log.md`. The launch runs in one awake block from ~7:30 AM NZST Wed 2026-07-08 (= US Tuesday afternoon): **post Show HN, r/ClaudeAI, and r/SideProject live** so you're there to reply; **pre-schedule the five X posts and the LinkedIn post** in each platform's native scheduler.
 >
 > **Before every community post: re-read that community's current rules in-app.**
 
-## Show HN — PRIMARY
+## Show HN - PRIMARY
 
 Post **live** ~7:30 AM NZST Wed (= Tue 12:30 PM PT / 3:30 PM ET). Be in the thread to answer.
 
-**Title** — paste into the title field (74 chars):
+**Title** - paste into the title field (74 chars):
 
 ```text
 Show HN: A launch playbook your coding agent can run – it launched itself
 ```
 
-**Post** — paste into the text field:
+**Post** - paste into the text field:
 
 ```text
 Hi HN, I'm Tony. I built an open-source launch playbook that runs as a coding-agent skill (Claude Code command included, Codex-compatible), for builders who ship things but have no audience.
 
-The problem: agents made shipping cheap, so people like me ship constantly — and then the project dies with a single tweet. The distribution knowledge exists in scattered blog posts, but none of it is executable.
+The problem: agents made shipping cheap, so people like me ship constantly - and then the project dies with a single tweet. The distribution knowledge exists in scattered blog posts, but none of it is executable.
 
 How it works: the workflow lives in one portable markdown file (launch-workflow.md). Platform adapters are thin wrappers that point at it, so Claude Code and Codex run the identical process. You run /launch-project on your repo and the agent walks a readiness gate (can a stranger understand it in 10 seconds? does the first-run path work? license? analytics?), writes the one-sentence story, maps communities where your users already are with permission scoring, drafts channel-native copy, and sets up launch-day ops files. Everything lands as markdown in your repo.
 
@@ -29,83 +29,83 @@ The dogfood test: I had it launch itself. It flagged its own repo for a missing 
 
 Opinionated part: it refuses to recommend upvote requests, undisclosed promotion, engagement pods, or scraped DM blasts. The agent drafts; a human posts and discloses. I think agent-assisted launches only stay viable if they're rule-respecting, and I'd rather encode that than pretend otherwise.
 
-Repo: https://github.com/tonypls/agentic-product-launch (MIT, no signup, works without the agent too — the playbook and templates are plain markdown)
+Repo: https://github.com/tonypls/agentic-product-launch (MIT, no signup, works without the agent too - the playbook and templates are plain markdown)
 
 I'd love feedback on two things: where the readiness gate is wrong or missing checks you'd insist on, and whether the borrowed-relevance model (launch through communities that already gather around the problem) matches your experience of launching with no audience. Happy to answer anything about the design.
 ```
 
-## Reddit — r/ClaudeAI
+## Reddit - r/ClaudeAI
 
 Post **live** ~8:00 AM NZST Wed (= Tue 1:00 PM PT / 4:00 PM ET), after re-checking the sub's rules in-app. Reply through your morning.
 
-**Title** — paste into the title field:
+**Title** - paste into the title field:
 
 ```text
-I made a Claude Code skill that runs a full product launch — and had it launch its own repo
+I made a Claude Code skill that runs a full product launch - and had it launch its own repo
 ```
 
-**Body** — paste into the text field:
+**Body** - paste into the text field:
 
 ```text
-Hi all — I'm Tony, I built this. Posting because it's a Claude Code skill and this sub is exactly who it's for; I checked the rules before posting.
+Hi all - I'm Tony, I built this. Posting because it's a Claude Code skill and this sub is exactly who it's for; I checked the rules before posting.
 
 The problem I kept seeing (and having): people here ship side projects constantly, but launching them is a separate skill nobody has time to learn. So the launch is one tweet, three visits, done.
 
 The skill (/launch-project) walks the whole thing: readiness gate first (it caught my own repo missing a license and a GitHub description), then a one-sentence story, an audience map scored by relevance and permission, channel-native copy drafts, and launch-day ops files. All output is markdown in your repo. It's a portable workflow file at the core, so the same process runs on Codex too.
 
-Meta part: the launch artifacts for the repo itself — including the copy for this post — were produced by the skill. They're committed in docs/launches/ so you can see real output before running anything.
+Meta part: the launch artifacts for the repo itself - including the copy for this post - were produced by the skill. They're committed in docs/launches/ so you can see real output before running anything.
 
 Repo (MIT, free): https://github.com/tonypls/agentic-product-launch
 
-Even if you don't use it, the launch-workflow.md file is a readable checklist of what "ready to launch" actually means — that part works with zero tooling.
+Even if you don't use it, the launch-workflow.md file is a readable checklist of what "ready to launch" actually means - that part works with zero tooling.
 
 Feedback I'm looking for: if you've launched a side project from a zero-follower account, what actually moved the needle that this workflow is missing? And if you run the skill, where does its output feel generic instead of specific to your project? I'll be in the comments all day.
 ```
 
-## Reddit — r/SideProject variant
+## Reddit - r/SideProject variant
 
 Post **live** ~10:30 AM NZST Wed (= Tue 3:30 PM PT / 6:30 PM ET), after re-checking the sub's rules in-app.
 
-**Title** — paste into the title field:
+**Title** - paste into the title field:
 
 ```text
-My side project is a launch playbook for people with no audience — here's it launching itself
+My side project is a launch playbook for people with no audience - here's it launching itself
 ```
 
-**Body** — paste into the text field:
+**Body** - paste into the text field:
 
 ```text
 Hi, I'm Tony, maker of this.
 
-Every project I shipped died the same way: build for weeks, launch to nobody, move on. The fix that finally worked for me wasn't "build an audience" (years) — it was borrowing audiences that already exist: the subreddits, newsletters, lists, and communities that already gather around your problem, approached by their rules.
+Every project I shipped died the same way: build for weeks, launch to nobody, move on. The fix that finally worked for me wasn't "build an audience" (years) - it was borrowing audiences that already exist: the subreddits, newsletters, lists, and communities that already gather around your problem, approached by their rules.
 
 I turned that into an open-source playbook + agent skill. If you use Claude Code or Codex, your agent literally runs it: readiness check, audience map, per-channel copy, launch-day plan. If you don't, it's all plain markdown you can follow by hand.
 
 Proof it's not vaporware: the repo's own launch (including this post) was produced by the skill, artifacts committed in the repo.
 
-https://github.com/tonypls/agentic-product-launch — free, MIT.
+https://github.com/tonypls/agentic-product-launch - free, MIT.
 
 What I'd genuinely like from this sub: tell me the last place you launched something as an unknown and what happened. I'm collecting failure patterns for the playbook's anti-patterns section and will credit contributors.
 ```
 
-## X/Twitter — pre-schedule the sequence
+## X/Twitter - pre-schedule the sequence
 
 Queue all five in X's native scheduler (NZST times; US target in parens). Reply to responses when you surface from the HN/Reddit threads.
 
-**Post 1** — ~7:30 AM NZST (= Tue 3:30 PM ET) · attach `video/demo.gif`:
+**Post 1** - ~7:30 AM NZST (= Tue 3:30 PM ET) · attach `video/demo.gif`:
 
-![Launch demo GIF — one command turns a repo into a filled launch kit](video/demo.gif)
+![Launch demo GIF - one command turns a repo into a filled launch kit](video/demo.gif)
 
 ```text
 You shipped it. Nobody saw it.
 
-I built an open-source launch playbook your coding agent can run — /launch-project takes a repo from "done" to launched: readiness gate, audience map, channel copy, launch-day plan.
+I built an open-source launch playbook your coding agent can run - /launch-project takes a repo from "done" to launched: readiness gate, audience map, channel copy, launch-day plan.
 
 It launched itself. Artifacts in the repo:
 github.com/tonypls/agentic-product-launch
 ```
 
-**Post 2** — ~8:30 AM NZST (= Tue 4:30 PM ET) · attach `video/still-action.png`:
+**Post 2** - ~8:30 AM NZST (= Tue 4:30 PM ET) · attach `video/still-action.png`:
 
 ![Readiness gate catching the missing license and empty GitHub description](video/still-action.png)
 
@@ -117,9 +117,9 @@ Before writing any copy, it audits the repo like a stranger would. It caught its
 Most launches fail before the first post. That's the point.
 ```
 
-**Post 3** — ~10:00 AM NZST (= Tue 6:00 PM ET) · attach `video/still-audience-map.png`:
+**Post 3** - ~10:00 AM NZST (= Tue 6:00 PM ET) · attach `video/still-audience-map.png`:
 
-![Audience map — communities scored by relevance and permission](video/still-audience-map.png)
+![Audience map - communities scored by relevance and permission](video/still-audience-map.png)
 
 ```text
 No audience? Borrow one.
@@ -129,13 +129,13 @@ The playbook's whole model: find communities that already gather around your pro
 No vote-begging. No DM blasts. It refuses to draft those.
 ```
 
-**Post 4** — ~11:30 AM NZST (= Tue 7:30 PM ET) · replace [HN link] before scheduling:
+**Post 4** - ~11:30 AM NZST (= Tue 7:30 PM ET) · replace [HN link] before scheduling:
 
 ```text
-It's on Show HN today — come tell me where the readiness checklist is wrong: [HN link]
+It's on Show HN today - come tell me where the readiness checklist is wrong: [HN link]
 ```
 
-**Post 5** — ~1:00 PM NZST (= Tue 9:00 PM ET) · fill the brackets from the day's results:
+**Post 5** - ~1:00 PM NZST (= Tue 9:00 PM ET) · fill the brackets from the day's results:
 
 ```text
 Launch day, run by the playbook that was launching: [top metric], [best question asked], [what I'm fixing tomorrow].
@@ -143,33 +143,33 @@ Launch day, run by the playbook that was launching: [top metric], [best question
 The playbook says publish a recap within 48h. Practicing what it preaches.
 ```
 
-## LinkedIn — NZ/Copenhagen-timed
+## LinkedIn - NZ/Copenhagen-timed
 
 Pre-schedule for ~8:30 AM NZST Wed (Auckland workday start; ~10:30 PM Copenhagen). This is the one post timed for your own network, not the US. To prioritise Copenhagen's morning instead, schedule for ~7:00 PM NZST (= 9:00 AM CEST).
 
 ```text
 I launched something unusual today: a launch playbook that launched itself.
 
-Agentic coding tools made shipping cheap. I watch builders (myself included) ship in a weekend what used to take a quarter — and then get zero users, because distribution is still a specialist skill nobody budgeted for.
+Agentic coding tools made shipping cheap. I watch builders (myself included) ship in a weekend what used to take a quarter - and then get zero users, because distribution is still a specialist skill nobody budgeted for.
 
 So I built the distribution half as code: an open-source playbook that runs as a skill inside Claude Code or Codex. Your agent checks the product is actually launch-ready, finds the communities where your users already are, drafts copy that respects each platform's rules, and sets up your launch-day operations.
 
 What it does today:
 - Readiness gate before any promotion (it caught its own repo's missing license)
-- Audience map scored by relevance and permission — no spam, no vote requests, maker always disclosed
+- Audience map scored by relevance and permission - no spam, no vote requests, maker always disclosed
 - Channel-native drafts for Show HN, Reddit, Product Hunt, and direct outreach
 - Launch-day schedule, reply bank, and post-launch recap
 
-What I learned building it: the highest-leverage launch work happens before the launch post — the readiness gate and the audience map do more than any clever copy.
+What I learned building it: the highest-leverage launch work happens before the launch post - the readiness gate and the audience map do more than any clever copy.
 
-It's free and MIT-licensed. The repo's own launch artifacts are committed in the repo, produced by the skill — inspect before you trust it.
+It's free and MIT-licensed. The repo's own launch artifacts are committed in the repo, produced by the skill - inspect before you trust it.
 
 If you're a builder sitting on something shipped-but-unseen, I'd value your feedback on the readiness checklist: what would you add?
 
 https://github.com/tonypls/agentic-product-launch
 ```
 
-## GitHub Release Notes — v0.1.0
+## GitHub Release Notes - v0.1.0
 
 Publish after merge, before Show HN.
 
@@ -180,108 +180,108 @@ First public release. A launch playbook your coding agent can run.
 
 ## What's inside
 
-- **Portable workflow** (`skills/launch-project/references/launch-workflow.md`) — the single source of truth: readiness gate, one-sentence story, proof pack, launch video flow, borrowed-audience mapping, channel selection, channel-native copy, launch-day ops, post-launch compounding.
-- **Claude Code command** (`.claude/commands/launch-project.md`) and **Codex-compatible skill** (`skills/launch-project/SKILL.md`) — thin adapters over the same workflow.
-- **Human playbook** (`PLAYBOOK.md`) — the full operating manual, no agent required.
-- **Fill-in templates** (`templates/`) — launch brief, video brief, audience map, channel copy, launch log, reply bank, post-launch recap.
-- **Worked example** (`docs/launches/2026-07-07-self-launch/`) — this repo's own launch, produced by running the skill on itself.
+- **Portable workflow** (`skills/launch-project/references/launch-workflow.md`) - the single source of truth: readiness gate, one-sentence story, proof pack, launch video flow, borrowed-audience mapping, channel selection, channel-native copy, launch-day ops, post-launch compounding.
+- **Claude Code command** (`.claude/commands/launch-project.md`) and **Codex-compatible skill** (`skills/launch-project/SKILL.md`) - thin adapters over the same workflow.
+- **Human playbook** (`PLAYBOOK.md`) - the full operating manual, no agent required.
+- **Fill-in templates** (`templates/`) - launch brief, video brief, audience map, channel copy, launch log, reply bank, post-launch recap.
+- **Worked example** (`docs/launches/2026-07-07-self-launch/`) - this repo's own launch, produced by running the skill on itself.
 
 ## Honest limits
 
-- Guidance, not guarantees; platform rules drift — the workflow tells you to re-verify official rules at launch time.
+- Guidance, not guarantees; platform rules drift - the workflow tells you to re-verify official rules at launch time.
 - Video capture requires a builder or an agent with media tools; the skill always produces the production package (script, shot list, cutdown specs).
 - The skill drafts; a human posts. It will not automate posting, and it refuses vote-request and spam patterns by design.
 
 MIT. Feedback via Issues; repeated questions become playbook updates.
 ```
 
-## Product Hunt — WAVE 2
+## Product Hunt - WAVE 2
 
-Tue 2026-07-14, 12:01 AM PT = **7:01 PM NZST** (a rare NZ-friendly slot — run it live all evening).
+Tue 2026-07-14, 12:01 AM PT = **7:01 PM NZST** (a rare NZ-friendly slot - run it live all evening).
 
-**Listing assets** — generated 2026-07-09, in `video/` next to this file:
+**Listing assets** - generated 2026-07-09, in `video/` next to this file:
 
-- Thumbnail (240×240, under 2MB): `video/ph-thumbnail.gif` (the `/launch-project` command typing out, 2.5s loop) or `video/ph-thumbnail.png` (static) — pick one at upload; the GIF stands out in the feed.
-- Gallery (upload in this order — the first image becomes the social preview when the link is shared): `ph-gallery-01.png` (title card over the real launch-kit file list) → `02` (live agent run) → `03` (readiness gaps caught) → `04` (audience map) → `05` (channel copy). Add the 61s master (`agentic-product-launch-demo.mp4`) as the gallery video.
+- Thumbnail (240×240, under 2MB): `video/ph-thumbnail.gif` (the `/launch-project` command typing out, 2.5s loop) or `video/ph-thumbnail.png` (static) - pick one at upload; the GIF stands out in the feed.
+- Gallery (upload in this order - the first image becomes the social preview when the link is shared): `ph-gallery-01.png` (title card over the real launch-kit file list) → `02` (live agent run) → `03` (readiness gaps caught) → `04` (audience map) → `05` (channel copy). Add the 61s master (`agentic-product-launch-demo.mp4`) as the gallery video.
 
-**Tagline** — paste into the tagline field (46 chars):
+**Tagline** - paste into the tagline field (46 chars):
 
 ```text
 The launch playbook your coding agent can run
 ```
 
-**Description** — paste into the description field:
+**Description** - paste into the description field:
 
 ```text
-Agentic Product Launch helps builders with no audience take a shipped AI product, agent, SaaS, or devtool from ready to launched. Your coding agent runs it: readiness gate, borrowed-audience map, channel-native copy, launch-day ops. Open source, MIT, plain markdown — works by hand too.
+Agentic Product Launch helps builders with no audience take a shipped AI product, agent, SaaS, or devtool from ready to launched. Your coding agent runs it: readiness gate, borrowed-audience map, channel-native copy, launch-day ops. Open source, MIT, plain markdown - works by hand too.
 ```
 
-**First Comment** — paste as your first comment on the launch:
+**First Comment** - paste as your first comment on the launch:
 
 ```text
 Hey Product Hunt,
 
-I'm Tony, the maker. Agentic Product Launch is an open-source playbook that runs as a coding-agent skill (Claude Code, Codex) and takes a project from "shipped" to "launched in front of the right people" — built for builders with no existing audience.
+I'm Tony, the maker. Agentic Product Launch is an open-source playbook that runs as a coding-agent skill (Claude Code, Codex) and takes a project from "shipped" to "launched in front of the right people" - built for builders with no existing audience.
 
 I built it because agents made shipping easy and launching stayed hard. The current version:
 
 - Audits launch readiness before any promotion (it flagged its own repo's missing license)
 - Maps communities where your users already gather, scored by relevance and permission
-- Drafts channel-native copy — and refuses vote-request/spam patterns by design
+- Drafts channel-native copy - and refuses vote-request/spam patterns by design
 - Sets up launch-day schedule, reply bank, and post-launch recap
 
 It's best for indie builders shipping with AI tools. It's probably not right for teams with a marketing function or products whose users aren't reachable through communities.
 
-Proof: it launched itself last week — Show HN thread, artifacts committed in the repo, and I published the recap [link]. This PH launch is wave two, following its own second-wave playbook.
+Proof: it launched itself last week - Show HN thread, artifacts committed in the repo, and I published the recap [link]. This PH launch is wave two, following its own second-wave playbook.
 
-I'd especially love feedback on the readiness checklist: what would you require before letting a friend launch? If you run the skill on your project, tell me where the output feels generic — that's the failure mode I'm hunting.
+I'd especially love feedback on the readiness checklist: what would you require before letting a friend launch? If you run the skill on your project, tell me where the output feels generic - that's the failure mode I'm hunting.
 
 Thanks for taking a look.
 ```
 
 ## Direct Outreach DM
 
-Named contacts only — fill from `audience-map.md`. Async, so timing is flexible; send during your waking hours.
+Named contacts only - fill from `audience-map.md`. Async, so timing is flexible; send during your waking hours.
 
 ```text
-Hey [name] — saw you shipped [their project] recently. That's exactly the situation I built this for.
+Hey [name] - saw you shipped [their project] recently. That's exactly the situation I built this for.
 
 I just open-sourced a launch playbook that runs as a Claude Code/Codex skill: /launch-project on your repo → readiness gaps, audience map, channel copy, launch-day plan. It launched its own repo last week (artifacts are committed in it, unedited).
 
-No pressure at all — but if [their project] is still looking for its first users, I'd genuinely value hearing where the skill's output feels generic vs. useful on a real project that isn't mine: https://github.com/tonypls/agentic-product-launch
+No pressure at all - but if [their project] is still looking for its first users, I'd genuinely value hearing where the skill's output feels generic vs. useful on a real project that isn't mine: https://github.com/tonypls/agentic-product-launch
 ```
 
 ## Newsletter / Podcast Pitch
 
-Latent Space, IH newsletter, Claude Code YouTubers. Async email — send during your working hours.
+Latent Space, IH newsletter, Claude Code YouTubers. Async email - send during your working hours.
 
-**Subject** — paste into the subject field:
+**Subject** - paste into the subject field:
 
 ```text
 A launch playbook that launched itself (agent-runnable, open source)
 ```
 
-**Body** — paste into the email body:
+**Body** - paste into the email body:
 
 ```text
 Hi [name],
 
-Your coverage of [specific piece — e.g., agentic coding workflows] is why I think this fits your audience: the bottleneck for agentic builders has moved from shipping to distribution, and almost nobody covers that half.
+Your coverage of [specific piece - e.g., agentic coding workflows] is why I think this fits your audience: the bottleneck for agentic builders has moved from shipping to distribution, and almost nobody covers that half.
 
-I open-sourced a launch playbook that runs as a coding-agent skill (Claude Code + Codex). The angle that might interest [audience]: I dogfooded it by having it launch its own repo — readiness audit, audience mapping, channel copy, launch-day ops — and committed the unedited artifacts. It caught its own missing license before drafting a word of promotion. The Show HN thread and a transparent recap with real numbers are public.
+I open-sourced a launch playbook that runs as a coding-agent skill (Claude Code + Codex). The angle that might interest [audience]: I dogfooded it by having it launch its own repo - readiness audit, audience mapping, channel copy, launch-day ops - and committed the unedited artifacts. It caught its own missing license before drafting a word of promotion. The Show HN thread and a transparent recap with real numbers are public.
 
-It's not just an announcement: the piece your audience would learn from is "what happens when an agent runs a rules-respecting launch end to end" — including where the output was generic and a human had to take over.
+It's not just an announcement: the piece your audience would learn from is "what happens when an agent runs a rules-respecting launch end to end" - including where the output was generic and a human had to take over.
 
 Repo + artifacts: https://github.com/tonypls/agentic-product-launch
 Recap with numbers: [link after 2026-07-10]
 
-Happy to send a founder note, the before/after metrics, or do a guided run on any repo you pick — live, unedited.
+Happy to send a founder note, the before/after metrics, or do a guided run on any repo you pick - live, unedited.
 ```
 
 ## awesome-list PR description
 
-Per-list — follow each list's CONTRIBUTING.md.
+Per-list - follow each list's CONTRIBUTING.md.
 
 ```text
-Add Agentic Product Launch — an MIT-licensed launch playbook that runs as a /launch-project skill: readiness gate, audience mapping, channel-native launch copy, and launch-day ops for builders shipping with agents. Includes a committed worked example (the repo launching itself).
+Add Agentic Product Launch - an MIT-licensed launch playbook that runs as a /launch-project skill: readiness gate, audience mapping, channel-native launch copy, and launch-day ops for builders shipping with agents. Includes a committed worked example (the repo launching itself).
 ```

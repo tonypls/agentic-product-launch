@@ -1,16 +1,16 @@
 # Agent-Recorded Capture Runbook
 
-This is the optional runbook for **agent-recorded capture**: the builder opts in to the agent recording the launch video itself instead of recording by hand. The contract is still the production package defined in `skills/launch-project/references/launch-workflow.md` ("Create The Launch Video"); this file is one concrete way for an agent with media tools to execute the capture and assembly steps. `video-production.md` stays the spec for lengths, aspect ratios, and edit rules — do not duplicate its per-channel table here.
+This is the optional runbook for **agent-recorded capture**: the builder opts in to the agent recording the launch video itself instead of recording by hand. The contract is still the production package defined in `skills/launch-project/references/launch-workflow.md` ("Create The Launch Video"); this file is one concrete way for an agent with media tools to execute the capture and assembly steps. `video-production.md` stays the spec for lengths, aspect ratios, and edit rules - do not duplicate its per-channel table here.
 
 ## When To Use This
 
 - Use it when the builder has opted in to agent recording and the agent has (or can be granted) capture tools for the product's surface.
-- Skip it when the builder prefers to record, or when preflight blockers cannot be removed — fall back to handing the builder the shot list, which is always a valid path.
+- Skip it when the builder prefers to record, or when preflight blockers cannot be removed - fall back to handing the builder the shot list, which is always a valid path.
 - Treat every tool and command below as a working default, not a requirement. Any toolchain that captures the real product honestly is fine.
 
 ## Capture Preflight
 
-Run this before recording anything. Write the results into the Capture Plan section of `templates/video-brief.md`, then report every unmet check to the builder — each one is a blocker only the builder can remove or explicitly waive.
+Run this before recording anything. Write the results into the Capture Plan section of `templates/video-brief.md`, then report every unmet check to the builder - each one is a blocker only the builder can remove or explicitly waive.
 
 | Check | Why it matters | Typical fix (builder) |
 | --- | --- | --- |
@@ -32,7 +32,7 @@ One recommended default per surface, with alternates. Examples, not requirements
 | --- | --- | --- | --- |
 | Web app | Playwright script, headed, with `recordVideo` | Deterministic takes scripted straight from the shot list; retakes are free | Browser-automation or computer-use tool driving real Chrome, paired with an OS screen recorder for real-cursor footage |
 | CLI or devtool | VHS `.tape` script | Deterministic terminal recordings that export MP4 and GIF directly | asciinema + agg for GIF; OS screen recorder over a clean terminal |
-| Desktop app | OS screen recorder — on macOS `screencapture -v out.mov` | Built in; captures the real app | ffmpeg device capture (`avfoundation`, `gdigrab`, `x11grab`); OBS |
+| Desktop app | OS screen recorder - on macOS `screencapture -v out.mov` | Built in; captures the real app | ffmpeg device capture (`avfoundation`, `gdigrab`, `x11grab`); OBS |
 | Mobile app | Simulator or emulator recording: `xcrun simctl io booted recordVideo out.mov`, `adb shell screenrecord` | Clean frames, no hands or glare | Screen mirroring plus an OS recorder |
 
 Web capture defaults (Playwright):
@@ -69,7 +69,7 @@ Sleep 4s
 - Record one take per shot-list row; name files after the row (`takes/shot-01.webm`) and keep raw takes until the master cut ships.
 - Drive at human pace, and hold on the result long enough to read it (about 2 seconds).
 - Capture padding at both ends of every take; trimming is cheap, recapturing is not.
-- Retake a failed shot rather than editing around it — unless the failure is the honest story.
+- Retake a failed shot rather than editing around it - unless the failure is the honest story.
 - Verify every take before moving on: check duration with `ffprobe`, extract a frame, and confirm the moment is on screen and legible.
 
 ## Assemble With ffmpeg
@@ -92,14 +92,14 @@ ffmpeg -i master.mp4 -vf "fps=12,scale=960:-1:flags=lanczos,split[a][b];[a]palet
 # Before/action/result stills, pulled from the same footage
 ffmpeg -ss 4 -i master.mp4 -frames:v 1 still-action.png
 
-# Product Hunt gallery frame (1270x760 default); make gallery-01 the core moment — it becomes the social preview
+# Product Hunt gallery frame (1270x760 default); make gallery-01 the core moment - it becomes the social preview
 ffmpeg -ss 4 -i master.mp4 -frames:v 1 -vf "scale=1270:760:force_original_aspect_ratio=increase,crop=1270:760" gallery-01.png
 
 # Product Hunt thumbnail (240x240, max 2MB): static from the product mark...
 ffmpeg -i logo.png -vf "scale=240:240:force_original_aspect_ratio=decrease,pad=240:240:-1:-1:color=white" ph-thumbnail.png
 
 # ...or a short animated GIF loop; aim the crop at one legible element (a full screen
-# shrunk to 240 reads as noise — pass x:y offsets to crop, or crop a smaller region), then check it stays under 2MB
+# shrunk to 240 reads as noise - pass x:y offsets to crop, or crop a smaller region), then check it stays under 2MB
 ffmpeg -ss 4 -t 3 -i master.mp4 -vf "crop='min(iw,ih)':'min(iw,ih)',scale=240:240:flags=lanczos,fps=10,split[a][b];[a]palettegen[p];[b][p]paletteuse" ph-thumbnail.gif
 
 # Square cutdown example; lengths and ratios per channel are in video-production.md
@@ -114,7 +114,7 @@ ffmpeg -i master.mp4 -i voiceover.m4a -map 0:v -map 1:a -c:v copy -shortest mast
 - `ffprobe` the master cut: length lands inside the 30 to 90 second target.
 - Extract start, middle, and end frames and look at them: captions legible, core moment visible, nothing private on screen.
 - View the GIF at README width, not full screen.
-- Check the launch images: the thumbnail is 240×240 and under 2MB (`ls -lh`), at least 3 gallery images exist at the target size, and the first gallery image reads as a social card — core moment visible, text legible at feed width.
+- Check the launch images: the thumbnail is 240×240 and under 2MB (`ls -lh`), at least 3 gallery images exist at the target size, and the first gallery image reads as a social card - core moment visible, text legible at feed width.
 - Fill in Asset Status, Launch Images, and Honesty Check in `templates/video-brief.md`, and list anything not captured as an open blocker for the builder.
 
 ## Honesty Rules For Agent-Recorded Footage

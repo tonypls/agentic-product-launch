@@ -23,7 +23,7 @@ Current draft:
 
 ## Voice & Story
 
-Raw material for co-writing launch copy. Answer as yourself — real phrasing, real specifics. Everything drafted later pulls from here (see `skills/launch-project/references/co-writing-guide.md`).
+Raw material for co-writing launch copy. Answer as yourself - real phrasing, real specifics. Everything drafted later pulls from here (see `skills/launch-project/references/co-writing-guide.md`).
 
 - How you told a friend about this (paste the actual message):
 - The exact moment you decided to build it:
