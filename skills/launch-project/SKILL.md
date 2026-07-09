@@ -19,6 +19,8 @@ Read `references/launch-workflow.md` before doing launch work. It is the portabl
 
 Read `references/co-writing-guide.md` when co-writing channel copy, outreach, replies, or recap text. It is an interview script and guardrails, not fill-in templates.
 
+Read `references/tone-guide.md` alongside it before drafting or revising any public-facing copy. It sets the register, the tired-word bans, and how to build a tone profile from writing the builder has already done — including reference copy the builder pastes in so drafts match their real style.
+
 Read `references/scheduling.md` when choosing which platforms fit the project and the optimal time to post to each.
 
 Read `references/video-production.md` for an optional recipe when producing the launch video.

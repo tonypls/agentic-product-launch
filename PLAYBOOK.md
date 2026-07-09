@@ -86,7 +86,7 @@ Pressure-test the sentence:
 - Does the old way feel familiar?
 - Does it match what the product can do today?
 
-Keep narrowing until the story is easy to repeat — and still sounds like you. Capture the raw material in the Voice & Story section of `templates/launch-brief.md`.
+Keep narrowing until the story is easy to repeat — and still sounds like you. Capture the raw material in the Voice & Story section of `templates/launch-brief.md`, and paste a few pieces you've already written — old launch posts, tweets, README intros — into its Reference Copy section so co-written drafts can match how you actually write.
 
 ## Phase 3: Build The Proof Pack
 
@@ -187,7 +187,7 @@ Do not post identical copy everywhere. Each channel has a different social contr
 
 ## Phase 6: Co-Write Channel Copy
 
-Write *with* your agent; don't have it write *for* you. For each platform, answer the interview questions in [skills/launch-project/references/co-writing-guide.md](skills/launch-project/references/co-writing-guide.md), then co-draft from your answers and refine until it sounds like you. Keep the anti-slop rules: real specifics, one honest limitation, one real feedback ask, no hype words you wouldn't say out loud, no vote requests.
+Write *with* your agent; don't have it write *for* you. For each platform, answer the interview questions in [skills/launch-project/references/co-writing-guide.md](skills/launch-project/references/co-writing-guide.md), then co-draft from your answers and refine until it sounds like you. Keep the anti-slop rules: real specifics, one honest limitation, one real feedback ask, no hype words you wouldn't say out loud, no vote requests. The tone rules — matching your past writing via a tone profile, the tired-word list ("opinionated"), no narrating the rules you're following ("disclosing upfront"), no playbook jargon in public copy — live in [skills/launch-project/references/tone-guide.md](skills/launch-project/references/tone-guide.md).
 
 Write within each platform's norms:
 

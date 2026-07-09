@@ -2,7 +2,7 @@
 
 This is a **co-writing workspace**, not a fill-in-the-blank form. For each channel: answer the interview questions in your own words, then write (with your agent) a draft that sounds like *you*. The blank copy blocks are where your co-written draft goes — they start empty on purpose.
 
-See `skills/launch-project/references/co-writing-guide.md` for the full interview + guardrails. Keep the anti-slop rules in mind: real specifics, one honest limitation, one real feedback ask, no hype words you wouldn't say out loud, no vote requests.
+See `skills/launch-project/references/co-writing-guide.md` for the full interview + guardrails. Keep the anti-slop rules in mind: real specifics, one honest limitation, one real feedback ask, no hype words you wouldn't say out loud, no vote requests. For how the copy should *sound* — matched to your past writing via the tone profile, no tired words ("opinionated"), no narrated disclosures ("disclosing upfront"), no playbook jargon in public copy — see `skills/launch-project/references/tone-guide.md`.
 
 **How to use this file.** Each title and each post gets its own copy block so you can hit copy and paste into the platform. Everything outside the blocks — the interview prompts and reminders — is for you, not for posting. The **When** line for each channel comes from `templates/launch-schedule.md`.
 
