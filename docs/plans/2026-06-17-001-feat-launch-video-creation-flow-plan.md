@@ -9,13 +9,13 @@ origin: docs/brainstorms/2026-06-17-product-launch-video-creation-flow-requireme
 
 ## Summary
 
-Add a "create the launch video" flow to the playbook where the launch agent scripts the demo, captures real product footage, and edits it into the full proof-visual family — a 30–90s master cut, a GIF, before/action/result screenshots, and per-channel cutdowns. The flow's behavior lives in the portable source-of-truth workflow and is mirrored into the human manual; an optional worked recipe and a new fill-in template support it. The contract is a capability-agnostic production package that degrades to a builder-records fallback, so it runs on any markdown agent.
+Add a "create the launch video" flow to the playbook where the launch agent scripts the demo, captures real product footage, and edits it into the full proof-visual family - a 30–90s master cut, a GIF, before/action/result screenshots, and per-channel cutdowns. The flow's behavior lives in the portable source-of-truth workflow and is mirrored into the human manual; an optional worked recipe and a new fill-in template support it. The contract is a capability-agnostic production package that degrades to a builder-records fallback, so it runs on any markdown agent.
 
 ---
 
 ## Problem Frame
 
-The playbook already requires a demo video as launch proof (`PLAYBOOK.md` Phase 3) and reduces it to one timeline step, "Record the demo" (Day -9 to -7), but gives no method to produce it — no script, shot list, capture guidance, or editing process. Solo agentic builders, the least likely to have video skills and the most time-pressed at launch, end up skipping the video or shipping a weak one. This plan turns the mandatory-but-unmethodized asset into a runnable flow without breaking the repo's single-source-of-truth portability rule (`docs/solutions/architecture-patterns/portable-workflow-single-source-of-truth.md`).
+The playbook already requires a demo video as launch proof (`PLAYBOOK.md` Phase 3) and reduces it to one timeline step, "Record the demo" (Day -9 to -7), but gives no method to produce it - no script, shot list, capture guidance, or editing process. Solo agentic builders, the least likely to have video skills and the most time-pressed at launch, end up skipping the video or shipping a weak one. This plan turns the mandatory-but-unmethodized asset into a runnable flow without breaking the repo's single-source-of-truth portability rule (`docs/solutions/architecture-patterns/portable-workflow-single-source-of-truth.md`).
 
 ---
 
@@ -50,9 +50,9 @@ Carried from the origin brainstorm (`docs/brainstorms/2026-06-17-product-launch-
 
 ## Key Technical Decisions
 
-- **Behavior in the workflow; everything else derives.** The canonical flow goes in `skills/launch-project/references/launch-workflow.md`. `PLAYBOOK.md` mirrors it for humans, templates capture its outputs, and wrappers reference it. This is the repo's existing parity rule — behavior that lands only in an adapter silently degrades non-canonical agents (`docs/solutions/architecture-patterns/portable-workflow-single-source-of-truth.md`).
-- **Optional recipe lives in its own reference file.** The worked capture/edit/cutdown recipe goes in a new `skills/launch-project/references/video-production.md`, which the workflow points to — mirroring how `copy-templates.md` already sits beside the workflow. Keeps the canonical flow lean and the recipe clearly non-canonical.
-- **The production package is the contract; rendering is capability-gated.** The workflow defines the package any agent can produce. A single gate — "does the agent have media tools?" — routes to agent-capture or a builder-records fallback. Neither rendering path is the contract.
+- **Behavior in the workflow; everything else derives.** The canonical flow goes in `skills/launch-project/references/launch-workflow.md`. `PLAYBOOK.md` mirrors it for humans, templates capture its outputs, and wrappers reference it. This is the repo's existing parity rule - behavior that lands only in an adapter silently degrades non-canonical agents (`docs/solutions/architecture-patterns/portable-workflow-single-source-of-truth.md`).
+- **Optional recipe lives in its own reference file.** The worked capture/edit/cutdown recipe goes in a new `skills/launch-project/references/video-production.md`, which the workflow points to - mirroring how `copy-templates.md` already sits beside the workflow. Keeps the canonical flow lean and the recipe clearly non-canonical.
+- **The production package is the contract; rendering is capability-gated.** The workflow defines the package any agent can produce. A single gate - "does the agent have media tools?" - routes to agent-capture or a builder-records fallback. Neither rendering path is the contract.
 - **Cutdowns bound to the existing channel set.** Per-channel variants map only to the playbook's defined channels (Product Hunt, Show HN, Reddit/community, LinkedIn, X/Twitter, GitHub, newsletter/podcast), preventing an open-ended variant farm.
 - **The honesty rule extends to editing.** Edit guidance forbids fabricated results and hidden latency/failures and requires disclosing time-compression, inherited from the existing AI-product gate and anti-patterns.
 - **No test harness is introduced.** This is a markdown playbook with no automated tests; per-unit "test scenarios" are review-based acceptance and parity checks, not unit tests.
@@ -75,7 +75,7 @@ flowchart TB
   G --> H[Assets enter channel plan]
 ```
 
-**Source-of-truth fan-out** (R7) — the canonical flow feeds every derived surface; wrappers reference rather than copy:
+**Source-of-truth fan-out** (R7) - the canonical flow feeds every derived surface; wrappers reference rather than copy:
 
 ```mermaid
 flowchart TB
@@ -100,16 +100,16 @@ flowchart TB
 - **Approach:** Insert a new step immediately after "3. Build The Proof Pack" (the proof pack lists the assets; this step is the method). Keep it lean: the four-step flow (plan → capture → assemble family → cutdowns), the package fields from R5, the "media tools?" gate with the manual fallback, the honesty constraint, and a one-line pointer to `references/video-production.md` for the optional recipe. Add `templates/video-brief.md` to the "Expected Outputs" mapping. Do not inline the recipe or per-channel specs here.
 - **Patterns to follow:** existing numbered workflow steps (short imperative bullets); the step-6 pointer to `copy-templates.md`; the "Expected Outputs" mapping style.
 - **Test scenarios:**
-  - Covers AE1. A reader with no media tools, reading only this file, can produce the full production package plus a manual shot list — no step requires tooling to produce the package.
+  - Covers AE1. A reader with no media tools, reading only this file, can produce the full production package plus a manual shot list - no step requires tooling to produce the package.
   - Covers AE5. The step names no platform-specific tool as required.
   - Covers AE2, AE3 (contract level). The step names the full family (video, GIF, screenshots) and the bounded cutdown set.
   - The "Expected Outputs" section lists `templates/video-brief.md`.
-  - Test expectation: documentation — verified by review against the above; no automated tests in repo.
+  - Test expectation: documentation - verified by review against the above; no automated tests in repo.
 - **Verification:** A tool-less agent reading only `launch-workflow.md` knows what package to produce and what assets and cutdowns are expected; the recipe is referenced, not inlined.
 
 ### U2. Add the optional video-production reference
 
-- **Goal:** Create the worked recipe — capture approach, edit/assembly guidance, per-channel cutdown specs, and one named reference toolchain — explicitly marked as an optional, non-canonical example.
+- **Goal:** Create the worked recipe - capture approach, edit/assembly guidance, per-channel cutdown specs, and one named reference toolchain - explicitly marked as an optional, non-canonical example.
 - **Requirements:** R4, R6, R8
 - **Dependencies:** U1
 - **Files:** `skills/launch-project/references/video-production.md`
@@ -119,7 +119,7 @@ flowchart TB
   - Covers AE3. The cutdown table lists exactly the playbook's channels, each with a length and aspect target; no channel outside the set.
   - Covers AE4. Edit guidance states the honesty rule (real footage, disclose time-compression, no fabricated results).
   - The doc declares itself optional/non-canonical in its opening.
-  - Test expectation: documentation — verified by review.
+  - Test expectation: documentation - verified by review.
 - **Verification:** An agent with media tools can follow the recipe to render assets; an agent that ignores it still succeeds via the workflow contract alone.
 
 ### U3. Mirror the flow into the human manual and restructure the timeline
@@ -128,12 +128,12 @@ flowchart TB
 - **Requirements:** R1, R7, R9
 - **Dependencies:** U1
 - **Files:** `PLAYBOOK.md`
-- **Approach:** Mirror the workflow flow in human-manual voice under (or right after) Phase 3 "Build The Proof Pack" — parity only, no behavioral step present here but absent from the workflow. In the Phase 7 timeline, replace the "Record the demo" line: put "plan + capture the launch video" in Day -9 to -7 and "assemble cut, GIF, screenshots, and channel cutdowns" in Day -6 to -4 alongside copy work.
+- **Approach:** Mirror the workflow flow in human-manual voice under (or right after) Phase 3 "Build The Proof Pack" - parity only, no behavioral step present here but absent from the workflow. In the Phase 7 timeline, replace the "Record the demo" line: put "plan + capture the launch video" in Day -9 to -7 and "assemble cut, GIF, screenshots, and channel cutdowns" in Day -6 to -4 alongside copy work.
 - **Patterns to follow:** existing `PLAYBOOK.md` phase prose and the Day-range timeline structure.
 - **Test scenarios:**
   - Covers AE5. The manual's video subsection and `launch-workflow.md` describe the same flow with no behavioral step in one but missing from the other.
   - The timeline no longer contains a bare "Record the demo" step; video work spans a capture block and an edit/cutdown block.
-  - Test expectation: documentation — verified by diffing the manual against the workflow for parity.
+  - Test expectation: documentation - verified by diffing the manual against the workflow for parity.
 - **Verification:** A human reading `PLAYBOOK.md` alone can run the flow; the timeline allocates realistic time for capture plus edit plus cutdowns.
 
 ### U4. Add the production-brief template and expand the launch-brief demo section
@@ -142,13 +142,13 @@ flowchart TB
 - **Requirements:** R3, R5, R10, R11
 - **Dependencies:** U1
 - **Files:** `templates/video-brief.md`, `templates/launch-brief.md`
-- **Approach:** `video-brief.md` sections mirror the package fields named in U1 so the template *is* the package: core moment; one-line video story; script/voiceover; caption text; shot list with capture moments; target lengths; per-channel cutdown checklist with length and aspect-ratio targets; asset status (video / GIF / screenshots / cutdowns). In `launch-brief.md`, expand the single "Demo asset:" line into a short block (core moment, script status, shot-list status, cutdown status) linking to `templates/video-brief.md`. Keep it fillable in one sitting — mark optional fields optional (the templates-too-heavy risk).
+- **Approach:** `video-brief.md` sections mirror the package fields named in U1 so the template *is* the package: core moment; one-line video story; script/voiceover; caption text; shot list with capture moments; target lengths; per-channel cutdown checklist with length and aspect-ratio targets; asset status (video / GIF / screenshots / cutdowns). In `launch-brief.md`, expand the single "Demo asset:" line into a short block (core moment, script status, shot-list status, cutdown status) linking to `templates/video-brief.md`. Keep it fillable in one sitting - mark optional fields optional (the templates-too-heavy risk).
 - **Patterns to follow:** `launch-brief.md` field style and placeholder conventions.
 - **Test scenarios:**
   - Every production-package field in the `launch-workflow.md` contract appears in `video-brief.md` (no contract field missing).
   - Covers AE3. The cutdown checklist enumerates the playbook's channels.
   - The launch-brief demo section references `templates/video-brief.md` and is no longer a single bare line.
-  - Test expectation: documentation — verified by review against the contract.
+  - Test expectation: documentation - verified by review against the contract.
 - **Verification:** A builder can fill `video-brief.md` in one sitting and hand it to an agent as the production package.
 
 ### U5. Parity and discoverability sweep
@@ -162,7 +162,7 @@ flowchart TB
 - **Test scenarios:**
   - Covers AE5. Neither wrapper contains video-flow behavior absent from the workflow.
   - `SKILL.md` "Expected Outputs" and `README.md` list the new template and reference.
-  - Test expectation: documentation — verified by review and a grep for duplicated flow phrases across wrappers.
+  - Test expectation: documentation - verified by review and a grep for duplicated flow phrases across wrappers.
 - **Verification:** A user discovering the skill via `README.md` or `SKILL.md` finds the video flow and its template; wrappers remain thin.
 
 ---
@@ -176,13 +176,13 @@ flowchart TB
 
 **Outside this product's identity** (from origin):
 
-- AI-generated or synthetic video (text-to-video, avatar voiceover) — conflicts with showing the real product working.
-- Distributing or posting the video — stays with the existing channel-copy and launch-day flows; this flow only produces assets.
-- Shipping a video editor, renderer, or hosted service as repo software — the playbook is portable markdown guidance.
+- AI-generated or synthetic video (text-to-video, avatar voiceover) - conflicts with showing the real product working.
+- Distributing or posting the video - stays with the existing channel-copy and launch-day flows; this flow only produces assets.
+- Shipping a video editor, renderer, or hosted service as repo software - the playbook is portable markdown guidance.
 
 **Deferred to follow-up work** (plan-local):
 
-- Resolving the pre-existing copy duplication between `references/copy-templates.md` and `templates/channel-copy.md` flagged in `docs/solutions/architecture-patterns/portable-workflow-single-source-of-truth.md` — out of scope here; do not let the video reference/template repeat that pattern.
+- Resolving the pre-existing copy duplication between `references/copy-templates.md` and `templates/channel-copy.md` flagged in `docs/solutions/architecture-patterns/portable-workflow-single-source-of-truth.md` - out of scope here; do not let the video reference/template repeat that pattern.
 
 ---
 

@@ -7,7 +7,7 @@ topic: launch-project-playbook
 
 ## Summary
 
-Create a reusable launch playbook and agent workflow for agentic builders and anyone shipping products with AI — indie SaaS, apps, AI products, AI agents, and developer tools. The system should help a builder with little or no existing following move from "shippable" to a coordinated launch in front of relevant audiences.
+Create a reusable launch playbook and agent workflow for agentic builders and anyone shipping products with AI - indie SaaS, apps, AI products, AI agents, and developer tools. The system should help a builder with little or no existing following move from "shippable" to a coordinated launch in front of relevant audiences.
 
 ---
 
@@ -31,7 +31,7 @@ The desired outcome is not a generic marketing checklist. It is a practical oper
 
 ## Actors
 
-- A1. **Builder.** The person launching the project — often an agentic builder shipping with AI — with little public following and limited launch experience.
+- A1. **Builder.** The person launching the project - often an agentic builder shipping with AI - with little public following and limited launch experience.
 - A2. **Launch assistant.** A human or AI agent helping turn product context into launch assets, schedules, and channel-native copy.
 - A3. **Borrowed audience.** Communities, platforms, creators, maintainers, and direct prospects who already gather around the target user's problem.
 - A4. **Early users and commenters.** People who try the product, ask questions, report bugs, challenge positioning, or become prospects.

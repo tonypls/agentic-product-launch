@@ -1,0 +1,15 @@
+name: No Em Dashes
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check for em dashes
+        run: bash scripts/check-no-em-dashes.sh

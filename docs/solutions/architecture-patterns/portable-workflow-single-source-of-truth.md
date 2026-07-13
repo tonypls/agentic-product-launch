@@ -25,11 +25,11 @@ A code review found three operationally important behaviors had drifted into the
 2. The output template filenames (`templates/*.md`) agents should write into.
 3. The "ask one question only when the missing answer would change the launch plan" qualifier.
 
-Because the Codex wrapper (and any other markdown-reading agent) reaches behavior through the portable workflow, those agents silently lost grounding, wrote outputs to undefined locations, and asked more blocking questions than necessary — even though the workflow was nominally the "source of truth."
+Because the Codex wrapper (and any other markdown-reading agent) reaches behavior through the portable workflow, those agents silently lost grounding, wrote outputs to undefined locations, and asked more blocking questions than necessary - even though the workflow was nominally the "source of truth."
 
 ## Guidance
 
-When a portable workflow is the declared source of truth, **any behavior an agent must perform belongs in the portable workflow itself**, not in a platform adapter. An adapter should carry only what is genuinely platform-specific (invocation syntax, argument plumbing like `$ARGUMENTS`, display metadata) — never workflow behavior.
+When a portable workflow is the declared source of truth, **any behavior an agent must perform belongs in the portable workflow itself**, not in a platform adapter. An adapter should carry only what is genuinely platform-specific (invocation syntax, argument plumbing like `$ARGUMENTS`, display metadata) - never workflow behavior.
 
 A useful test for each line in an adapter: *if a different agent reached this workflow without this adapter, would it still do the right thing?* If the answer is no, the line describes behavior and must move into (or be mirrored from) the portable workflow.
 
@@ -41,12 +41,12 @@ Concrete behaviors that are easy to misplace in an adapter but belong in the por
 
 ## Why This Matters
 
-A "single source of truth" that does not actually contain the behavior is worse than no claim at all: it gives false confidence that every agent reaches parity, while non-canonical agents quietly degrade. The failure is silent — there is no error, just thinner output from Codex than from Claude Code. Portability is only real when the portable file is behaviorally complete; adapters that accrete behavior erode it one convenient edit at a time.
+A "single source of truth" that does not actually contain the behavior is worse than no claim at all: it gives false confidence that every agent reaches parity, while non-canonical agents quietly degrade. The failure is silent - there is no error, just thinner output from Codex than from Claude Code. Portability is only real when the portable file is behaviorally complete; adapters that accrete behavior erode it one convenient edit at a time.
 
 ## When to Apply
 
-- Before adding an instruction to a platform wrapper — check whether it is behavior (goes in the workflow) or plumbing (stays in the wrapper).
-- When reviewing a multi-adapter skill — diff each adapter against the portable workflow and treat any behavior present in one adapter but absent from the workflow as a parity defect.
+- Before adding an instruction to a platform wrapper - check whether it is behavior (goes in the workflow) or plumbing (stays in the wrapper).
+- When reviewing a multi-adapter skill - diff each adapter against the portable workflow and treat any behavior present in one adapter but absent from the workflow as a parity defect.
 
 ## Examples
 
@@ -80,6 +80,6 @@ The Claude command keeps only platform plumbing (`argument-hint`, `$ARGUMENTS` i
 
 ## Related
 
-- PR #1 — "fix(review): close cross-agent parity gaps in portable launch workflow"
-- `AGENTS.md` — declares `launch-workflow.md` the source of truth and the no-duplication rule for wrappers
-- Open follow-up: channel-copy bodies are duplicated between `references/copy-templates.md` and `templates/channel-copy.md`, and `PLAYBOOK.md` mirrors the workflow — both are drift risks tracked separately from this parity fix
+- PR #1 - "fix(review): close cross-agent parity gaps in portable launch workflow"
+- `AGENTS.md` - declares `launch-workflow.md` the source of truth and the no-duplication rule for wrappers
+- Open follow-up: channel-copy bodies are duplicated between `references/copy-templates.md` and `templates/channel-copy.md`, and `PLAYBOOK.md` mirrors the workflow - both are drift risks tracked separately from this parity fix

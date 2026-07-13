@@ -71,12 +71,12 @@ One row per channel this launch uses. Defaults to confirm live are in `skills/la
 
 ## Launch Images
 
-One row per image asset the chosen channels need. Specs are defaults — verify against each platform's live uploader before submitting.
+One row per image asset the chosen channels need. Specs are defaults - verify against each platform's live uploader before submitting.
 
 | Asset | Default spec | Source | Status |
 | --- | --- | --- | --- |
 | Product Hunt thumbnail | 240×240; JPG/PNG/GIF; max 2MB (short GIF loop allowed) |  |  |
-| Product Hunt gallery — first image is the social preview | 3+ images; 1270×760 recommended; lead with the core moment |  |  |
+| Product Hunt gallery - first image is the social preview | 3+ images; 1270×760 recommended; lead with the core moment |  |  |
 | GitHub social preview | 1280×640 |  |  |
 
 ## Asset Status

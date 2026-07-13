@@ -23,7 +23,7 @@ Current draft:
 
 ## Voice & Story
 
-Raw material for co-writing launch copy. Answer as yourself — real phrasing, real specifics. Everything drafted later pulls from here (see `skills/launch-project/references/co-writing-guide.md`).
+Raw material for co-writing launch copy. Answer as yourself - real phrasing, real specifics. Everything drafted later pulls from here (see `skills/launch-project/references/co-writing-guide.md`).
 
 - How you told a friend about this (paste the actual message):
 - The exact moment you decided to build it:
@@ -34,7 +34,7 @@ Raw material for co-writing launch copy. Answer as yourself — real phrasing, r
 
 ### Reference Copy
 
-Paste 3–10 pieces you've already written, so drafts can be matched to how you actually write (see `skills/launch-project/references/tone-guide.md`). Old launch posts, tweets or threads, README intros, blog paragraphs, a long message to another builder — recent beats old, same-channel beats different-channel.
+Paste 3–10 pieces you've already written, so drafts can be matched to how you actually write (see `skills/launch-project/references/tone-guide.md`). Old launch posts, tweets or threads, README intros, blog paragraphs, a long message to another builder - recent beats old, same-channel beats different-channel.
 
 - Sample 1 (where it ran, when):
 - Sample 2 (where it ran, when):

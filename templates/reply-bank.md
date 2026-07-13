@@ -1,6 +1,6 @@
 # Reply Bank
 
-Shapes for common situations, not canned replies. Always answer the actual comment first, in your own words — a copy-pasted reply reads as one. Use these to remember *what* to cover (the honest tradeoff, the specific number), not *how* to phrase it.
+Shapes for common situations, not canned replies. Always answer the actual comment first, in your own words - a copy-pasted reply reads as one. Use these to remember *what* to cover (the honest tradeoff, the specific number), not *how* to phrase it.
 
 ## Pricing
 

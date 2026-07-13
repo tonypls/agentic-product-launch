@@ -11,7 +11,7 @@ User request:
 $ARGUMENTS
 ```
 
-Run this as co-creation, not generation. Coach the best practices, recommend the platforms and optimal posting times that fit this project, and interview the builder so the copy is in their voice. Do not fill placeholder templates and hand back paste-ready posts — draft from the builder's real stories and specifics, and ask for input rather than inventing filler. If the user provides a project URL or repo, inspect it before co-writing. Ask one blocking question at a time only when the missing answer would change the launch plan.
+Run this as co-creation, not generation. Coach the best practices, recommend the platforms and optimal posting times that fit this project, and interview the builder so the copy is in their voice. Do not fill placeholder templates and hand back paste-ready posts - draft from the builder's real stories and specifics, and ask for input rather than inventing filler. If the user provides a project URL or repo, inspect it before co-writing. Ask one blocking question at a time only when the missing answer would change the launch plan.
 
 Prefer creating or updating:
 

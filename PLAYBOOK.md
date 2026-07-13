@@ -1,6 +1,6 @@
 # Launch Playbook For Agentic Builders And AI Products
 
-This playbook helps an agentic builder — or anyone shipping a product built with AI — take a shippable indie SaaS, app, AI product, agent, or developer tool to launch in front of relevant audiences, even with little or no existing following.
+This playbook helps an agentic builder - or anyone shipping a product built with AI - take a shippable indie SaaS, app, AI product, agent, or developer tool to launch in front of relevant audiences, even with little or no existing following.
 
 The goal is not generic virality. The goal is concentrated attention from people who can try, critique, buy, share, integrate, contribute, or amplify the project.
 
@@ -11,10 +11,10 @@ This is a playbook you and your agent run **together**. The agent's job is to co
 What that means in practice:
 
 - The agent does not hand you finished, paste-ready posts. Fill-in-the-blank launch copy reads as interchangeable AI slop. Instead it asks you questions, drafts from *your* answers, and refines with you until it sounds like you.
-- Best-practice guidance — the readiness gate, the borrowed-relevance model, each platform's norms — is the scaffolding, not the content.
+- Best-practice guidance - the readiness gate, the borrowed-relevance model, each platform's norms - is the scaffolding, not the content.
 - Scheduling is a first-class step: which platforms fit this project, and the optimal time to post to each, in your audience's timezone.
 
-No agent? The same phases work by hand — the interview questions are just prompts you answer yourself.
+No agent? The same phases work by hand - the interview questions are just prompts you answer yourself.
 
 ## Launch Thesis
 
@@ -64,7 +64,7 @@ AI-product gate:
 
 If the gate fails, run a private feedback launch first.
 
-## Phase 2: Find The One-Sentence Story — In Your Words
+## Phase 2: Find The One-Sentence Story - In Your Words
 
 This is a shape to fill with your own words, not a template to accept as written:
 
@@ -86,7 +86,7 @@ Pressure-test the sentence:
 - Does the old way feel familiar?
 - Does it match what the product can do today?
 
-Keep narrowing until the story is easy to repeat — and still sounds like you. Capture the raw material in the Voice & Story section of `templates/launch-brief.md`, and paste a few pieces you've already written — old launch posts, tweets, README intros — into its Reference Copy section so co-written drafts can match how you actually write.
+Keep narrowing until the story is easy to repeat - and still sounds like you. Capture the raw material in the Voice & Story section of `templates/launch-brief.md`, and paste a few pieces you've already written - old launch posts, tweets, README intros - into its Reference Copy section so co-written drafts can match how you actually write.
 
 ## Phase 3: Build The Proof Pack
 
@@ -130,22 +130,22 @@ Plan the video as a production package before touching a recorder (capture it in
 Then run the flow:
 
 1. Plan the package above.
-2. Capture the listed shots from the real product — ask your agent to record them (below), or record from the shot list yourself.
+2. Capture the listed shots from the real product - ask your agent to record them (below), or record from the shot list yourself.
 3. Assemble the master 30 to 90 second cut with captions, then pull the GIF and the 3 to 5 before/action/result screenshots from the same footage.
 4. Cut down one variant per launch channel at the right length and aspect ratio.
-5. Package the launch images each channel needs. For Product Hunt: a 240×240 thumbnail (JPG, PNG, or GIF, under 2MB — a short animated GIF stands out in the feed) and a gallery of at least 3 images; the first gallery image becomes the social preview when your link is shared, so lead with the core moment.
+5. Package the launch images each channel needs. For Product Hunt: a 240×240 thumbnail (JPG, PNG, or GIF, under 2MB - a short animated GIF stands out in the feed) and a gallery of at least 3 images; the first gallery image becomes the social preview when your link is shared, so lead with the core moment.
 
 Want your agent to record the video itself? Agents with browser, terminal, or screen-capture tools can. The agent runs a preflight first and reports what it needs as blockers; you can clear most of them up front:
 
 - Have the product running and reachable: a live URL, a local dev server, or an installable build.
-- Provide a demo account and seed realistic data that reaches the core moment — no empty states, no real customer data.
+- Provide a demo account and seed realistic data that reaches the core moment - no empty states, no real customer data.
 - Install the media tools once: `ffmpeg` for assembly, plus a capture tool for your surface (Playwright for web, VHS for CLI demos, the OS recorder for desktop).
 - Grant permissions: approve the agent's capture commands, and on macOS give your terminal Screen Recording permission for desktop capture.
 - Optional: a TTS key or a recorded voiceover if you want narration; captions-only is the default.
 
 The agent writes what it checked and what is blocked into `templates/video-brief.md`, records the shot list, and assembles the cuts. Anything it cannot capture comes back to you as a named blocker or a shot to record by hand. The full runbook is `skills/launch-project/references/agent-recording.md`.
 
-Show the real product. Do not fake results, hide real latency or failures, or speed up footage without saying so — and if scripted capture drives the product faster than a person could, slow it down or disclose it. For an optional capture-and-edit recipe with per-channel specs, see `skills/launch-project/references/video-production.md`.
+Show the real product. Do not fake results, hide real latency or failures, or speed up footage without saying so - and if scripted capture drives the product faster than a person could, slow it down or disclose it. For an optional capture-and-edit recipe with per-channel specs, see `skills/launch-project/references/video-production.md`.
 
 ## Phase 4: Map Borrowed Audiences
 
@@ -172,7 +172,7 @@ Prioritize high relevance and clear permission over raw audience size.
 
 ## Phase 5: Choose Platforms For This Project
 
-Not every platform fits every project. Match the surface to what the product is and who it is for — pick the two or three that fit best and skip the rest. See the platform-fit guide in [skills/launch-project/references/scheduling.md](skills/launch-project/references/scheduling.md).
+Not every platform fits every project. Match the surface to what the product is and who it is for - pick the two or three that fit best and skip the rest. See the platform-fit guide in [skills/launch-project/references/scheduling.md](skills/launch-project/references/scheduling.md).
 
 Default stack for indie SaaS and devtools:
 
@@ -187,13 +187,13 @@ Do not post identical copy everywhere. Each channel has a different social contr
 
 ## Phase 6: Co-Write Channel Copy
 
-Write *with* your agent; don't have it write *for* you. For each platform, answer the interview questions in [skills/launch-project/references/co-writing-guide.md](skills/launch-project/references/co-writing-guide.md), then co-draft from your answers and refine until it sounds like you. Keep the anti-slop rules: real specifics, one honest limitation, one real feedback ask, no hype words you wouldn't say out loud, no vote requests. The tone rules — matching your past writing via a tone profile, the tired-word list ("opinionated"), no narrating the rules you're following ("disclosing upfront"), no playbook jargon in public copy — live in [skills/launch-project/references/tone-guide.md](skills/launch-project/references/tone-guide.md).
+Write *with* your agent; don't have it write *for* you. For each platform, answer the interview questions in [skills/launch-project/references/co-writing-guide.md](skills/launch-project/references/co-writing-guide.md), then co-draft from your answers and refine until it sounds like you. Keep the anti-slop rules: real specifics, one honest limitation, one real feedback ask, no hype words you wouldn't say out loud, no vote requests. The tone rules - matching your past writing via a tone profile, the tired-word list ("opinionated"), no narrating the rules you're following ("disclosing upfront"), no playbook jargon in public copy - live in [skills/launch-project/references/tone-guide.md](skills/launch-project/references/tone-guide.md).
 
 Write within each platform's norms:
 
 Product Hunt:
 
-- Prepare listing assets: tagline, 240×240 thumbnail (JPG, PNG, or GIF, under 2MB), a gallery of at least 3 images — the first becomes the social preview when your link is shared — plus demo video, maker comment, offer, and reply plan.
+- Prepare listing assets: tagline, 240×240 thumbnail (JPG, PNG, or GIF, under 2MB), a gallery of at least 3 images - the first becomes the social preview when your link is shared - plus demo video, maker comment, offer, and reply plan.
 - Ask people to visit, try, comment, or share feedback.
 - Do not ask for upvotes.
 
@@ -232,12 +232,12 @@ GitHub and dev ecosystems:
 
 ## Phase 7: Schedule The Launch
 
-Decide where and when each post goes, and write it into [templates/launch-schedule.md](templates/launch-schedule.md). Full heuristics are in [skills/launch-project/references/scheduling.md](skills/launch-project/references/scheduling.md). Optimal times are starting points — the real answer is when *your* audience is active, which their platform analytics will tell you better than any chart.
+Decide where and when each post goes, and write it into [templates/launch-schedule.md](templates/launch-schedule.md). Full heuristics are in [skills/launch-project/references/scheduling.md](skills/launch-project/references/scheduling.md). Optimal times are starting points - the real answer is when *your* audience is active, which their platform analytics will tell you better than any chart.
 
 - Optimize for the audience's timezone, not yours. Record both times for every post so conflicts are visible.
-- Respect hard mechanics first — for example, Product Hunt's day resets at 12:01 AM PT.
+- Respect hard mechanics first - for example, Product Hunt's day resets at 12:01 AM PT.
 - Post live where you must reply (Show HN, Reddit, Product Hunt); pre-schedule the broadcast posts (X sequence, LinkedIn) in each platform's native scheduler so you're free to host the live threads.
-- Stagger live threads — never host two at once — and release secondary posts in waves across the day.
+- Stagger live threads - never host two at once - and release secondary posts in waves across the day.
 - If the best audience window falls in your night, choose honestly: post live at an awkward local hour, or pre-schedule and reply asynchronously.
 
 ## Phase 8: Run The Timeline
@@ -263,7 +263,7 @@ Day -6 to -4:
 - Tighten the product and copy from feedback.
 - Warm communities by answering questions and being useful.
 - Prepare the launch log.
-- Build the launch schedule — optimal times per platform (Phase 7) — and queue the pre-scheduled posts.
+- Build the launch schedule - optimal times per platform (Phase 7) - and queue the pre-scheduled posts.
 
 Day -3 to -1:
 
@@ -367,4 +367,3 @@ Within two weeks:
 - Reddit rules: https://redditinc.com/policies/reddit-rules
 - GitHub releases: https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository
 - GitHub social preview docs: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview
-
