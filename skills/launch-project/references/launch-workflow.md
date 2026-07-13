@@ -99,7 +99,7 @@ Draft two or three options from what they said, then let them pick and rework on
 - X/Twitter: short, visual, repeatable, and reply-friendly.
 - GitHub/dev ecosystem: installable, inspectable, technically credible.
 
-Capture the raw material - real phrases, the origin moment, the honest weakness - in the Voice & Story section of `templates/launch-brief.md`. Everything you co-write later pulls from there.
+Capture the raw material - real phrases, the origin moment, the honest weakness - in the Voice & Story section of `templates/launch-brief.md`. Ask the builder to paste a few pieces they've already written (old launch posts, tweets, README intros) into its Reference Copy section, and mine those into a tone profile per `skills/launch-project/references/tone-guide.md`. Everything you co-write later pulls from there.
 
 ### 3. Build The Proof Pack
 
@@ -199,7 +199,7 @@ Recommend the two or three platforms that fit *this* project best and explain wh
 
 ### 7. Co-Write Channel Assets
 
-Use `skills/launch-project/references/co-writing-guide.md` and `templates/channel-copy.md`.
+Use `skills/launch-project/references/co-writing-guide.md` for what each channel's copy needs, `skills/launch-project/references/tone-guide.md` for how it should sound, and `templates/channel-copy.md` as the shared workspace.
 
 Co-writing is a loop, not a generation step:
 
@@ -211,6 +211,7 @@ Every asset should have:
 
 - The builder's own story and specifics, not invented filler.
 - Channel-native tone.
+- The builder's register, checked against the tone profile - no tired words, no narrated compliance ("disclosing upfront"), no internal playbook vocabulary in public copy.
 - Specific, inspectable proof.
 - One specific feedback ask.
 - A clear link or action.
@@ -267,7 +268,7 @@ Within two weeks:
 
 Produce the outputs that fit the user's request. Everything is co-created with the builder and grounded in their real material - never generic filler. When writing to files, use the shared template files so humans and agents work in the same place:
 
-- Launch brief, readiness gaps, and Voice & Story capture -> `templates/launch-brief.md`.
+- Launch brief, readiness gaps, and Voice & Story capture (including Reference Copy and the tone profile) -> `templates/launch-brief.md`.
 - Launch video production package, capture preflight, and launch-image status -> `templates/video-brief.md`.
 - Audience map and platform-fit notes -> `templates/audience-map.md`.
 - Co-written channel copy (Product Hunt, Show HN, Reddit/community, LinkedIn, X/Twitter, GitHub, email, DM) -> `templates/channel-copy.md`.

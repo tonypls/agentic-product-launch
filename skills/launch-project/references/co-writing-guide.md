@@ -2,7 +2,7 @@
 
 This is not a set of templates to fill in. Fill-in-the-blank launch copy reads as interchangeable AI slop - the placeholders get swapped and every post sounds the same. The goal here is the opposite: **draw the copy out of the builder** so it sounds like a real person who built a real thing.
 
-Use this guide as an interview script and a set of guardrails, not a paste-ready form.
+Use this guide as an interview script and a set of guardrails, not a paste-ready form. It covers what to draw out of the builder; `tone-guide.md` covers how the finished copy should sound - read both before drafting.
 
 ## The Loop
 
@@ -19,6 +19,7 @@ If you cannot make a line specific, that means you are missing input - ask for i
 Before any channel-specific writing, capture how the builder actually talks:
 
 - Paste the message you sent a friend when you first told them about this. (Their real register lives here.)
+- Paste 3–10 pieces you've already written that sound like you - old launch posts, tweets or threads, README intros, blog paragraphs. (These go in the Reference Copy section of the launch brief; mine them into a tone profile per `tone-guide.md`.)
 - What was the exact moment you decided to build it?
 - What annoys you about how products like this are usually described?
 - What's a word or phrase you'd never use about your own work?
@@ -29,7 +30,7 @@ Record the answers in the launch brief. Every draft below should sound like thes
 ## Anti-Slop Guardrails (apply to every draft)
 
 - Use the builder's real specifics - names, numbers, the actual origin moment - never a stand-in.
-- Cut hype words the builder wouldn't say out loud: "revolutionary," "game-changing," "seamless," "effortless," "supercharge."
+- Write to the builder's tone profile and the word rules in `tone-guide.md`: cut hype words and tired tech tics ("opinionated," "seamless," "game-changing"), never narrate a rule being followed ("disclosing upfront"), and translate playbook vocabulary ("permission," "readiness gate") into plain reader language.
 - One concrete feedback ask per post, phrased as a real question the builder wants answered.
 - Name a real limitation. A post with no honest weakness reads as an ad.
 - If two channels' drafts could be swapped without anyone noticing, they're too generic - differentiate by what each audience actually cares about.

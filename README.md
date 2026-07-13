@@ -28,7 +28,7 @@ This repo launched itself. The unedited artifacts - launch brief, video brief, a
 ## Start Here
 
 1. Read [PLAYBOOK.md](PLAYBOOK.md) for the human operating manual.
-2. Fill out [templates/launch-brief.md](templates/launch-brief.md), including the Voice & Story notes.
+2. Fill out [templates/launch-brief.md](templates/launch-brief.md), including the Voice & Story notes and a few samples of your past writing under Reference Copy.
 3. Plan your launch video in [templates/video-brief.md](templates/video-brief.md).
 4. Build your target list in [templates/audience-map.md](templates/audience-map.md).
 5. Co-write channel assets in [templates/channel-copy.md](templates/channel-copy.md) - answer the prompts, then draft in your own voice.
@@ -42,6 +42,7 @@ The portable source of truth is [skills/launch-project/references/launch-workflo
 - Claude Code command: [.claude/commands/launch-project.md](.claude/commands/launch-project.md)
 - Codex skill wrapper: [skills/launch-project/SKILL.md](skills/launch-project/SKILL.md)
 - Co-writing guide (interview prompts, not templates): [skills/launch-project/references/co-writing-guide.md](skills/launch-project/references/co-writing-guide.md)
+- Tone guide (register, tired-word bans, voice-matching from your past writing): [skills/launch-project/references/tone-guide.md](skills/launch-project/references/tone-guide.md)
 - Platform fit and scheduling: [skills/launch-project/references/scheduling.md](skills/launch-project/references/scheduling.md)
 - Video production recipe (optional): [skills/launch-project/references/video-production.md](skills/launch-project/references/video-production.md)
 - Agent-recorded capture runbook (opt-in): [skills/launch-project/references/agent-recording.md](skills/launch-project/references/agent-recording.md)
